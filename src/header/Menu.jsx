@@ -24,6 +24,8 @@ const InsuranceTypes = () => < Async load={import("../components/AC-StaticPages/
 const News = () => < Async load={import("../components/AC-StaticPages/News/News")} />;
 const Courses = () => < Async load={import("../components/AC-StaticPages/Courses/Courses")} />;
 const AboutUs = () => < Async load={import("../components/AC-StaticPages/AboutUs/AboutUs")} />;
+const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
+
 const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
 const Affilication = () => < Async load={import("../components/AC-StaticPages/Affilication/Affilication")} />;
 const ContactUs = () => < Async load={import("../components/AC-StaticPages/ContactUs/ContactUs")} />;
@@ -378,6 +380,37 @@ function Menu(props) {
       </>
     );
   }
+  else if (props.component == "AboutUsAdvantages") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <AboutUsAdvantages />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
   else if (props.component == "Admissions") {
     return (
       <>

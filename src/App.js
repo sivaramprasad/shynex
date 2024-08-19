@@ -106,6 +106,13 @@ export default function App() {
                 />
                 <Route
                   exact
+                  path={"/why-choose-shynex/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="AboutUsAdvantages" />
+                  )}
+                />
+                <Route
+                  exact
                   path={"/contactus/"}
                   render={routeProps => (
                     <Menu {...routeProps} component="ContactUs" />
