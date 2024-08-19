@@ -32,8 +32,15 @@ const HairandScalpTreatments = () => < Async load={import("../components/AC-Stat
 
 const MedicalFacials = () => < Async load={import("../components/AC-StaticPages/MedicalFacials/MedicalFacials")} />;
 const AboutUs = () => < Async load={import("../components/AC-StaticPages/AboutUs/AboutUs")} />;
+<<<<<<< HEAD
 const GeneralDermatologyServices = () => < Async load={import("../components/AC-StaticPages/GeneralDermatologyServices/GeneralDermatologyServices")} />;
 const CosmeticDermatologyTreatments = () => < Async load={import("../components/AC-StaticPages/CosmeticDermatologyTreatments/CosmeticDermatologyTreatments")} />;
+=======
+const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
+
+const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
+const Affilication = () => < Async load={import("../components/AC-StaticPages/Affilication/Affilication")} />;
+>>>>>>> 00ddf7b84a39c13b481f37495f40db2d32767d78
 const ContactUs = () => < Async load={import("../components/AC-StaticPages/ContactUs/ContactUs")} />;
 const AcneTreatments = () => < Async load={import("../components/AC-StaticPages/AcneTreatments/AcneTreatments")} />;
 const SkinRejuvenation = () => < Async load={import("../components/AC-StaticPages/SkinRejuvenation/SkinRejuvenation")} />;
@@ -540,7 +547,72 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "AcneTreatments") {
+
+
+    else if (props.component == "AcneTreatments") {
+      return (
+        <>
+  
+          <React.Fragment>
+            <CssBaseline />
+            <ThemeProvider theme={darkTheme}>
+              <ElevationScroll {...props}>
+  
+                <AppBar>
+                  <Toolbar style={toolbarStyle}>
+                    <MenuCore />
+                  </Toolbar>
+                </AppBar>
+  
+              </ElevationScroll>
+            </ThemeProvider>
+            <Toolbar />
+  
+          </React.Fragment>
+  
+          <AcneTreatments />
+          <Footer />
+          <ScrollToTop
+            smooth
+            top={100}
+          />
+        </>
+      );
+    }
+  
+
+    else if (props.component == "AboutUsAdvantages") {
+      return (
+        <>
+  
+          <React.Fragment>
+            <CssBaseline />
+            <ThemeProvider theme={darkTheme}>
+              <ElevationScroll {...props}>
+  
+                <AppBar>
+                  <Toolbar style={toolbarStyle}>
+                    <MenuCore />
+                  </Toolbar>
+                </AppBar>
+  
+              </ElevationScroll>
+            </ThemeProvider>
+            <Toolbar />
+  
+          </React.Fragment>
+  
+          <AboutUsAdvantages />
+          <Footer />
+          <ScrollToTop
+            smooth
+            top={100}
+          />
+        </>
+      );
+    }
+
+  else if (props.component == "Admissions") {
     return (
       <>
 

@@ -29,137 +29,30 @@ function Aboutus(props) {
             <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
             
             <div className="sec-title">
-                <h2 style={{ margin: "0px", fontSize:"50px", fontWeight:"900"}}>Vision</h2>
-                <p className='tagline'> To shape the future of global gaming education</p>
+                <h2 style={{ margin: "0px", fontSize:"50px", fontWeight:"900"}}>About Shynex </h2>
             </div>
-            <Grid container spacing={2} className="main-img" style={{boxShadow: "none"}}>
-                <Grid xs={6} style={{boxShadow: "none"}}>
-                    <Item style={{boxShadow: "none"}}>    
-                        <div className="inner-column inner-column1 wow fadeInLeft">
-
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src={hwst} alt="" /></a></figure>
-                        <div className='gifimages'><img src={st1} /></div>
-
-                    </div></Item>
-                </Grid>
-                <Grid xs={6} style={{boxShadow: "none"}}>
+            <Grid container spacing={1} className="main-img" style={{boxShadow: "none"}}>
+                
+                <Grid xs={12} style={{boxShadow: "none"}}>
                     <Item style={{boxShadow: "none"}}>      <div className="inner-column">
                         <div className="sec-title">
-                            <h2>How It Started</h2>
+                            <h1 className='tagline' style={{ color: "#000"}}>Best Skin and Hair Clinic in Hyderabad</h1>
                         </div>
-                        <div className="text">At a time when gaming enthusiasts didn’t have many Indian educational institutes to turn to, Backstage Pass Institute of Gaming & Technology rose as a beacon of hope. With a single motto to revolutionize the world of gaming in the country and transform this form of entertainment into a full-fledged source of earning, Backstage Pass has championed quality gaming education at an affordable price.</div>
+                        <div>                        <div className="text">Welcome to Shynex Poly Clinic, a premier healthcare destination in the vibrant city of Hyderabad. At Shynex, we are dedicated to transforming lives through the art and science of advanced dermatology and cosmetology. Our mission is to provide unparalleled healthcare services, with a vision to establish multiple centers across the city, making top-tier care accessible to all.</div>
 
+                        <div className="text">Our team of esteemed doctors, each with extensive years of experience and expertise, ensures that every patient receives compassionate and effective care. We understand that each individual is unique, and we are committed to crafting personalized treatment plans that cater to your specific needs and goals. At Shynex, we specialize in offering top-notch skin and hair treatments for both men and women at affordable prices. Our clinic is equipped with state-of-the-art, USFDA-approved technology, ensuring the highest safety and efficacy standards.</div>
+                        <div className="text">We provide a comprehensive range of services including <span style={{textDecoration:"underline"}}>Hollywood facials, pigmentation removal, laser treatments, chemical peels, hair loss treatments, slimming services, skin cancer screening,</span> and more. Whether you are looking to rejuvenate your skin, address hair loss, or achieve your desired body shape, our advanced treatments are designed to meet your needs. Our team of the best cosmetologists and dermatologists in Hyderabad takes the utmost care in providing precise and effective treatments. With a deep commitment to healthcare innovation, we are not just a clinic; we are a partner in your journey towards better health and enhanced confidence.</div>
+                        <div className="text">At Shynex Poly Clinic, our dedication to your well-being goes beyond treatment. We strive to create a warm and welcoming environment where you feel comfortable and cared for from the moment you walk through our doors. Driven by a passion for healthcare innovation, we ensure that modern expertise meets compassionate care, offering you the best possible outcomes. </div>
+                        <div className="text">Achieve radiant skin and healthy hair with Shynex. <span style={{textDecoration:"underline"}}><a>Book your appointment today </a></span> and enhance your confidence and well-being. </div> 
 
-                    </div></Item>
+                    </div>
+                    </div>
+</Item>
                 </Grid>
 
 
             </Grid>
-            <Grid container spacing={2} className="main-img" style={{boxShadow: "none"}}>
-
-                <Grid xs={6} style={{boxShadow: "none"}}>
-                    <Item style={{boxShadow: "none"}}>      <div className="inner-column">
-                        <div className="sec-title">
-                            <h2>How It’s Going</h2>
-                        </div>
-                        <div className="text" style={{ marginLeft: '35px' }}>Mr. Surya Prakash’s simple vision that started with less than 10 students in 2010 has now evolved into a robust ecosystem of 1000+ students and alumni, and 20+ industry experts.</div>
-                        <div className="text" style={{ marginLeft: '35px' }}>With a smashing record of 100+ placements in the past decade, our students have made multiple games and have won accolades that has made the college proud. So, if you
-                            think you are meant for greater things, join us.
-                        </div>
-
-
-                    </div></Item>
-                </Grid>
-                <Grid style={{boxShadow: "none"}} xs={6}>
-                    <Item style={{boxShadow: "none"}}>    <div className="inner-column inner-column2 wow fadeInLeft">
-
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
-                        <div className='gifimages1'><img src={st2} /></div>
-                    </div></Item>
-                </Grid>
-
-            </Grid>
-            {/* <Grid container spacing={4} className="main-img">
-
-                <Grid xs={3}>
-                    <Item>
-                        <div class="box">
-                            <img src="https://images.pexels.com/photos/569093/pexels-photo-569093.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="image_hover" />
-                            <div class="box-content">
-                                <h3>Hover me</h3>
-                                <p>This is a very beautiful hover effect in pure css</p>
-                            </div>
-                        </div>
-                    </Item>
-                </Grid>
-
-                <Grid xs={3}>
-                    <Item>
-                        <div class="box">
-                            <img src="https://images.pexels.com/photos/569093/pexels-photo-569093.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="image_hover" />
-                            <div class="box-content">
-                                <h3>Hover me</h3>
-                                <p>This is a very beautiful hover effect in pure css</p>
-                            </div>
-                        </div>
-                    </Item>
-                </Grid>
-                <Grid xs={3}>
-                    <Item>
-                        <div class="box">
-                            <img src="https://images.pexels.com/photos/569093/pexels-photo-569093.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="image_hover" />
-                            <div class="box-content">
-                                <h3>Hover me</h3>
-                                <p>This is a very beautiful hover effect in pure css</p>
-                            </div>
-                        </div>
-                    </Item>
-                </Grid>
-                <Grid xs={3}>
-                    <Item>
-                        <div class="box">
-                            <img src="https://images.pexels.com/photos/569093/pexels-photo-569093.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="image_hover" />
-                            <div class="box-content">
-                                <h3>Hover me</h3>
-                                <p>This is a very beautiful hover effect in pure css</p>
-                            </div>
-                        </div>
-                    </Item>
-                </Grid>
-            </Grid> */}
-        <div className="mid-title">
-
-<p style={{marginBottom:"0px"}}>Let’s change the world, one game at a time!
-</p>
-
-</div>
-            <div className="sec-title">
-                <h2 style={{ marginTop: "45px" }}>What Makes BSP Tick</h2>
-            </div>
-            <div style={{position: "relative", height: "618px"}}>
-            <div id="pointer">
-                <h1>Header Point</h1>          
-                <div id="HiddenText"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-            </div>
-           
        
-            <div id="pointer1">
-                <h1>Header Point</h1>
-                <div id="HiddenText3"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-            </div>
-           
-            <div id="pointer2">
-                <h1>Header Point</h1>
-                <div id="HiddenText"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-            </div>
-            
-            <div id="pointer3">
-                <h1>Header Point</h1>
-                <div id="HiddenText3"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
-            </div>
-            
-            </div>
-            <Ourawards />
             <HomeContent />
         </>
     )
