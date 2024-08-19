@@ -1,0 +1,26 @@
+.content-block {
+    background-attachment: fixed;
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.content-block1{
+  background: url(../assets/img/footer-illus.webp);
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+
+.content-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.mb60{
+  margin-bottom: 4rem;
+}
+.mt60{
+  margin-top: 4rem;
+}
+
+
