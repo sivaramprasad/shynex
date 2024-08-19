@@ -20,16 +20,24 @@ import ScrollToTop from "react-scroll-to-top";
 
 
 const Main = () => <Async load={import("../content/Main.jsx")} />;
-const InsuranceTypes = () => < Async load={import("../components/AC-StaticPages/InsuranceTypes/InsuraceTypes")} />;
-const News = () => < Async load={import("../components/AC-StaticPages/News/News")} />;
-const Courses = () => < Async load={import("../components/AC-StaticPages/Courses/Courses")} />;
+const LaserTreatments = () => < Async load={import("../components/AC-StaticPages/LaserTreatments/LaserTreatments")} />;
+const BodyContouring = () => < Async load={import("../components/AC-StaticPages/BodyContouring/BodyContouring")} />;
+const MoleandSkinCancerChecks = () => < Async load={import("../components/AC-StaticPages/MoleandSkinCancerChecks/MoleandSkinCancerChecks")} />;
+
+const MedicalAesthetics = () => < Async load={import("../components/AC-StaticPages/MedicalAesthetics/MedicalAesthetics")} />;
+
+const HairandScalpTreatments = () => < Async load={import("../components/AC-StaticPages/HairandScalpTreatments/HairandScalpTreatments")} />;
+
+
+
+const MedicalFacials = () => < Async load={import("../components/AC-StaticPages/MedicalFacials/MedicalFacials")} />;
 const AboutUs = () => < Async load={import("../components/AC-StaticPages/AboutUs/AboutUs")} />;
-const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
-const Affilication = () => < Async load={import("../components/AC-StaticPages/Affilication/Affilication")} />;
+const GeneralDermatologyServices = () => < Async load={import("../components/AC-StaticPages/GeneralDermatologyServices/GeneralDermatologyServices")} />;
+const CosmeticDermatologyTreatments = () => < Async load={import("../components/AC-StaticPages/CosmeticDermatologyTreatments/CosmeticDermatologyTreatments")} />;
 const ContactUs = () => < Async load={import("../components/AC-StaticPages/ContactUs/ContactUs")} />;
-const Admissions = () => < Async load={import("../components/AC-StaticPages/Admissions/Admissions")} />;
-const FinancialAssistance = () => < Async load={import("../components/AC-StaticPages/FinancialAssistance/FinancialAssistance")} />;
-const Scholarships = () => < Async load={import("../components/AC-StaticPages/Scholarships/Scholarships")} />;
+const AcneTreatments = () => < Async load={import("../components/AC-StaticPages/AcneTreatments/AcneTreatments")} />;
+const SkinRejuvenation = () => < Async load={import("../components/AC-StaticPages/SkinRejuvenation/SkinRejuvenation")} />;
+const AntiAgeingTreatments = () => < Async load={import("../components/AC-StaticPages/AntiAgeingTreatments/AntiAgeingTreatments")} />;
 
 
 
@@ -219,7 +227,7 @@ function Menu(props) {
             </div>
           </div>
         </div>
-        <InsuranceTypes />
+        {/* <InsuranceTypes /> */}
         <Footer />
       </>
     );
@@ -237,7 +245,7 @@ function Menu(props) {
             </div>
           </div>
         </div>
-        <News />
+        {/* <News /> */}
         <Footer />
       </>
     );
@@ -259,8 +267,8 @@ function Menu(props) {
         <Footer />
       </>
     );
-  }
-  else if (props.component == "Courses") {
+  }  
+  else if (props.component == "MedicalAesthetics") {
     return (
       <>
 
@@ -270,6 +278,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -280,7 +289,159 @@ function Menu(props) {
           <Toolbar />
 
         </React.Fragment>
-        <Courses />
+        <MedicalAesthetics />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component == "BodyContouring") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <BodyContouring />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component == "MoleandSkinCancerChecks") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <MoleandSkinCancerChecks />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component == "LaserTreatments") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <LaserTreatments />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component == "HairandScalpTreatments") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <HairandScalpTreatments />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+  
+  else if (props.component == "MedicalFacials") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <MedicalFacials />
         <Footer />
         <ScrollToTop
           smooth
@@ -348,7 +509,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "Affilication") {
+  else if (props.component == "CosmeticDermatologyTreatments") {
     return (
       <>
 
@@ -358,6 +519,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+              <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -369,7 +531,7 @@ function Menu(props) {
 
         </React.Fragment>
 
-        <Affilication />
+        <CosmeticDermatologyTreatments />
         <Footer />
         <ScrollToTop
           smooth
@@ -378,7 +540,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "Admissions") {
+  else if (props.component == "AcneTreatments") {
     return (
       <>
 
@@ -388,6 +550,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+              <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -399,7 +562,7 @@ function Menu(props) {
 
         </React.Fragment>
 
-        <Admissions />
+        <AcneTreatments />
         <Footer />
         <ScrollToTop
           smooth
@@ -408,7 +571,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "FinancialAssistance") {
+  else if (props.component == "SkinRejuvenation") {
     return (
       <>
 
@@ -418,6 +581,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -429,7 +593,7 @@ function Menu(props) {
 
         </React.Fragment>
 
-        <FinancialAssistance />
+        <SkinRejuvenation />
         <Footer />
         <ScrollToTop
           smooth
@@ -438,7 +602,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "Scholarships") {
+  else if (props.component == "AntiAgeingTreatments") {
     return (
       <>
 
@@ -448,6 +612,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -459,7 +624,7 @@ function Menu(props) {
 
         </React.Fragment>
 
-        <Scholarships />
+        <AntiAgeingTreatments />
         <Footer />
         <ScrollToTop
           smooth
@@ -468,7 +633,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "Placements") {
+  else if (props.component == "GeneralDermatologyServices") {
     return (
       <>
 
@@ -478,6 +643,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -489,7 +655,7 @@ function Menu(props) {
 
         </React.Fragment>
 
-        <Placements />
+        <GeneralDermatologyServices />
         <Footer />
         <ScrollToTop
           smooth
@@ -508,6 +674,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>

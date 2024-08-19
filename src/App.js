@@ -22,7 +22,7 @@ export default function App() {
         return (
           <>
             <Helmet
-              titleTemplate="%s | Best Game Design and Development college in India - Backstage Pass"
+              titleTemplate="%s"
               defaultTitle="Home | Best Game Design and Development college in India - Backstage Pass"
             >
               <meta property="og:site_name" content="Backstage Pass" />
@@ -77,24 +77,24 @@ export default function App() {
                 />
                 <Route
                   exact
-                  path={"/sabías-que/"}
+                  path={"/skin-rejuvenation-youthful-skin/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="SabíasQue" />
+                    <Menu {...routeProps} component="SkinRejuvenation" />
                   )}
                 />
-                {/* <Route
+                <Route
                   exact
-                  path={"/cancer-awareness-banner/"}
+                  path={"/general-dermatology-services/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="CancerAwarenessBanner" />
+                    <Menu {...routeProps} component="GeneralDermatologyServices" />
                   )}
-                /> */}
+                />
 
                 <Route
                   exact
-                  path={"/courses/"}
+                  path={"/acne-treatments/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="Courses" />
+                    <Menu {...routeProps} component="AcneTreatments" />
                   )}
                 />
                 <Route
@@ -134,7 +134,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/financial-assistance/"}
                   render={routeProps => (
@@ -142,22 +142,73 @@ export default function App() {
                   )}
                 />
 
+                <Route
+                  exact
+                  path={"/anti-aging-treatments/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="AntiAgeingTreatments" />
+                  )}
+                />
+
 <Route
                   exact
-                  path={"/scholarships/"}
+                  path={"/medical-facials-professional-skin-care/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="Scholarships" />
+                    <Menu {...routeProps} component="MedicalFacials" />
+                  )}
+                />
+
+<Route
+                  exact
+                  path={"/body-contouring/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="BodyContouring" />
+                  )}
+                />
+
+<Route
+                  exact
+                  path={"/laser-treatments/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="LaserTreatments" />
+                  )}
+                />
+
+<Route
+                  exact
+                  path={"/mole-skin-cancer-checks/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="MoleandSkinCancerChecks" />
+                  )}
+                />
+
+<Route
+                  exact
+                  path={"/medical-aesthetics-enhance-appearance/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="MedicalAesthetics" />
+                  )}
+                />
+
+<Route
+                  exact
+                  path={"/hair-scalp-treatments/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="HairandScalpTreatments" />
                   )}
                 />
 
 
 
 
+
+
+
                 <Route
                   exact
-                  path={"/bachelors-in-computer-science-game-development/"}
+                  path={"/cosmetic-dermatology-treatments/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="BachelorsInComputerScienceGameDevelopment" />
+                    <Menu {...routeProps} component="CosmeticDermatologyTreatments" />
                   )}
                 />
 

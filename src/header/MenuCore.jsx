@@ -216,7 +216,7 @@ export default function MenuCore() {
                               id="panel1-header"
                               style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>General Dermatology Services</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/general-dermatology-services/"}>General Dermatology Services</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
@@ -227,19 +227,7 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}> Cosmetic Dermatology Treatments</Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Acne Treatments</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/cosmetic-dermatology-treatments/"}> Cosmetic Dermatology Treatments</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
@@ -251,7 +239,7 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Skin Rejuvenation</Typography>
+                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/acne-treatments/"}>Acne Treatments</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
@@ -263,7 +251,7 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Hair and Scalp Treatments</Typography>
+                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>  <Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/skin-rejuvenation-youthful-skin/"}>Skin Rejuvenation</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
@@ -275,7 +263,7 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Medical Aesthetics</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/hair-scalp-treatments/"}>Hair and Scalp Treatments</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
@@ -287,7 +275,8 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Mole and Skin Cancer Checks</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/medical-aesthetics-enhance-appearance/"}>Medical Aesthetics</Link></Typography>
+                              
                             </AccordionSummary>
 
                           </Accordion>
@@ -299,7 +288,8 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Laser Treatments</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/mole-skin-cancer-checks/"}>Mole and Skin Cancer Checks</Link></Typography>
+                            
                             </AccordionSummary>
 
                           </Accordion>
@@ -311,7 +301,8 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Body Contouring</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/laser-treatments/"}>Laser Treatments</Link></Typography>
+                              
                             </AccordionSummary>
 
                           </Accordion>
@@ -323,7 +314,8 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Medical Facials</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/body-contouring/"}>Body Contouring</Link></Typography>
+                           
                             </AccordionSummary>
 
                           </Accordion>
@@ -335,7 +327,21 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Anti Ageing Treatments</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/medical-facials-professional-skin-care/"}>Medical Facials</Link></Typography>
+                              
+                            </AccordionSummary>
+
+                          </Accordion>
+
+                          <Accordion style={{ backgroundColor: "#000" }}
+                          >
+                            <AccordionSummary
+                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
+                              aria-controls="panel2-content"
+                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
+                            >
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/anti-aging-treatments/"}>Anti Ageing Treatments</Link></Typography>
+                              
                             </AccordionSummary>
 
                           </Accordion>
