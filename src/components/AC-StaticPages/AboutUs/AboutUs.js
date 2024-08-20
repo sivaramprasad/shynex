@@ -1,7 +1,6 @@
 import React from 'react'
 import "./AboutUs.css";
 import HomeContent from "../../../content/HomeContent";
-import Ourawards from "../../../content/ourawards";
 
 import courseBanner from "../../../assets/img/banners/about-us.png";
 import Grid from '@mui/material/Unstable_Grid2';
@@ -25,7 +24,11 @@ const Item = styled(Paper)(({ theme }) => ({
 function Aboutus(props) {
     return (
         <>
-
+<Helmet>
+                <title>Best Laser Tattoo Removal | Laser Scar Removal | Shynex Clinic</title>
+                <meta name="description" content="Enhance your appearance with Shynex's medical aesthetics services, including tattoo removal, scar revision, and more using advanced US FDA-approved laser technologies." />
+                <meta name="keywords" content="tattoo removal, scar revision, birthmark removal, US FDA-approved laser, skin rejuvenation, Shynex Poly Clinic, advanced aesthetics treatments, non-invasive procedures, skin improvement" />
+            </Helmet>
             <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
             
             <div className="sec-title">

@@ -23,9 +23,9 @@ export default function App() {
           <>
             <Helmet
               titleTemplate="%s"
-              defaultTitle="Home | Best Game Design and Development college in India - Backstage Pass"
+              defaultTitle="Best Skin and Hair Care Clinic in Hyderabad | Shynex Clinic"
             >
-              <meta property="og:site_name" content="Backstage Pass" />
+              {/* <meta property="og:site_name" content="Backstage Pass" />
               <meta property="og:url" content="https://www.dev.backstagepass.co.in/" />
               <meta property="og:type" content="website" />
               <meta name="title" property="og:title" content="Best Game Design and Development college in India" />
@@ -45,7 +45,7 @@ export default function App() {
               <meta
                 name="description"
                 content="Best Game Design and Development college in India - Backstage Pass"
-              />
+              /> */}
             </Helmet>
             <Router history={history}>
               <Switch>
@@ -163,7 +163,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/team-shynex-expert-dermatologists/"}
                   render={routeProps => (
@@ -171,7 +171,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/gallery-shynex-clinic/"}
                   render={routeProps => (
@@ -181,7 +181,7 @@ export default function App() {
 
 
 
-<Route
+                <Route
                   exact
                   path={"/medical-facials-professional-skin-care/"}
                   render={routeProps => (
@@ -189,7 +189,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/body-contouring/"}
                   render={routeProps => (
@@ -197,7 +197,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/laser-treatments/"}
                   render={routeProps => (
@@ -205,7 +205,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/mole-skin-cancer-checks/"}
                   render={routeProps => (
@@ -213,7 +213,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/medical-aesthetics-enhance-appearance/"}
                   render={routeProps => (
@@ -221,7 +221,7 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/hair-scalp-treatments/"}
                   render={routeProps => (
