@@ -38,6 +38,8 @@ const CosmeticDermatologyTreatments = () => < Async load={import("../components/
 const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
 
 const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
+const Technology = () => < Async load={import("../components/AC-StaticPages/Technology/Technology")} />;
+
 const Affilication = () => < Async load={import("../components/AC-StaticPages/Affilication/Affilication")} />;
 const ContactUs = () => < Async load={import("../components/AC-StaticPages/ContactUs/ContactUs")} />;
 const AcneTreatments = () => < Async load={import("../components/AC-StaticPages/AcneTreatments/AcneTreatments")} />;
@@ -295,6 +297,36 @@ function Menu(props) {
 
         </React.Fragment>
         <MedicalAesthetics />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component == "Technology") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <Technology />
         <Footer />
         <ScrollToTop
           smooth
