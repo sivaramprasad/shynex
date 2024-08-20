@@ -83,13 +83,7 @@ function Footer() {
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Privacy Policy</Link></p>
-                            </div>
-                          </div>
-                          <div className="contact-wrapper-inner">
-
-                            <div>
-                              <p><Link to={"/aboutus/"}>Terms and Conditions</Link></p>
+                              <p><Link to={"/aboutus/"}>Blog</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
@@ -107,36 +101,31 @@ function Footer() {
                   <div className="foot-details">
                     <LazyLoad height={76} offset={100} fadein={true}>
                       <div className="foot-item fadeInUp anime-delay3">
-                        <h3 className="footer-title">Treatments</h3>
+                        <h3 className="footer-title">Shynex Technology</h3>
                         <div className="contact-wrapper">
+                          
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>General Dermatology Services</Link></p>
+                              <p><Link to={"/aboutus/"}>Alma Soprano Titanium</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Acne Treatments</Link></p>
+                              <p><Link to={"/aboutus/"}>Alma Harmony XL PRo</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Skin Rejuvenation</Link></p>
+                              <p><Link to={"/aboutus/"}>Morpheus 8</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Medical Aesthetics</Link></p>
-                            </div>
-                          </div>
-                          <div className="contact-wrapper-inner">
-
-                            <div>
-                              <p><Link to={"/aboutus/"}>Body Contouring</Link></p>
+                              <p><Link to={"/aboutus/"}>Crustal PRO</Link></p>
                             </div>
                           </div>
                         </div>
@@ -183,27 +172,21 @@ function Footer() {
               <LazyLoad height={76} offset={100} fadein={true}>
                 <div className="foot-item fadeInUp anime-delay3">
                   <div className="contact-wrapper ftr">
-                    <div className="contact-wrapper-inner md1">
-                      <PiDiscordLogoBold />
+                    {/* <div className="contact-wrapper-inner md1">
+                    Privacy Policy | 
 
 
                     </div>
                     <div className="contact-wrapper-inner md2">
-                      <PiInstagramLogoBold />
+                    Terms and Conditions | 
 
                     </div>
                     <div className="contact-wrapper-inner md3">
-                      <PiFacebookLogoBold />
+                    Sitemap
 
-                    </div>
-                    <div className="contact-wrapper-inner md4">
-                      <PiYoutubeLogoBold />
-
-                    </div>
-                    <div className="contact-wrapper-inner md4">
-                      <PiTwitterLogoBold />
-
-                    </div>
+                    </div> */}
+                    
+                    <div className="disclaimers"><b>Disclaimer</b> : Treatment results may vary from person to person, influenced by individual health, lifestyle, and environmental factors. Kindly do not expect identical skin and hair outcomes&nbsp;as&nbsp;others.</div>
 
                   </div>
                   <LazyLoad height={76} offset={100} fadein={true}>
