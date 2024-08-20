@@ -20,7 +20,28 @@
 .logo {
   height: auto;
 }
-
+.image-grid .img-box > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+  object-position: top;
+}
+.modal {
+  max-height: 100% !important;
+  z-index: 9999 !important;
+}
+.image-grid.grid-version2 .img-box:first-child {
+  height: 25rem !important;
+  grid-area: myArea1;
+}
+.image-grid .img-box {
+  width: 100%;
+  height: 12rem !important;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
 .top-menu {
   display: flex;
   align-items: center;

@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useRef } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import rajath from '../assets/img/test/rajatojha.webp'
+import rajath from '../assets/img/girl.png'
 import sridar from '../assets/img/test/shridhar.webp'
 import navin from '../assets/img/test/navinmandal.webp'
 import kash from '../assets/img/test/kashyapreddy.webp'

@@ -26,10 +26,10 @@ function HomeContent() {
        
       </div>
     
-    <div style={{width: "50%", height: "650px"}}>
+    <div style={{width: "50%", height: "650px", background: "#000"}}>
     <div className="min-h-full h-full w-full container-full relative z-[3] py-4 md:py-8">
   <div className="sm:max-w-[480px] lg:max-w-[560px]">
-    <h1 className="mainHeading" style={{color:"#000", lineHeight:"inherit"}}>Consult with <br/>our Best Dermatologist</h1>
+    <h1 className="mainHeading" style={{color:"#fff", lineHeight:"inherit"}}>Consult with <br/>our Best Dermatologist</h1>
     
     <div className="">
       
@@ -38,11 +38,11 @@ function HomeContent() {
 
 
 <div className="flex-auto sm:flex-1">
-  <label className="v-input-label200 text-txt100 mb-4px" for="firstname">Name</label>
+  <label className="v-input-label200 text-txt100 mb-4px" for="firstname" style={{color: "#fff"}}>Name</label>
   <input className="input input-gray" placeholder="Please enter your full name" id="firstname" name="firstname" type="text" />
 </div>
 <div className="flex-auto sm:flex-1">
-  <label className="v-input-label200 text-txt100 mb-4px" for="Phone Number">Phone Number</label>
+  <label className="v-input-label200 text-txt100 mb-4px" for="Phone Number" style={{color: "#fff"}}>Phone Number</label>
   <input value="" className="input input-gray" placeholder="Please enter your contact number" id="Phone Number" name="Phone Number" type="text" />
 </div>
 
@@ -53,14 +53,14 @@ function HomeContent() {
 
 <div className="flex flex-wrap gap-2 sm:mt-5 sm:mb-4" data-form-id="need-guidance" data-form="step1-container">
 <div className="flex-auto sm:flex-1">
-  <label className="v-input-label200 text-txt100 mb-4px" for="Phone Number">Email</label>
+  <label className="v-input-label200 text-txt100 mb-4px" for="Phone Number" style={{color: "#fff"}}>Email</label>
   <input value="" className="input input-gray" placeholder="Please enter your email address" id="Phone Number" name="Phone Number" type="text" />
 </div>
 
 
 </div>
 <div className="flex-auto sm:flex-1">
-  <label className="v-input-label200 text-txt100 mb-4px" for="Phone Number">Query</label>
+  <label className="v-input-label200 text-txt100 mb-4px" for="Phone Number" style={{color: "#fff"}}>Query</label>
   <textarea id="Query" className="input input-gray" style={{height: "120px", paddingTop: "10px"}} placeholder="Please describe your query or concern" name="Query" rows="8" cols="50"></textarea>
   
 </div>

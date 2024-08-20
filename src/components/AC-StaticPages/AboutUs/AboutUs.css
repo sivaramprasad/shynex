@@ -283,6 +283,9 @@ section {
   border-radius: 46px;
   width: 85%;
   height: 400px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: 5%;
 }
 
 .video-link {

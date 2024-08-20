@@ -1,5 +1,5 @@
 import React from 'react';
-import awardone from "../assets/img/a7.webp";
+import person from "../assets/img/Shynex.jpg";
 import awardtwo from "../assets/img/a2.webp"
 
 
@@ -18,7 +18,7 @@ function HomeContent() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-2e42105d elementor-widget elementor-widget-image">
 <div className="elementor-widget-container">
-<img style={{height: "450px", objectFit: "cover", width: "100%"}} src="https://touchup.qodeinteractive.com/wp-content/uploads/2020/02/About-us-2.jpg" className="attachment-full size-full wp-image-234" alt="s" /> </div>
+<img style={{height: "450px", objectFit: "cover", width: "100%", objectPosition: "top"}} src={person} className="attachment-full size-full wp-image-234" alt="s" /> </div>
 </div>
 </div>
 </div>

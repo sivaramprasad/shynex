@@ -159,6 +159,24 @@ export default function App() {
 
 <Route
                   exact
+                  path={"/team-shynex-expert-dermatologists/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="TeamShynex" />
+                  )}
+                />
+
+<Route
+                  exact
+                  path={"/gallery-shynex-clinic/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="Gallery" />
+                  )}
+                />
+
+
+
+<Route
+                  exact
                   path={"/medical-facials-professional-skin-care/"}
                   render={routeProps => (
                     <Menu {...routeProps} component="MedicalFacials" />

@@ -27,6 +27,7 @@ const MoleandSkinCancerChecks = () => < Async load={import("../components/AC-Sta
 const MedicalAesthetics = () => < Async load={import("../components/AC-StaticPages/MedicalAesthetics/MedicalAesthetics")} />;
 
 const HairandScalpTreatments = () => < Async load={import("../components/AC-StaticPages/HairandScalpTreatments/HairandScalpTreatments")} />;
+const Gallery = () => < Async load={import("../components/AC-StaticPages/Gallery/Gallery")} />;
 
 
 
@@ -48,7 +49,7 @@ const AntiAgeingTreatments = () => < Async load={import("../components/AC-Static
 
 
 
-const BachelorsInComputerScienceGameDevelopment = () => < Async load={import("../components/AC-StaticPages/BachelorsInComputerScienceGameDevelopment/BachelorsInComputerScienceGameDevelopment")} />;
+const TeamShynex = () => < Async load={import("../components/AC-StaticPages/TeamShynex/TeamShynex")} />;
 
 
 
@@ -454,7 +455,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "BachelorsInComputerScienceGameDevelopment") {
+  else if (props.component == "TeamShynex") {
     return (
       <>
 
@@ -464,6 +465,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -474,7 +476,37 @@ function Menu(props) {
           <Toolbar />
 
         </React.Fragment>
-        <BachelorsInComputerScienceGameDevelopment />
+        <TeamShynex />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component == "Gallery") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <Gallery />
         <Footer />
         <ScrollToTop
           smooth
@@ -556,6 +588,7 @@ function Menu(props) {
               <ElevationScroll {...props}>
   
                 <AppBar>
+                  <TopBar />
                   <Toolbar style={toolbarStyle}>
                     <MenuCore />
                   </Toolbar>
@@ -588,6 +621,7 @@ function Menu(props) {
               <ElevationScroll {...props}>
   
                 <AppBar>
+                  <TopBar />
                   <Toolbar style={toolbarStyle}>
                     <MenuCore />
                   </Toolbar>

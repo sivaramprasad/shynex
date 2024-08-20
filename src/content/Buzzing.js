@@ -38,10 +38,13 @@ function HomeContent() {
   
   
 </div>
+
+
   
 </section>
-
-      
+<div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginBottom: "30px"}}>
+<button className="button-two" style={{marginTop: "0px"}}><span>View All</span></button>
+</div>
     </>
   );
 }

@@ -75,7 +75,7 @@ export default function MenuCore() {
                   <ul id='nav'>
                     <li><Link to={"/"} onClick={() => selectTab(0)}>Home</Link></li>
                     <li>
-                      <Link to={"/courses/"}>About Us <FiChevronDown /></Link>
+                      <Link to={"/aboutus/"}>About Us <FiChevronDown /></Link>
                       <ul>
 
 
@@ -90,7 +90,8 @@ export default function MenuCore() {
                               id="panel1-header"
                               style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>About Shynex</Typography>
+                              
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/aboutus/"}>About Shynex</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
@@ -101,7 +102,7 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>           Shynex Advantage</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/why-choose-shynex/"}>Shynex Advantage</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
@@ -125,8 +126,12 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Team Shynex</Typography>
+                              
+
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/team-shynex-expert-dermatologists/"}>Team Shynex</Link></Typography>
                             </AccordionSummary>
+
+                            
 
                           </Accordion>
 
@@ -137,7 +142,9 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Gallery</Typography>
+                              
+
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/gallery-shynex-clinic/"}>Gallery</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>
