@@ -39,9 +39,15 @@ const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPa
 
 
 
+// const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
 const Technology = () => < Async load={import("../components/AC-StaticPages/Technology/Technology")} />;
+const Technology1 = () => < Async load={import("../components/AC-StaticPages/Technology1/Technology1")} />;
+const Technology2 = () => < Async load={import("../components/AC-StaticPages/Technology2/Technology2")} />;
+const Technology3 = () => < Async load={import("../components/AC-StaticPages/Technology3/Technology3")} />;
 
-const Affilication = () => < Async load={import("../components/AC-StaticPages/Affilication/Affilication")} />;
+
+
+
 const ContactUs = () => < Async load={import("../components/AC-StaticPages/ContactUs/ContactUs")} />;
 const AcneTreatments = () => < Async load={import("../components/AC-StaticPages/AcneTreatments/AcneTreatments")} />;
 const SkinRejuvenation = () => < Async load={import("../components/AC-StaticPages/SkinRejuvenation/SkinRejuvenation")} />;
@@ -314,6 +320,102 @@ function Menu(props) {
       </>
     );
   }
+  else if (props.component == "Technology2") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <Technology2 />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+   
+  else if (props.component == "Technology3") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <Technology3 />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+
+ 
+  else if (props.component == "Technology1") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+        <Technology1 />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+
   else if (props.component == "BodyContouring") {
     return (
       <>

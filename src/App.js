@@ -90,9 +90,30 @@ export default function App() {
                 />
                     <Route
                   exact
-                  path={"/technology/"}
+                  path={"/alma-soprano-titanium/"}
                   render={routeProps => (
                     <Menu {...routeProps} component="Technology" />
+                  )}
+                />
+                    <Route
+                  exact
+                  path={"/alma-harmony-xl-pro/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="Technology1" />
+                  )}
+                />
+                    <Route
+                  exact
+                  path={"/technology/morpheus8/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="Technology2" />
+                  )}
+                />
+                   <Route
+                  exact
+                  path={"/technology/cristal-pro/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="Technology3" />
                   )}
                 />
                 <Route
