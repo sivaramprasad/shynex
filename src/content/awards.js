@@ -30,8 +30,8 @@ function HomeContent() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-146410bf elementor-widget elementor-widget-text-editor">
 <div className="elementor-widget-container" style={{margin: "90px 0px 0px 50px"}}>
-    <h5 className='welcome'>Welcome to Shynex Poly Clinic</h5>
-    <h1 className='Best'>Best Skin Doctor in Hyderabad</h1>
+    {/* <h5 className='welcome'>Welcome to Shynex Poly Clinic</h5> */}
+    <h1 className='Best'>Welcome to Shynex Poly Clinic</h1>
 <p className='para'>Shynex Poly Clinic in Hyderabad is your trusted partner in achieving healthy skin and hair, offering advanced and affordable dermatology and cosmetology treatments tailored to your unique needs. Our dedicated team, including Dr. Vangala Moulika, brings a wealth of expertise and genuine care to every patient, ensuring you feel confident and cared for every step of the way. At Shynex, we’re here to help you look and feel your best with the latest innovations in skin and hair care</p> </div>
 
 <button className="button-two"><span>Read More</span></button>

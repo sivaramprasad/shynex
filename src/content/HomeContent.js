@@ -21,8 +21,8 @@ function HomeContent() {
     
       <div style={{width: "50%", height: "650px"}}>
       
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.2602087166733!2d78.3866039!3d17.4472555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91e20f33fc19%3A0x3cf46734e7e4414a!2sShynex%20-%20Advanced%20Hair%20%26%20Skin%20Care%20Clinic%20in%20Madhapur!5e0!3m2!1sen!2sin!4v1724140511037!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{width: "100%", height: "100%"}}></iframe>
        
-        <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d30446.937911454897!2d78.36559756702226!3d17.466067289789546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d17.481728!2d78.3843328!4m5!1s0x3bcb91e20f33fc19%3A0x3cf46734e7e4414a!2sshynex!3m2!1d17.4472555!2d78.3866039!5e0!3m2!1sen!2sin!4v1724068640823!5m2!1sen!2sin"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{width: "100%", height: "100%"}}></iframe>
        
       </div>
     

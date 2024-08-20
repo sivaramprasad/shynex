@@ -57,6 +57,7 @@ function Footer() {
                         animated
                         style={{ left: "2rem", right: "0rem" }}
                         className="whatsappsivak"
+                        chatMessage="Need a consultation? Click the WhatsApp chat to book now!"
                       />
 
                     </div>
@@ -159,13 +160,13 @@ function Footer() {
                           <div className="contact-wrapper-inner">
                             <CiPhone />
                             <div>
-                              <p><Link to={"/aboutus/"}>+91-8008002795</Link></p>
+                              <p><Link to={"/aboutus/"}>+91 82915 73456</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
                             <CiMail />
                             <div>
-                              <p><Link to={"/aboutus/"}>info@backstagepass.co.in</Link></p>
+                              <p><Link to={"/aboutus/"}>info@shynex.in</Link></p>
                             </div>
                           </div>
 

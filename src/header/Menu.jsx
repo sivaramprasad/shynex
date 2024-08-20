@@ -37,14 +37,11 @@ const GeneralDermatologyServices = () => < Async load={import("../components/AC-
 const CosmeticDermatologyTreatments = () => < Async load={import("../components/AC-StaticPages/CosmeticDermatologyTreatments/CosmeticDermatologyTreatments")} />;
 const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
 
-<<<<<<< HEAD
 
-=======
-const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
+
 const Technology = () => < Async load={import("../components/AC-StaticPages/Technology/Technology")} />;
 
 const Affilication = () => < Async load={import("../components/AC-StaticPages/Affilication/Affilication")} />;
->>>>>>> 49e4f47ea4ede5f9062567202e0c7f8bbe38b317
 const ContactUs = () => < Async load={import("../components/AC-StaticPages/ContactUs/ContactUs")} />;
 const AcneTreatments = () => < Async load={import("../components/AC-StaticPages/AcneTreatments/AcneTreatments")} />;
 const SkinRejuvenation = () => < Async load={import("../components/AC-StaticPages/SkinRejuvenation/SkinRejuvenation")} />;
