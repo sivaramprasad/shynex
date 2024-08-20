@@ -112,7 +112,7 @@ export default function MenuCore() {
                               aria-controls="panel2-content"
                               id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>Shynex Technology</Typography>
+                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/alma-soprano-titanium/"}>Shynex Technology</Typography>
                             </AccordionSummary>
 
                           </Accordion>
