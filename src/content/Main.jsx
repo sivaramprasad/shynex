@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import Async from "react-code-splitting";
 import HomeContent from "./HomeContent";
 import AboutBsp from "./AboutBsp";
@@ -6,12 +6,9 @@ import FeaturedProduct from "./FeaturedProduct";
 import FeaturedProducts from "./FeaturedProducts";
 import Awards from "./awards";
 import Buzzing from "./Buzzing";
-import preLoaderImg from "../assets/img/BSPAnimated.gif"
 import PropTypes from 'prop-types';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Slide from '@mui/material/Slide';
-
-import { CustomPreloader } from 'react-preloaders';
 
 
 
@@ -46,11 +43,11 @@ HideOnScroll.propTypes = {
 function Main({ active, props }) {
 
 
-  const [loading, setLoading] = useState(true);
+ 
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false);
+      //setLoading(false);
     }, 3000);
 
   }, []);

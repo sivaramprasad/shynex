@@ -12,7 +12,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Box from '@mui/material/Box';
 import Fade from '@mui/material/Fade';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
+import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import ScrollToTop from "react-scroll-to-top";
 
 
@@ -37,8 +37,7 @@ const GeneralDermatologyServices = () => < Async load={import("../components/AC-
 const CosmeticDermatologyTreatments = () => < Async load={import("../components/AC-StaticPages/CosmeticDermatologyTreatments/CosmeticDermatologyTreatments")} />;
 const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
 
-const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
-const Affilication = () => < Async load={import("../components/AC-StaticPages/Affilication/Affilication")} />;
+
 const ContactUs = () => < Async load={import("../components/AC-StaticPages/ContactUs/ContactUs")} />;
 const AcneTreatments = () => < Async load={import("../components/AC-StaticPages/AcneTreatments/AcneTreatments")} />;
 const SkinRejuvenation = () => < Async load={import("../components/AC-StaticPages/SkinRejuvenation/SkinRejuvenation")} />;
@@ -58,9 +57,7 @@ const MenuCore = () => <Async load={import("./MenuCore.jsx")} />;
 const TopBar = () => <Async load={import("./TopBar")} />;
 const Footer = () => <Async load={import("../components/AC-Footer/Footer")} />;
 
-const Loading = () => (
-  <Async load={import("../components/AC-Loading/Loading.jsx")} />
-);
+
 const darkTheme = createTheme({
   palette: {
     mode: 'light',
@@ -197,29 +194,9 @@ function Menu(props) {
     };
   }, []);
 
-  // Defining functions to perform different types of scrolling.
-  const scrollToTop = () => {
-    scroll.scrollToTop();
-  };
+ 
 
-  const scrollToBottom = () => {
-    scroll.scrollToBottom();
-  };
-
-  const scrollTo = () => {
-    scroll.scrollTo(100); // Scrolling to 100px from the top of the page.
-  };
-
-  const scrollMore = () => {
-    scroll.scrollMore(100); // Scrolling an additional 100px from the current scroll position.
-  };
-
-  // Function to handle the activation of a link.
-  const handleSetActive = (to) => {
-    console.log(to);
-  };
-
-  if (props.component == "tiposDeSeguros") {
+  if (props.component === "tiposDeSeguros") {
     return (
       <>
 
@@ -237,7 +214,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "SabíasQue") {
+  else if (props.component ===  "SabíasQue") {
     return (
       <>
 
@@ -255,7 +232,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "cotice") {
+  else if (props.component ===  "cotice") {
     return (
       <>
 
@@ -273,7 +250,7 @@ function Menu(props) {
       </>
     );
   }  
-  else if (props.component == "MedicalAesthetics") {
+  else if (props.component ===  "MedicalAesthetics") {
     return (
       <>
 
@@ -303,7 +280,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "BodyContouring") {
+  else if (props.component ===  "BodyContouring") {
     return (
       <>
 
@@ -333,7 +310,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "MoleandSkinCancerChecks") {
+  else if (props.component ===  "MoleandSkinCancerChecks") {
     return (
       <>
 
@@ -363,7 +340,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "LaserTreatments") {
+  else if (props.component ===  "LaserTreatments") {
     return (
       <>
 
@@ -393,7 +370,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "HairandScalpTreatments") {
+  else if (props.component ===  "HairandScalpTreatments") {
     return (
       <>
 
@@ -425,7 +402,7 @@ function Menu(props) {
   }
 
   
-  else if (props.component == "MedicalFacials") {
+  else if (props.component ===  "MedicalFacials") {
     return (
       <>
 
@@ -455,7 +432,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "TeamShynex") {
+  else if (props.component ===  "TeamShynex") {
     return (
       <>
 
@@ -485,7 +462,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "Gallery") {
+  else if (props.component ===  "Gallery") {
     return (
       <>
 
@@ -515,7 +492,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "AboutUs") {
+  else if (props.component ===  "AboutUs") {
     return (
       <>
 
@@ -545,7 +522,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "CosmeticDermatologyTreatments") {
+  else if (props.component ===  "CosmeticDermatologyTreatments") {
     return (
       <>
 
@@ -578,7 +555,7 @@ function Menu(props) {
   }
 
 
-    else if (props.component == "AcneTreatments") {
+    else if (props.component ===  "AcneTreatments") {
       return (
         <>
   
@@ -611,7 +588,7 @@ function Menu(props) {
     }
   
 
-    else if (props.component == "AboutUsAdvantages") {
+    else if (props.component ===  "AboutUsAdvantages") {
       return (
         <>
   
@@ -643,7 +620,7 @@ function Menu(props) {
       );
     }
 
-  else if (props.component == "Admissions") {
+  else if (props.component ===  "Admissions") {
     return (
       <>
 
@@ -674,7 +651,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "SkinRejuvenation") {
+  else if (props.component ===  "SkinRejuvenation") {
     return (
       <>
 
@@ -705,7 +682,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "AntiAgeingTreatments") {
+  else if (props.component ===  "AntiAgeingTreatments") {
     return (
       <>
 
@@ -736,7 +713,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "GeneralDermatologyServices") {
+  else if (props.component ===  "GeneralDermatologyServices") {
     return (
       <>
 
@@ -767,7 +744,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "ContactUs") {
+  else if (props.component ===  "ContactUs") {
     return (
       <>
 

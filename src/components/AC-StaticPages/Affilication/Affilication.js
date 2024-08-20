@@ -33,7 +33,7 @@ function Affilication(props) {
             <Grid xs={6}>
           <Item>    <div className="inner-column inner-column1 wow fadeInLeft">
                      
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img  src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg" alt=""/></a></figure>
+                        <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img  src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg" alt=""/></a></figure>
                      
                     </div></Item>
         </Grid>
@@ -68,7 +68,7 @@ function Affilication(props) {
         <Grid xs={6}>
           <Item>    <div className="inner-column inner-column2 wow fadeInLeft">
                      
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img className='img-box' src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg" alt=""/></a></figure>
+                        <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img className='img-box' src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg" alt=""/></a></figure>
                      
                     </div></Item>
         </Grid>

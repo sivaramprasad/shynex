@@ -13,9 +13,7 @@ import content_icon from "../assets/img/news.svg";
 import { FiChevronDown } from "react-icons/fi";
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 
 import menu from "../assets/img/menu-black-24dp.svg";
@@ -424,7 +422,7 @@ export default function MenuCore() {
                   <div className="menu-divider"></div>
                   <MenuLogo />
                   <div className="mobile-menu-footer-wrapper">
-                    <p>
+                    {/* <p>
                       <img className="icons" alt="" />
                       <span>
                         <a href="t"></a>
@@ -439,23 +437,23 @@ export default function MenuCore() {
                     <p>
                       <img className="icons" alt="" />
                       <span>
-                        <a href=""></a>
+                        <a href="/aboutus/"></a>
                       </span>
-                    </p>
+                    </p> */}
                     <Divider />
                     <div className="social-connect social-connect-mobile">
                       <div className="social-connect-inner">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="/aboutus/" target="_blank" rel="noopener noreferrer">
                           <img className="social-icon" alt="Facebook" />
                         </a>
                       </div>
                       <div className="social-connect-inner">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="/aboutus/" target="_blank" rel="noopener noreferrer">
                           <img className="social-icon" alt="Intsagram" />
                         </a>
                       </div>
                       <div className="social-connect-inner">
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="/aboutus/" target="_blank" rel="noopener noreferrer">
                           <img className="social-icon" alt="Intsagram" />
                         </a>
                       </div>

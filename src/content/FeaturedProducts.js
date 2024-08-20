@@ -1,19 +1,8 @@
 import React from 'react';
-import Marquee from "react-fast-marquee";
-import recuiters1 from "../assets/img/partners/1.webp";
-import recuiters2 from "../assets/img/partners/2.webp";
-import recuiters3 from "../assets/img/partners/3.webp";
-import recuiters4 from "../assets/img/partners/4.webp";
-import recuiters5 from "../assets/img/partners/5.webp";
-import recuiters6 from "../assets/img/partners/6.webp";
-import recuiters7 from "../assets/img/partners/7.webp";
-import recuiters8 from "../assets/img/partners/8.webp";
-import recuiters9 from "../assets/img/partners/9.webp";
-import recuiters10 from "../assets/img/partners/10.webp";
 import EmblaCarouselTestimonilas from './EmblaCarouselTestimonilas'
 
 
-import "./FeaturedProducts.css"
+import "./FeaturedProducts.css";
 
 
 

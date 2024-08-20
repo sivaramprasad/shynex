@@ -6,10 +6,6 @@ import courseBanner from "../../../assets/img/banners/about-us.png";
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import hwst from "../../../assets/img/test/howstrt.webp";
-import st1 from "../../../assets/img/test/sty1.gif";
-import st2 from "../../../assets/img/test/sty2.gif";
-import cncpt from "../../../assets/img/banners/Concept.webp"
 
 import { Helmet } from "react-helmet";
 const Item = styled(Paper)(({ theme }) => ({
@@ -25,8 +21,8 @@ function Aboutus(props) {
     return (
         <>
 <Helmet>
-                <title>Best Laser Tattoo Removal | Laser Scar Removal | Shynex Clinic</title>
-                <meta name="description" content="Enhance your appearance with Shynex's medical aesthetics services, including tattoo removal, scar revision, and more using advanced US FDA-approved laser technologies." />
+                <title>Top Dermatologist & Skin Specialist in Hyderabad | Shynex Clinic</title>
+                <meta name="description" content="Your search for best skin specialist near me ends at Shynex, Hyderabad's top skincare clinic. Experience advanced laser treatments for skin, hair, & full body." />
                 <meta name="keywords" content="tattoo removal, scar revision, birthmark removal, US FDA-approved laser, skin rejuvenation, Shynex Poly Clinic, advanced aesthetics treatments, non-invasive procedures, skin improvement" />
             </Helmet>
             <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
@@ -46,7 +42,7 @@ function Aboutus(props) {
                         <div className="text">Our team of esteemed doctors, each with extensive years of experience and expertise, ensures that every patient receives compassionate and effective care. We understand that each individual is unique, and we are committed to crafting personalized treatment plans that cater to your specific needs and goals. At Shynex, we specialize in offering top-notch skin and hair treatments for both men and women at affordable prices. Our clinic is equipped with state-of-the-art, USFDA-approved technology, ensuring the highest safety and efficacy standards.</div>
                         <div className="text">We provide a comprehensive range of services including <span style={{textDecoration:"underline"}}>Hollywood facials, pigmentation removal, laser treatments, chemical peels, hair loss treatments, slimming services, skin cancer screening,</span> and more. Whether you are looking to rejuvenate your skin, address hair loss, or achieve your desired body shape, our advanced treatments are designed to meet your needs. Our team of the best cosmetologists and dermatologists in Hyderabad takes the utmost care in providing precise and effective treatments. With a deep commitment to healthcare innovation, we are not just a clinic; we are a partner in your journey towards better health and enhanced confidence.</div>
                         <div className="text">At Shynex Poly Clinic, our dedication to your well-being goes beyond treatment. We strive to create a warm and welcoming environment where you feel comfortable and cared for from the moment you walk through our doors. Driven by a passion for healthcare innovation, we ensure that modern expertise meets compassionate care, offering you the best possible outcomes. </div>
-                        <div className="text">Achieve radiant skin and healthy hair with Shynex. <span style={{textDecoration:"underline"}}><a>Book your appointment today </a></span> and enhance your confidence and well-being. </div> 
+                        <div className="text">Achieve radiant skin and healthy hair with Shynex. <span style={{textDecoration:"underline"}}><a href='contact'>Book your appointment today </a></span> and enhance your confidence and well-being. </div> 
 
                     </div>
                     </div>

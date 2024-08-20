@@ -38,7 +38,7 @@ function CosmeticDermatologyTreatments(props) {
                     <Item style={{ boxShadow: "none" }}>
                         <div className="inner-column inner-column1 wow fadeInLeft">
 
-                            <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src={hwst} alt="" /></a></figure>
+                            <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img src={hwst} alt="" /></a></figure>
 
 
                         </div></Item>
@@ -73,7 +73,7 @@ function CosmeticDermatologyTreatments(props) {
                 <Grid style={{ boxShadow: "none" }} xs={6}>
                     <Item style={{ boxShadow: "none" }}>    <div className="inner-column inner-column2 wow fadeInLeft">
 
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
+                        <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
 
                     </div></Item>
                 </Grid>
@@ -85,7 +85,7 @@ function CosmeticDermatologyTreatments(props) {
                     <Item style={{ boxShadow: "none" }}>
                         <div className="inner-column inner-column1 wow fadeInLeft">
 
-                            <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src={hwst1} alt="" /></a></figure>
+                            <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img src={hwst1} alt="" /></a></figure>
 
 
                         </div></Item>
@@ -119,7 +119,7 @@ function CosmeticDermatologyTreatments(props) {
                 <Grid style={{ boxShadow: "none" }} xs={6}>
                     <Item style={{ boxShadow: "none" }}>    <div className="inner-column inner-column2 wow fadeInLeft">
 
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
+                        <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
 
                     </div></Item>
                 </Grid>
@@ -131,7 +131,7 @@ function CosmeticDermatologyTreatments(props) {
                     <Item style={{ boxShadow: "none" }}>
                         <div className="inner-column inner-column1 wow fadeInLeft">
 
-                            <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src={hwst1} alt="" /></a></figure>
+                            <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img src={hwst1} alt="" /></a></figure>
 
 
                         </div></Item>

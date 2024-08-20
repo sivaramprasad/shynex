@@ -7,7 +7,6 @@ import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
 import hwst from "../../../assets/img/Botox.jpg";
-import hwst1 from "../../../assets/img/FBSE-Graphic.jpg";
 import cncpt from "../../../assets/img/Dermatosurgery.jpg"
 
 import { Helmet } from "react-helmet";
@@ -38,7 +37,7 @@ function SkinRejuvenation(props) {
                     <Item style={{ boxShadow: "none" }}>
                         <div className="inner-column inner-column1 wow fadeInLeft">
 
-                            <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img src={hwst} alt="" /></a></figure>
+                            <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img src={hwst} alt="" /></a></figure>
 
 
                         </div></Item>
@@ -71,7 +70,7 @@ function SkinRejuvenation(props) {
                 <Grid style={{ boxShadow: "none" }} xs={6}>
                     <Item style={{ boxShadow: "none" }}>    <div className="inner-column inner-column2 wow fadeInLeft">
 
-                        <figure className="image-1"><a href="#" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
+                        <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
 
                     </div></Item>
                 </Grid>

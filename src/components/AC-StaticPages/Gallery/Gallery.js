@@ -1,21 +1,7 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import "./Gallery.css";
 import HomeContent from "../../../content/HomeContent";
-import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Box from '@mui/material/Box';
 import courseBanner from "../../../assets/img/banners/about-us.png";
-import StickyBox from "react-sticky-box";
-import { emphasize, styled } from '@mui/material/styles';
-import Breadcrumbs from '@mui/material/Breadcrumbs';
-import Chip from '@mui/material/Chip';
-import HomeIcon from '@mui/icons-material/Home';
-import ScrollSpy from "react-ui-scrollspy";
-import { TfiFacebook, TfiLinkedin } from "react-icons/tfi";
-import { FiArrowRight } from "react-icons/fi";
-import mentor1 from "../../../assets/img/test/mentor1.webp"
-import men2 from "../../../assets/img/test/men2.webp"
 import { ImageGallery } from "overlay-image-gallery";
 
 

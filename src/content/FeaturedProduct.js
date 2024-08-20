@@ -1,25 +1,18 @@
 import React from 'react';
-import c1 from "../assets/img/c1.png";
-import c2 from "../assets/img/c2.png";
-import c3 from "../assets/img/c3.png";
-import c4 from "../assets/img/c4.png";
-import f1 from "../assets/img/c-logo.svg";
-import fimg1 from "../assets/img/Concept_art_school.webp";
-import f2 from "../assets/img/g-logo.svg";
-import fimg2 from "../assets/img/Game-Art-School_header2.6.webp";
-import f3 from "../assets/img/v-logo.svg";
-import fimg3 from "../assets/img/Virtual_production_essentials2.webp";
-import { FiArrowRight } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import { FiArrowUpRight } from "react-icons/fi";
-
-
+import { Link } from "react-router-dom";
+import a1 from "../assets/img/home/Replenish.webp";
+import a2 from "../assets/img/home/revive.webp";
+import a3 from "../assets/img/home/revitalise.webp";
+import a4 from "../assets/img/home/remedy.webp";
+import a5 from "../assets/img/home/home2-2.webp";
+import a6 from "../assets/img/home/home3-2.webp";
 import "./FeaturedProduct.css"
 
 
 function HomeContent() {
 
-  const SLIDE_COUNT = 10
+  
   return (
     <>
       <div style={{margin: "0 auto", marginTop: "-50px", width: "95%"}}>
@@ -31,12 +24,12 @@ function HomeContent() {
       <div className="card-inner" >
         <div className="box">
           <div className="imgBox">
-            <img src="https://avahskin.com/wp-content/uploads/2024/07/Replenish.webp" alt="Trust & Co." />
+            <img src={a1} alt="Trust & Co." />
           </div>
           <div className="icon">
-            <a href="#" className="iconBox"> <span className="material-symbols-outlined">
+            <Link to={"/aboutus/"} className="iconBox"> <span className="material-symbols-outlined">
                 <FiArrowUpRight />
-              </span></a>
+              </span></Link>
           </div>
         </div>
       </div>
@@ -49,12 +42,12 @@ function HomeContent() {
       <div className="card-inner" >
         <div className="box">
           <div className="imgBox">
-            <img src="https://avahskin.com/wp-content/uploads/2024/07/revive.webp" alt="Tonic" />
+            <img src={a2} alt="Tonic" />
           </div>
           <div className="icon">
-            <a href="#" className="iconBox"> <span className="material-symbols-outlined">
+            <Link to={"/aboutus/"} className="iconBox"> <span className="material-symbols-outlined">
             <FiArrowUpRight />
-              </span></a>
+              </span></Link>
           </div>
         </div>
       </div>
@@ -67,12 +60,12 @@ function HomeContent() {
       <div className="card-inner" >
         <div className="box">
           <div className="imgBox">
-            <img src="https://avahskin.com/wp-content/uploads/2024/07/revitalise.webp" alt="Shower Gel" />
+            <img src={a3} alt="Shower Gel" />
           </div>
           <div className="icon">
-            <a href="#" className="iconBox"> <span className="material-symbols-outlined">
+            <Link to={"/aboutus/"} className="iconBox"> <span className="material-symbols-outlined">
             <FiArrowUpRight />
-              </span></a>
+              </span></Link>
           </div>
         </div>
       </div>
@@ -88,12 +81,12 @@ function HomeContent() {
       <div className="card-inner" >
         <div className="box">
           <div className="imgBox">
-            <img src="https://avahskin.com/wp-content/uploads/2024/07/remedy.webp" alt="Trust & Co." />
+            <img src={a4} alt="Trust & Co." />
           </div>
           <div className="icon">
-            <a href="#" className="iconBox"> <span className="material-symbols-outlined">
+            <Link to={"/aboutus/"} className="iconBox"> <span className="material-symbols-outlined">
                 <FiArrowUpRight />
-              </span></a>
+              </span></Link>
           </div>
         </div>
       </div>
@@ -106,12 +99,12 @@ function HomeContent() {
       <div className="card-inner" >
         <div className="box">
           <div className="imgBox">
-            <img src="https://images.unsplash.com/photo-1613235788366-270e7ac489f3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tonic" />
+            <img src={a5} alt="Tonic" />
           </div>
           <div className="icon">
-            <a href="#" className="iconBox"> <span className="material-symbols-outlined">
+            <Link to={"/aboutus/"} className="iconBox"> <span className="material-symbols-outlined">
             <FiArrowUpRight />
-              </span></a>
+              </span></Link>
           </div>
         </div>
       </div>
@@ -124,12 +117,12 @@ function HomeContent() {
       <div className="card-inner" >
         <div className="box">
           <div className="imgBox">
-            <img src="https://images.unsplash.com/photo-1673847401561-fcd75a7888c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Shower Gel" />
+            <img src={a6} alt="Shower Gel" />
           </div>
           <div className="icon">
-            <a href="#" className="iconBox"> <span className="material-symbols-outlined">
+            <Link to={"/aboutus/"} className="iconBox"> <span className="material-symbols-outlined">
             <FiArrowUpRight />
-              </span></a>
+              </span></Link>
           </div>
         </div>
       </div>

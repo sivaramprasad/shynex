@@ -1,24 +1,14 @@
-import React, { useState } from "react";
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import "./AboutBsp.css"
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Grid';
+import React from "react";
+import "./AboutBsp.css";
+import Lips from "../assets/img/home/home2-2.webp";
+import Botox from "../assets/img/home/home3-2.webp";
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#f00' : '#f4f4f4',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-  boxShadow: 'none'
-}));
+
+
 
 
 function HomeContent() {
 
-  const [counterState, setCounterState] = useState(false);
 
   return (
 
@@ -31,7 +21,7 @@ function HomeContent() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-9b9e9fe elementor-widget elementor-widget-image">
 <div className="elementor-widget-container">
-<img src="https://touchup.qodeinteractive.com/wp-content/uploads/2020/02/home2-2.jpg" className="attachment-full size-full wp-image-4357" alt="a"  /> </div>
+<img src={Lips} className="attachment-full size-full wp-image-4357" alt="a"  /> </div>
 </div>
 </div>
 </div>
@@ -64,7 +54,7 @@ adipisicing elit eius mod tem</span></p> </div>
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-79079a4 elementor-widget elementor-widget-image">
 <div className="elementor-widget-container">
-<img src="https://touchup.qodeinteractive.com/wp-content/uploads/2020/02/home3-2.jpg" className="attachment-large size-large wp-image-4358" alt="s" /> </div>
+<img src={Botox} className="attachment-large size-large wp-image-4358" alt="s" /> </div>
 </div>
 </div>
 </div>

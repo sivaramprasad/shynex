@@ -5,14 +5,12 @@ import {
   PrevButton,
   usePrevNextButtons
 } from './EmblaCarouselArrowButtons'
-import { useDotButton } from './EmblaCarouselDotButton'
 
-import newban1 from "../assets/img/banners/home6.jpg";
-import newban2 from "../assets/img/banners/maxresdefault.jpg";
-
+import newban1 from "../assets/img/banners/home6.webp";
+import newban2 from "../assets/img/banners/maxresdefault.webp";
 
 
-const TWEEN_FACTOR_BASE = 0.84
+
 
 const numberWithinRange = (number, min, max) =>
   Math.min(Math.max(number, min), max)
@@ -22,8 +20,8 @@ const EmblaCarousel = (props) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
   const tweenFactor = useRef(0)
 
-  const { } =
-    useDotButton(emblaApi)
+  // const { } =
+  //   useDotButton(emblaApi)
 
   const {
     prevBtnDisabled,
@@ -32,9 +30,9 @@ const EmblaCarousel = (props) => {
     onNextButtonClick
   } = usePrevNextButtons(emblaApi)
 
-  const setTweenFactor = useCallback((emblaApi) => {
-    tweenFactor.current = TWEEN_FACTOR_BASE * emblaApi.scrollSnapList().length
-  }, [])
+  // const setTweenFactor = useCallback((emblaApi) => {
+  //   tweenFactor.current = TWEEN_FACTOR_BASE * emblaApi.scrollSnapList().length
+  // }, [])
 
   const tweenOpacity = useCallback((emblaApi, eventName) => {
     const engine = emblaApi.internalEngine()
@@ -76,10 +74,10 @@ const EmblaCarousel = (props) => {
   useEffect(() => {
     if (!emblaApi) return
 
-    setTweenFactor(emblaApi)
+    //setTweenFactor(emblaApi)
     tweenOpacity(emblaApi)
     emblaApi
-      .on('reInit', setTweenFactor)
+      //.on('reInit', setTweenFactor)
       .on('reInit', tweenOpacity)
       .on('scroll', tweenOpacity)
       .on('slideFocus', tweenOpacity)

@@ -1,22 +1,19 @@
-import React, { useCallback, useEffect, useRef } from 'react'
+import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import {
   NextButton,
   PrevButton,
   usePrevNextButtons
 } from './EmblaCarouselArrowButtonsBuzz'
-import { useDotButton } from './EmblaCarouselDotButtonBuzz'
-import b1 from "../assets/img/886x498_26-july2-746x498.png";
-import b2 from "../assets/img/5554-746x498.png";
-import b3 from "../assets/img/886x4982-1-746x498.png";
-const TWEEN_FACTOR_BASE = 0.2
+import b1 from "../assets/img/home/b1.webp";
+import b2 from "../assets/img/home/b2.webp";
+import b3 from "../assets/img/home/b3.webp";
 
 const EmblaCarousel = (props) => {
-  const { slides, options } = props
+  const { options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
 
-  const { selectedIndex, scrollSnaps, onDotButtonClick } =
-    useDotButton(emblaApi)
+
 
   const {
     prevBtnDisabled,

@@ -1,16 +1,11 @@
 import React, { useCallback, useEffect, useRef } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import rajath from '../assets/img/girl.png'
-import sridar from '../assets/img/test/shridhar.webp'
-import navin from '../assets/img/test/navinmandal.webp'
-import kash from '../assets/img/test/kashyapreddy.webp'
-import satish from '../assets/img/test/SatishChandra.webp'
+import rajath from '../assets/img/home/girl-249c3281.webp';
 import {
   NextButton,
   PrevButton,
   usePrevNextButtons
 } from './EmblaCarouselArrowButtonsTest'
-import {useDotButton } from './EmblaCarouselDotButton'
 
 const TWEEN_FACTOR_BASE = 0.52
 
@@ -18,13 +13,12 @@ const numberWithinRange = (number, min, max) =>
   Math.min(Math.max(number, min), max)
 
 const EmblaCarousel = (props) => {
-  const { slides, options } = props
+  const { options } = props
   const [emblaRef, emblaApi] = useEmblaCarousel(options)
   const tweenFactor = useRef(0)
   const tweenNodes = useRef([])
 
-  const { } =
-    useDotButton(emblaApi)
+  
 
   const {
     prevBtnDisabled,

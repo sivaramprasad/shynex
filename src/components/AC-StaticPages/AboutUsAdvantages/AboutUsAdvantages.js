@@ -1,16 +1,11 @@
 import React from 'react'
 import "./AboutUsAdvantages.css";
 import HomeContent from "../../../content/HomeContent";
-import Ourawards from "../../../content/ourawards";
 
 import courseBanner from "../../../assets/img/banners/about-us.png";
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import hwst from "../../../assets/img/test/howstrt.webp";
-import st1 from "../../../assets/img/test/sty1.gif";
-import st2 from "../../../assets/img/test/sty2.gif";
-import cncpt from "../../../assets/img/banners/Concept.webp"
 
 import { Helmet } from "react-helmet";
 const Item = styled(Paper)(({ theme }) => ({
@@ -25,6 +20,11 @@ const Item = styled(Paper)(({ theme }) => ({
 function AboutUsadvantages (props) {
     return (
         <>
+        <Helmet>
+        <title>Top Dermatologist & Skin Specialist in Hyderabad | Shynex Clinic</title>
+        <meta name="description" content="Your search for best skin specialist near me ends at Shynex, Hyderabad's top skincare clinic. Experience advanced laser treatments for skin, hair, & full body." />
+        <meta name="keywords" content="tattoo removal, scar revision, birthmark removal, US FDA-approved laser, skin rejuvenation, Shynex Poly Clinic, advanced aesthetics treatments, non-invasive procedures, skin improvement" />
+    </Helmet>
 
             <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
             

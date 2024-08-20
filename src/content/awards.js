@@ -1,6 +1,5 @@
 import React from 'react';
-import person from "../assets/img/Shynex.jpg";
-import awardtwo from "../assets/img/a2.webp"
+import person from "../assets/img/home/Shynex.webp";
 
 
 import "./awards.css"

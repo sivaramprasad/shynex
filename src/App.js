@@ -3,7 +3,6 @@ import CacheBuster from "./CacheBuster.js";
 import { Route, Switch, Router } from "react-router-dom";
 import history from "./history.js";
 import { Helmet } from "react-helmet";
-import ogimgs from "./assets/img/banners/newban1.webp";
 import Menu from "./header/Menu.jsx";
 import "../src/assets/css/reactMaterial.css";
 import "../src/assets/css/icon.css";
@@ -118,13 +117,7 @@ export default function App() {
                     <Menu {...routeProps} component="ContactUs" />
                   )}
                 />
-                <Route
-                  exact
-                  path={"/Placementsupport/"}
-                  render={routeProps => (
-                    <Menu {...routeProps} component="Placements" />
-                  )}
-                />
+               
                 <Route
                   exact
                   path={"/affilication/"}

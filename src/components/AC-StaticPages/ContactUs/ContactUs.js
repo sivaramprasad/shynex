@@ -1,27 +1,22 @@
 import React from 'react'
 import "./ContactUs.css";
 import HomeContent from "../../../content/HomeContent";
-import courseBanner from "../../../assets/img/banners/newban1.webp";
-import Grid from '@mui/material/Unstable_Grid2';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
+import courseBanner from "../../../assets/img/banners/about-us.png";
 
 
 
 import { Helmet } from "react-helmet";
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
+
 
 
 function contactus(props) {
     return (
         <>
-
+<Helmet>
+                <title>Contact Shynex for Consultation with Top Dermatologist</title>
+                <meta name="description" content="Reach out to Shynex Poly Clinic in Hyderabad for expert dermatology and cosmetology services. We're here to help with your skin and hair care needs." />
+                <meta name="keywords" content=" " />
+            </Helmet>
             <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
       
             <div className="sec-title">
