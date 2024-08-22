@@ -4,9 +4,6 @@ import HomeContent from "../../../content/HomeContent";
 import { Link } from "react-router-dom";
 
 import courseBanner from "../../../assets/img/banners/about-us.webp";
-import Grid from '@mui/material/Unstable_Grid2';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
 
 import { Helmet } from "react-helmet";
 

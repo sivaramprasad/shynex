@@ -3,12 +3,6 @@ import "./DermatologyAndCosmetology.css";
 import HomeContent from "../../../content/HomeContent";
 import { Link } from "react-router-dom";
 import courseBanner from "../../../assets/img/banners/about-us.webp";
-import Grid from '@mui/material/Unstable_Grid2';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
-import hwst from "../../../assets/img/scalp-hair.webp";
-import hwst1 from "../../../assets/img/FBSE-Graphic.webp";
-import cncpt from "../../../assets/img/Dermatosurgery.webp"
 import photo2 from "../../../assets/img/home/derma/photo-2.webp"
 import photo1 from "../../../assets/img/home/derma/premium_photo1.webp"
 import photo3 from "../../../assets/img/home/derma/photo-3.webp"
@@ -22,13 +16,7 @@ import photo10 from "../../../assets/img/home/derma/premium_photo-10.webp"
 import photo11 from "../../../assets/img/home/derma/photo-10.webp"
 
 import { Helmet } from "react-helmet";
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
+
 
 
 function DermatologyAndCosmetology(props) {
