@@ -24,27 +24,7 @@ export default function App() {
               titleTemplate="%s"
               defaultTitle="Best Skin and Hair Care Clinic in Hyderabad | Shynex Clinic"
             >
-              {/* <meta property="og:site_name" content="Backstage Pass" />
-              <meta property="og:url" content="https://www.dev.backstagepass.co.in/" />
-              <meta property="og:type" content="website" />
-              <meta name="title" property="og:title" content="Best Game Design and Development college in India" />
-              <meta name="image" property="og:image" content={ogimgs} />
-              <meta property="og:image:type" content="image/png" />
-              <meta property="og:image:width" content="1024" />
-              <meta property="og:image:height" content="1024" />
-              <meta name="description" property="og:description" content="Best Game Design and Development college in India - Backstage Pass" />
-              <meta name="twitter:card" content="summary" />
-              <meta name="twitter:site" description="Backstage Pass" />
-              <meta name="twitter:title" content="Best Game Design and Development college in India" />
-              <meta name="twitter:description" content="Best Game Design and Development college in India - Backstage Pass" />
-              <meta name="twitter:image:src" content={ogimgs} />
-              <meta name="twitter:domain" content="https://www.dev.backstagepass.co.in/"></meta>
-              <link rel="image_src" href="{ogimgs}" />
-              <meta name="twitter:image" property="og:image" content="{ogimgs}" />
-              <meta
-                name="description"
-                content="Best Game Design and Development college in India - Backstage Pass"
-              /> */}
+              
             </Helmet>
             <Router history={history}>
               <Switch>
