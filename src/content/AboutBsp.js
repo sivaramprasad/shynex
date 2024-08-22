@@ -2,8 +2,8 @@ import React from "react";
 import "./AboutBsp.css";
 import Lips from "../assets/img/home/home2-2.webp";
 import Botox from "../assets/img/home/home3-2.webp";
-
-
+import homeimg from "../assets/img/home/home4-1.webp";
+import homeimg1 from "../assets/img/home/home5-1.webp";
 
 
 
@@ -141,7 +141,7 @@ function HomeContent() {
             <div className="elementor-widget-wrap elementor-element-populated">
               <div className="elementor-element elementor-element-3d60ac4 elementor-widget elementor-widget-image">
                 <div className="elementor-widget-container">
-                  <img loading="lazy" decoding="async" width="800" height="800" src="https://touchup.qodeinteractive.com/wp-content/uploads/2020/02/home4-1.jpg" className="attachment-large size-large wp-image-4359" alt="s" /> </div>
+                  <img loading="lazy" decoding="async" width="800" height="800" src={`${homeimg}`}className="attachment-large size-large wp-image-4359" alt="s" /> </div>
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ function HomeContent() {
             <div className="elementor-widget-wrap elementor-element-populated">
               <div className="elementor-element elementor-element-1cfb03c elementor-widget elementor-widget-image">
                 <div className="elementor-widget-container">
-                  <img loading="lazy" decoding="async" width="800" height="800" src="https://touchup.qodeinteractive.com/wp-content/uploads/2020/02/home5-1.jpg" className="attachment-large size-large wp-image-4360" alt="s" /> </div>
+                  <img loading="lazy" decoding="async" width="800" height="800" src={`${homeimg1}`} className="attachment-large size-large wp-image-4360" alt="s" /> </div>
               </div>
             </div>
           </div>

@@ -2,13 +2,24 @@ import React from 'react'
 import "./DermatologyAndCosmetology.css";
 import HomeContent from "../../../content/HomeContent";
 import { Link } from "react-router-dom";
-import courseBanner from "../../../assets/img/banners/about-us.png";
+import courseBanner from "../../../assets/img/banners/about-us.webp";
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import hwst from "../../../assets/img/scalp-hair.jpg";
-import hwst1 from "../../../assets/img/FBSE-Graphic.jpg";
-import cncpt from "../../../assets/img/Dermatosurgery.jpg"
+import hwst from "../../../assets/img/scalp-hair.webp";
+import hwst1 from "../../../assets/img/FBSE-Graphic.webp";
+import cncpt from "../../../assets/img/Dermatosurgery.webp"
+import photo2 from "../../../assets/img/home/derma/photo-2.webp"
+import photo1 from "../../../assets/img/home/derma/premium_photo1.webp"
+import photo3 from "../../../assets/img/home/derma/photo-3.webp"
+import photo4 from "../../../assets/img/home/derma/photo-1.webp"
+import photo5 from "../../../assets/img/home/derma/photo-5.webp"
+import photo6 from "../../../assets/img/home/derma/photo-6.webp"
+import photo7 from "../../../assets/img/home/derma/photo-7.webp"
+import photo8 from "../../../assets/img/home/derma/photo-8.webp"
+import photo9 from "../../../assets/img/home/derma/photo-9.webp"
+import photo10 from "../../../assets/img/home/derma/premium_photo-10.webp"
+import photo11 from "../../../assets/img/home/derma/photo-10.webp"
 
 import { Helmet } from "react-helmet";
 const Item = styled(Paper)(({ theme }) => ({
@@ -44,7 +55,7 @@ function DermatologyAndCosmetology(props) {
                 </div>
 
                 <div className='infinite-scroll-component'>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1598300188904-6287d52746ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8R2VuZXJhbCUyMERlcm1hdG9sb2d5JTIwU2VydmljZXN8ZW58MHx8MHx8fDA%3D)`, backgroundPosition: "center"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo2})`, backgroundPosition: "center"}}>
                             <div className="footercard">
                                 <div className="connections">
                                     <div className="connection facebook"><Link to={"/general-dermatology-services/"}>General Dermatology Services</Link></div>
@@ -53,7 +64,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://plus.unsplash.com/premium_photo-1719617672652-0af3b11b6ac3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Q29zbWV0aWMlMjBEZXJtYXRvbG9neSUyMHRyZWF0bWVudHN8ZW58MHx8MHx8fDA%3D)`, backgroundPosition: "right"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo1})`, backgroundPosition: "right"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/cosmetic-dermatology-treatments/"}>Cosmetic Dermatology treatments</Link></div>
@@ -62,7 +73,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1579221369575-afa08fa04246?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fEFjbmUlMjBUcmVhdG1lbnRzfGVufDB8fDB8fHww)`, backgroundPosition: "center"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo3})`, backgroundPosition: "center"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/acne-treatments/"}>Acne Treatments</Link></div>
@@ -71,7 +82,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1447619297994-b829cc1ab44a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U2tpbiUyMFJlanV2ZW5hdGlvbnxlbnwwfHwwfHx8MA%3D%3D)`, backgroundPosition: "center"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo4})`, backgroundPosition: "center"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/skin-rejuvenation-youthful-skin/"}>Skin Rejuvenation</Link></div>
@@ -82,7 +93,7 @@ function DermatologyAndCosmetology(props) {
                         </div>
                     </div>
                     <div className='infinite-scroll-component'>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8SGFpciUyMGFuZCUyMFNjYWxwJTIwVHJlYXRtZW50fGVufDB8fDB8fHww)`, backgroundPosition: "right"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo5})`, backgroundPosition: "right"}}>
                             <div className="footercard">
                                 <div className="connections">
                                     <div className="connection facebook"><Link to={"/hair-scalp-treatments/"}>Hair and Scalp Treatments</Link></div>
@@ -91,7 +102,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1514416432279-50fac261c7dd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWVkaWNhbCUyMEFlc3RoZXRpY3N8ZW58MHx8MHx8fDA%3D)`, backgroundPosition: "right"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo6})`, backgroundPosition: "right"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/medical-aesthetics-enhance-appearance/"}>Medical Aesthetics </Link></div>
@@ -100,7 +111,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1516220362602-dba5272034e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fE1vbGUlMjBhbmQlMjBTa2luJTIwQ2FuY2VyJTIwQ2hlY2tzfGVufDB8fDB8fHww)`, backgroundPosition: "center"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo7})`, backgroundPosition: "center"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/mole-skin-cancer-checks/"}>Mole and Skin Cancer Checks </Link></div>
@@ -109,7 +120,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1587010579578-ad81d1035a5b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TGFzZXIlMjBUcmVhdG1lbnRzfGVufDB8fDB8fHww)`, backgroundPosition: "center"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo8})`, backgroundPosition: "center"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/laser-treatments/"}>Laser Treatments </Link></div>
@@ -120,7 +131,7 @@ function DermatologyAndCosmetology(props) {
                         </div>
                     </div>
                     <div className='infinite-scroll-component'>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1519668752166-ebdbfe986afd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Qm9keSUyMENvbnRvdXJpbmd8ZW58MHx8MHx8fDA%3D)`, backgroundPosition: "right"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo9})`, backgroundPosition: "right"}}>
                             <div className="footercard">
                                 <div className="connections">
                                     <div className="connection facebook"><Link to={"/body-contouring/"}>Body Contouring </Link></div>
@@ -129,7 +140,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://plus.unsplash.com/premium_photo-1682094372838-7b2a103e1116?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fE1lZGljYWwlMjBmYWNpYWxzfGVufDB8fDB8fHww)`, backgroundPosition: "right"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo10})`, backgroundPosition: "right"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/medical-facials-professional-skin-care/"}>Medical facials </Link></div>
@@ -138,7 +149,7 @@ function DermatologyAndCosmetology(props) {
                             </div>
                             <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(https://images.unsplash.com/photo-1534768654272-e97681c3a2c7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QW50aSUyMEFnZWluZyUyMFRyZWF0bWVudHN8ZW58MHx8MHx8fDA%3D)`, backgroundPosition: "center"}}>
+                        <div id="curve" className="card" style={{background: `url(${photo11})`, backgroundPosition: "center"}}>
                             <div className="footercard">
                             <div className="connections">
                                     <div className="connection facebook"><Link to={"/anti-aging-treatments/"}>Anti Ageing Treatments </Link></div>

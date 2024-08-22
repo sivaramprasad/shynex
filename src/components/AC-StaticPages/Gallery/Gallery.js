@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Gallery.css";
 import HomeContent from "../../../content/HomeContent";
-import courseBanner from "../../../assets/img/banners/about-us.png";
+import courseBanner from "../../../assets/img/banners/about-us.webp";
 import { ImageGallery } from "overlay-image-gallery";
 
 

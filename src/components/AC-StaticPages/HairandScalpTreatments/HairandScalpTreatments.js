@@ -2,11 +2,11 @@ import React from 'react'
 import "./HairandScalpTreatments.css";
 import HomeContent from "../../../content/HomeContent";
 
-import courseBanner from "../../../assets/img/banners/about-us.png";
+import courseBanner from "../../../assets/img/banners/about-us.webp";
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import hwst from "../../../assets/img/Botox.jpg";
+import hwst from "../../../assets/img/Botox.webp";
 
 import { Helmet } from "react-helmet";
 const Item = styled(Paper)(({ theme }) => ({
