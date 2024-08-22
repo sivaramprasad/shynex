@@ -3,14 +3,10 @@ import "./AlmaSopranoTitanium.css";
 import HomeContent from "../../../content/HomeContent";
 import { Link } from "react-router-dom";
 
-<<<<<<< HEAD
-import courseBanner from "../../../assets/img/banners/about-us.png";
-=======
 import courseBanner from "../../../assets/img/banners/about-us.webp";
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
->>>>>>> 92097205e2014f623c574c112a216f9eb9a8a486
 
 import { Helmet } from "react-helmet";
 

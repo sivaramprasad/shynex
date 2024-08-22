@@ -2,14 +2,11 @@ import React from "react";
 import "./AboutBsp.css";
 import Lips from "../assets/img/home/home2-2.webp";
 import Botox from "../assets/img/home/home3-2.webp";
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 
 
-=======
 import homeimg from "../assets/img/home/home4-1.webp";
 import homeimg1 from "../assets/img/home/home5-1.webp";
->>>>>>> 92097205e2014f623c574c112a216f9eb9a8a486
 
 
 

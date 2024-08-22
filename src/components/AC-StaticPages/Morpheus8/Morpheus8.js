@@ -3,7 +3,7 @@ import "./Morpheus8.css";
 import HomeContent from "../../../content/HomeContent";
 import { Link } from "react-router-dom";
 
-import courseBanner from "../../../assets/img/banners/about-us.png";
+import courseBanner from "../../../assets/img/banners/about-us.webp";
 
 import { Helmet } from "react-helmet";
 
