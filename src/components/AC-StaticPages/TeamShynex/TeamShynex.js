@@ -1,7 +1,7 @@
 import React from 'react'
 import "./TeamShynex.css";
 import HomeContent from "../../../content/HomeContent";
-import courseBanner from "../../../assets/img/banners/about-us.png";
+import courseBanner from "../../../assets/img/banners/about-us.webp";
 import { TfiFacebook, TfiLinkedin } from "react-icons/tfi";
 import mentor1 from "../../../assets/img/test/mentor1.webp"
 import men2 from "../../../assets/img/test/men2.webp"
