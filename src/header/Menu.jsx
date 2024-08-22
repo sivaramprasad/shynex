@@ -37,14 +37,17 @@ const AboutUs = () => < Async load={import("../components/AC-StaticPages/AboutUs
 const GeneralDermatologyServices = () => < Async load={import("../components/AC-StaticPages/GeneralDermatologyServices/GeneralDermatologyServices")} />;
 const CosmeticDermatologyTreatments = () => < Async load={import("../components/AC-StaticPages/CosmeticDermatologyTreatments/CosmeticDermatologyTreatments")} />;
 const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
+const AlmaSopranoTitanium  = () => < Async load={import("../components/AC-StaticPages/AlmaSopranoTitanium/AlmaSopranoTitanium")} />;
+
+
 
 
 
 // const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
 const Technology = () => < Async load={import("../components/AC-StaticPages/Technology/Technology")} />;
-const Technology1 = () => < Async load={import("../components/AC-StaticPages/Technology1/Technology1")} />;
-const Technology2 = () => < Async load={import("../components/AC-StaticPages/Technology2/Technology2")} />;
-const Technology3 = () => < Async load={import("../components/AC-StaticPages/Technology3/Technology3")} />;
+const AlmaHarmonyXLPRo = () => < Async load={import("../components/AC-StaticPages/AlmaHarmonyXLPRo/AlmaHarmonyXLPRo")} />;
+const Morpheus8 = () => < Async load={import("../components/AC-StaticPages/Morpheus8/Morpheus8")} />;
+const CrustalPRO = () => < Async load={import("../components/AC-StaticPages/CrustalPRO/CrustalPRO")} />;
 
 
 
@@ -321,7 +324,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "Technology2") {
+  else if (props.component == "CrustalPRO") {
     return (
       <>
 
@@ -342,7 +345,7 @@ function Menu(props) {
           <Toolbar />
 
         </React.Fragment>
-        <Technology2 />
+        <CrustalPRO />
         <Footer />
         <ScrollToTop
           smooth
@@ -352,40 +355,40 @@ function Menu(props) {
     );
   }
    
-  else if (props.component == "Technology3") {
-    return (
-      <>
+  // else if (props.component == "Technology3") {
+  //   return (
+  //     <>
 
-        <React.Fragment>
-          <CssBaseline />
-          <ThemeProvider theme={darkTheme}>
-            <ElevationScroll {...props}>
+  //       <React.Fragment>
+  //         <CssBaseline />
+  //         <ThemeProvider theme={darkTheme}>
+  //           <ElevationScroll {...props}>
 
-              <AppBar>
-                <TopBar />
-                <Toolbar style={toolbarStyle}>
-                  <MenuCore />
-                </Toolbar>
-              </AppBar>
+  //             <AppBar>
+  //               <TopBar />
+  //               <Toolbar style={toolbarStyle}>
+  //                 <MenuCore />
+  //               </Toolbar>
+  //             </AppBar>
 
-            </ElevationScroll>
-          </ThemeProvider>
-          <Toolbar />
+  //           </ElevationScroll>
+  //         </ThemeProvider>
+  //         <Toolbar />
 
-        </React.Fragment>
-        <Technology3 />
-        <Footer />
-        <ScrollToTop
-          smooth
-          top={100}
-        />
-      </>
-    );
-  }
+  //       </React.Fragment>
+  //       <Technology3 />
+  //       <Footer />
+  //       <ScrollToTop
+  //         smooth
+  //         top={100}
+  //       />
+  //     </>
+  //   );
+  // }
 
 
  
-  else if (props.component == "Technology1") {
+  else if (props.component == "Morpheus8") {
     return (
       <>
 
@@ -406,7 +409,7 @@ function Menu(props) {
           <Toolbar />
 
         </React.Fragment>
-        <Technology1 />
+        <Morpheus8 />
         <Footer />
         <ScrollToTop
           smooth
@@ -819,6 +822,39 @@ function Menu(props) {
       </>
     );
   }
+  else if (props.component ===  "AlmaHarmonyXLPRo") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <AlmaHarmonyXLPRo />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+  
   else if (props.component ===  "DermatologyAndCosmetology") {
     return (
       <>
@@ -842,6 +878,38 @@ function Menu(props) {
         </React.Fragment>
 
         <DermatologyAndCosmetology />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+  else if (props.component ===  "AlmaSopranoTitanium") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <AlmaSopranoTitanium />
         <Footer />
         <ScrollToTop
           smooth

@@ -2,6 +2,7 @@ import React from "react";
 import "./AboutBsp.css";
 import Lips from "../assets/img/home/home2-2.webp";
 import Botox from "../assets/img/home/home3-2.webp";
+import { Link } from "react-router-dom";
 
 
 
@@ -65,13 +66,13 @@ function HomeContent() {
               <div className="elementor-element elementor-element-f38bc14 elementor-widget elementor-widget-text-editor">
                 <div className="elementor-widget-container">
                   <p style={{ textAlign: "center" }}><span style={{ color: "#FFFFFF" }}>At Shynex, we believe in harnessing the latest technology<br />
-                  to empower dermatologists to achieve exceptional results</span></p> </div>
+                  to empower dermatologists </span></p> </div>
               </div>
               <div className="elementor-element elementor-element-f4a8354 elementor-widget__width-auto elementor-widget elementor-widget-touchup_core_button" style={{ color: "#FFFFFF", textAlign: "center" }}>
                 <div className="elementor-widget-container">
-                  <a className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" href="https://touchup.qodeinteractive.com/when-surgery-is-not-needed/" style={{ color: "#FFFFFF", textAlign: "center" }}>
+                  <Link className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" to={"/alma-harmony-xl-pro/"} style={{ color: "#FFFFFF", textAlign: "center" }}>
                     <span className="qodef-m-text" style={{ color: "#FFFFFF", textAlign: "center" }}>Read more</span>
-                  </a> </div>
+                  </Link> </div>
               </div>
             </div>
           </div>
@@ -98,14 +99,13 @@ function HomeContent() {
               </div>
               <div className="elementor-element elementor-element-ad507e7 elementor-widget elementor-widget-text-editor">
                 <div className="elementor-widget-container">
-                  <p style={{ color: "#777777", textAlign: "center" }}><span style={{ color: "#777777", textAlign: "center" }}>Lorem ipsum dolor sit amet,<br />
-                    adipisicing elit eius mod tem</span></p> </div>
+                  <p style={{ color: "#777777", textAlign: "center", width: "80%", margin: "0 auto" }}><span style={{ color: "#777777", textAlign: "center" }}>At Shynex, we believe in harnessing the latest technology to empower dermatologists</span></p> </div>
               </div>
               <div className="elementor-element elementor-element-3f0b3e9 elementor-widget__width-auto elementor-widget elementor-widget-touchup_core_button" style={{ textAlign: "center" }}>
                 <div className="elementor-widget-container">
-                  <a className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" href="https://touchup.qodeinteractive.com/celebrity-surgeries/" target="_self" style={{ color: "#974478" }}>
+                  <Link className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" to={"/alma-harmony-xl-pro/"} style={{ color: "#974478" }}>
                     <span className="qodef-m-text">Read more</span>
-                  </a> </div>
+                  </Link> </div>
               </div>
             </div>
           </div>
@@ -126,14 +126,13 @@ function HomeContent() {
               </div>
               <div className="elementor-element elementor-element-dcb6a37 elementor-widget elementor-widget-text-editor">
                 <div className="elementor-widget-container">
-                  <p style={{ textAlign: "center" }}><span style={{ color: "#777" }}>Lorem ipsum dolor sit amet,<br />
-                    adipisicing elit eius mod tem</span></p> </div>
+                  <p style={{ textAlign: "center", width: "80%", margin: "0 auto" }}><span style={{ color: "#777" }}>At Shynex, we’re at the forefront of revolutionizing the beauty and wellness industry</span></p> </div>
               </div>
               <div className="elementor-element elementor-element-dda00ad elementor-widget__width-auto elementor-widget elementor-widget-touchup_core_button" data-id="dda00ad" data-element_type="widget" data-widget_type="touchup_core_button.default">
                 <div className="elementor-widget-container" style={{ textAlign: "center" }}>
-                  <a className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" href="https://touchup.qodeinteractive.com/celebrity-surgeries/" target="_self" style={{ color: "#974478", textAlign: "center" }}>
+                  <Link className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" to={"/morpheus8/"} target="_self" style={{ color: "#974478", textAlign: "center" }}>
                     <span className="qodef-m-text">Read more</span>
-                  </a> </div>
+                  </Link> </div>
               </div>
             </div>
           </div>
@@ -156,14 +155,13 @@ function HomeContent() {
               </div>
               <div className="elementor-element elementor-element-3d82a80 elementor-widget elementor-widget-text-editor">
                 <div className="elementor-widget-container">
-                  <p style={{ textAlign: "center" }}><span style={{ color: "#FFFFFF" }}>Lorem ipsum dolor sit amet, <br />
-                    adipisicing elit eius mod tem</span></p> </div>
+                  <p style={{ textAlign: "center", width: "80%", margin: "0 auto" }}><span style={{ color: "#FFFFFF" }}>Now you can positively say goodbye to stubborn fat and hello to a more sculpted..</span></p> </div>
               </div>
               <div className="elementor-element elementor-element-557687d elementor-widget__width-auto elementor-widget elementor-widget-touchup_core_button">
                 <div className="elementor-widget-container" style={{ textAlign: "center" }}>
-                  <a className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" href="https://touchup.qodeinteractive.com/when-surgery-is-not-needed/" target="_self" style={{ color: "#FFFFFF", textAlign: "center" }}>
+                  <Link className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" to={"/cristal-pro/"} target="_self" style={{ color: "#FFFFFF", textAlign: "center" }}>
                     <span className="qodef-m-text">Read more</span>
-                  </a> </div>
+                  </Link> </div>
               </div>
             </div>
           </div>

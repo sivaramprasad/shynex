@@ -1,55 +1,67 @@
 import React from 'react'
-import "./AboutUs.css";
+import "./AlmaSopranoTitanium.css";
 import HomeContent from "../../../content/HomeContent";
+import { Link } from "react-router-dom";
 
 import courseBanner from "../../../assets/img/banners/about-us.png";
-import Grid from '@mui/material/Unstable_Grid2';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
 
 import { Helmet } from "react-helmet";
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-}));
 
 
-function Aboutus(props) {
+
+function AlmaSopranoTitanium(props) {
     return (
         <>
             <Helmet>
-                <title>Top Dermatologist & Skin Specialist in Hyderabad | Shynex Clinic</title>
-                <meta name="description" content="Your search for best skin specialist near me ends at Shynex, Hyderabad's top skincare clinic. Experience advanced laser treatments for skin, hair, & full body." />
-                <meta name="keywords" content="tattoo removal, scar revision, birthmark removal, US FDA-approved laser, skin rejuvenation, Shynex Poly Clinic, advanced aesthetics treatments, non-invasive procedures, skin improvement" />
+                <title>Advanced Laser Hair Removal & Aesthetic Treatments at Shynex</title>
+                <meta name="description" content="Discover the Alma Soprano Titanium at Shynex for best laser hair reduction and aesthetic treatments. Experience smooth, hair-free skin with minimal discomfort." />
+                <meta name="keywords" content="Alma Soprano Titanium, laser hair removal, skin rejuvenation, aesthetic treatments, hair-free skin, advanced laser technology, painless hair removal, Shynex Clinic" />
             </Helmet>
             <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className="sec-title">
+                <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Alma Soprano Titanium </h1>
+            </div>
+            <div className='containerMain'>
+                <div className='Dermatology'> 
+                <p>Experience the pinnacle of skincare innovation with the Alma Soprano Titanium, a trendsetter in laser hair removal and aesthetic treatments. Designed with precision and ingenuity, this state-of-the-art device redefines professional skincare standards by blending effectiveness, safety, and comfort seamlessly.</p>
 
+                <h2>About Soprano Titanium:</h2>
+
+                <p>The Alma Soprano Titanium harnesses cutting-edge laser technology to deliver outstanding results in hair removal, skin rejuvenation, and various dermatological procedures. Its user-friendly design and intuitive interface ensure hassle-free operation, while its advanced cooling system guarantees maximum patient comfort during treatments.</p>
+
+
+                <h2>Unlocking the Power features:</h2>
+
+                <p><b>Triple wavelength in one applicator</b> - The Alma Soprano Titanium is a game-changer in hair removal, thanks to its three-wavelength applicator. This feature blends three different wavelengths (755nm, 810nm, and 1064nm) to zap away hair of all types and skin tones. It's like having a triple threat against unwanted hair! Plus, because it uses all three wavelengths simultaneously, it covers more ground and gives better results, even on darker or tanned skin. With this attractive tech, clients get smoother skin with fewer sessions, and they can relax knowing it's safe and comfortable. So, if you're after top-notch hair removal, the Alma Soprano Titanium is where it's at</p>
+
+                <p><b>ICE Plus</b> - Experience the next level of comfort with ICE Plus technology. Soprano Titanium’s advanced cooling system ensures continuous contact cooling throughout the treatment, keeping the skin comfortable and safe. You can say farewell to discomfort and hello to pain-free sessions.</p>
+
+                <p><b>SHR Technology</b> - Soprano Titanium's SHR technology represents a significant breakthrough in laser hair removal. It operates by gently heating the hair follicles, ensuring a virtually painless treatment suitable for all skin types, even tanned skin. Requiring fewer sessions than traditional methods, it swiftly and safely delivers enduring results. This innovation in non-invasive hair removal makes smooth, hair-free skin more attainable and comfortable than ever before.</p>
+
+
+
+
+
+
+                <h2>Why Choose Alma Soprano Titanium?</h2>
+
+                <p><b>Efficiency</b> - The Alma Soprano Titanium offers rapid and efficient hair removal, enabling practitioners to treat large areas quickly with minimal discomfort to the patient.</p>
+
+                <p><b>Safety and comfort</b> - Patients experience minimal discomfort during treatments, thanks to the Soprano Titanium's advanced cooling system and virtually painless procedure, making it suitable for all skin types, including sensitive skin. Soprano Titanium also ensures precise targeting of hair follicles while simultaneously cooling the surrounding tissue, reducing the risk of adverse effects such as burns or pigmentation changes.</p>
+
+
+<p><b>USFDA Approved</b> - Alma's Soprano Titanium laser system boasts USFDA approval, affirming its reliability and efficacy in hair removal treatments. With cutting-edge technology, it guarantees care, precision, and overall well-being, meeting rigorous standards for medical device performance. </p>
+<p>Long-lasting Results - By targeting hair follicles at the root, the Alma Soprano Titanium achieves long-lasting results, reducing the need for frequent maintenance sessions, and providing patients with smoother, hair-free skin.</p>
+
+<p><b><Link to={"/contactus/"}>Schedule Your Next Laser Hair Removal Session</Link></b> with the Remarkable Soprano Titanium!</p>
+
+
+                </div>
+
+                
+                                        
+            </div>
             
-            <Grid container spacing={1} className="main-img" style={{ boxShadow: "none" }}>
-
-                <Grid xs={12} style={{ boxShadow: "none" }}>
-                    <Item style={{ boxShadow: "none" }}>      <div className="inner-column">
-                        <div className="sec-title">
-                            <h1 className='tagline' style={{color: "#000", margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Best Skin and Hair Clinic in Hyderabad</h1>
-                        </div>
-                        <div style={{width: "90%", margin: "0 auto"}}>                       
-                             <div className="text">Welcome to Shynex Poly Clinic, a premier healthcare destination in the vibrant city of Hyderabad. At Shynex, we are dedicated to transforming lives through the art and science of advanced dermatology and cosmetology. Our mission is to provide unparalleled healthcare services, with a vision to establish multiple centers across the city, making top-tier care accessible to all.</div>
-
-                            <div className="text">Our team of esteemed doctors, each with extensive years of experience and expertise, ensures that every patient receives compassionate and effective care. We understand that each individual is unique, and we are committed to crafting personalized treatment plans that cater to your specific needs and goals. At Shynex, we specialize in offering top-notch skin and hair treatments for both men and women at affordable prices. Our clinic is equipped with state-of-the-art, USFDA-approved technology, ensuring the highest safety and efficacy standards.</div>
-                            <div className="text">We provide a comprehensive range of services including <span style={{ textDecoration: "underline" }}><a style={{ textDecoration: "underline" }} href='contact'>Hollywood facials</a>, <a style={{ textDecoration: "underline" }} href='contact'>pigmentation removal</a>, <a style={{ textDecoration: "underline" }} href='contact'>laser treatments</a>, <a style={{ textDecoration: "underline" }} href='contact'>chemical peels</a>, <a style={{ textDecoration: "underline" }} href='contact'>hair loss treatments</a>, <a style={{ textDecoration: "underline" }} href='contact'>slimming services</a>, <a style={{ textDecoration: "underline" }} href='contact'>skin cancer screening</a>,</span> and more. Whether you are looking to rejuvenate your skin, address hair loss, or achieve your desired body shape, our advanced treatments are designed to meet your needs. Our team of the best cosmetologists and dermatologists in Hyderabad takes the utmost care in providing precise and effective treatments. With a deep commitment to healthcare innovation, we are not just a clinic; we are a partner in your journey towards better health and enhanced confidence.</div>
-                            <div className="text">At Shynex Poly Clinic, our dedication to your well-being goes beyond treatment. We strive to create a warm and welcoming environment where you feel comfortable and cared for from the moment you walk through our doors. Driven by a passion for healthcare innovation, we ensure that modern expertise meets compassionate care, offering you the best possible outcomes. </div>
-                            <div className="text">Achieve radiant skin and healthy hair with Shynex. <span style={{ textDecoration: "underline" }}><a style={{ textDecoration: "underline" }} href='contact'>Book your appointment today </a></span> and enhance your confidence and well-being. </div>
-
-                        </div>
-                    </div>
-                    </Item>
-                </Grid>
-
-
-            </Grid>
 
             <HomeContent />
         </>
@@ -57,5 +69,5 @@ function Aboutus(props) {
 }
 
 
-export default Aboutus;
+export default AlmaSopranoTitanium;
 

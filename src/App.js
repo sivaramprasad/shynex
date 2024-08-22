@@ -88,32 +88,32 @@ export default function App() {
                     <Menu {...routeProps} component="GeneralDermatologyServices" />
                   )}
                 />
-                    <Route
+                <Route
                   exact
                   path={"/alma-soprano-titanium/"}
                   render={routeProps => (
                     <Menu {...routeProps} component="Technology" />
                   )}
                 />
-                    <Route
+                <Route
                   exact
                   path={"/alma-harmony-xl-pro/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="Technology1" />
+                    <Menu {...routeProps} component="AlmaHarmonyXLPRo" />
                   )}
                 />
-                    <Route
+                <Route
                   exact
-                  path={"/technology/morpheus8/"}
+                  path={"/morpheus8/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="Technology2" />
+                    <Menu {...routeProps} component="Morpheus8" />
                   )}
                 />
-                   <Route
+                <Route
                   exact
-                  path={"/technology/cristal-pro/"}
+                  path={"/cristal-pro/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="Technology3" />
+                    <Menu {...routeProps} component="CrustalPRO" />
                   )}
                 />
                 <Route
@@ -144,7 +144,7 @@ export default function App() {
                     <Menu {...routeProps} component="ContactUs" />
                   )}
                 />
-               
+
                 <Route
                   exact
                   path={"/affilication/"}
@@ -193,11 +193,19 @@ export default function App() {
                   )}
                 />
 
-<Route
+                <Route
                   exact
                   path={"/dermatology-and-cosmetology/"}
                   render={routeProps => (
                     <Menu {...routeProps} component="DermatologyAndCosmetology" />
+                  )}
+                />
+
+                <Route
+                  exact
+                  path={"/alma-harmony-xl-pro/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="AlmaSopranoTitanium" />
                   )}
                 />
 
