@@ -19,7 +19,7 @@ function contactus(props) {
             </Helmet>
             <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
       
-            <div className="sec-title">
+            {/* <div className="sec-title">
                 <h2 style={{ marginTop: "45px" }}>Don’t Wish To Talk Or Type?</h2>
             </div>
             <div style={{position: "relative", height: "618px"}}>
@@ -44,7 +44,7 @@ function contactus(props) {
                 <div id="HiddenText3"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></div>
             </div>
             
-            </div>
+            </div> */}
 
           
             <HomeContent />

@@ -154,7 +154,7 @@ export default function MenuCore() {
 
                     </li>
                     <li>
-                      <Link to={"/courses/"}>our departments <FiChevronDown /></Link>
+                      <Link to={"/dermatology-and-cosmetology/"}>our departments <FiChevronDown /></Link>
                       <ul>
 
 
@@ -169,8 +169,8 @@ export default function MenuCore() {
                               id="panel1-header"
                               style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
                             >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>dermatology and
-                                cosmetology</Typography>
+                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/dermatology-and-cosmetology/"}>dermatology and
+                                cosmetology</Link></Typography>
                             </AccordionSummary>
 
                           </Accordion>

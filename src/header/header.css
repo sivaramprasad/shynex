@@ -1225,7 +1225,7 @@ background: url(../assets/img/banners/bgstick.webp) 50% 0 no-repeat fixed;
 .pr9{
   position: relative;
   z-index: 9;
-  top: -80px;
+  top: 0px;
 }
 .bgw{
   background: #fff;

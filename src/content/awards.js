@@ -11,7 +11,7 @@ function HomeContent() {
   return (
     <>
  
- <section className="elementor-section elementor-top-section elementor-element elementor-element-69087175 qodef-elementor-content-grid elementor-section-boxed elementor-section-height-default elementor-section-height-default" style={{marginTop: "100px", background: "#f4f1ef", padding: "70px 0px 0px 0px"}}>
+ <section className="elementor-section elementor-top-section elementor-element elementor-element-69087175 qodef-elementor-content-grid elementor-section-boxed elementor-section-height-default elementor-section-height-default" style={{marginTop: "40px", background: "#f4f1ef", padding: "40px 0px 40px 0px"}}>
 <div className="elementor-container elementor-column-gap-default">
 <div className="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a57ffdb">
 <div className="elementor-widget-wrap elementor-element-populated">
@@ -29,7 +29,7 @@ function HomeContent() {
 <div className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-3448b063">
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-146410bf elementor-widget elementor-widget-text-editor">
-<div className="elementor-widget-container" style={{margin: "90px 0px 0px 50px"}}>
+<div className="elementor-widget-container" style={{margin: "0px 0px 0px 50px"}}>
     {/* <h5 className='welcome'>Welcome to Shynex Poly Clinic</h5> */}
     <h1 className='Best'>Welcome to Shynex Poly Clinic</h1>
 <p className='para'>Shynex Poly Clinic in Hyderabad is your trusted partner in achieving healthy skin and hair, offering advanced and affordable dermatology and cosmetology treatments tailored to your unique needs. Our dedicated team, including Dr. Vangala Moulika, brings a wealth of expertise and genuine care to every patient, ensuring you feel confident and cared for every step of the way. At Shynex, we’re here to help you look and feel your best with the latest innovations in skin and hair care</p> </div>

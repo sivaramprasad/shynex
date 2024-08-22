@@ -193,6 +193,14 @@ export default function App() {
                   )}
                 />
 
+<Route
+                  exact
+                  path={"/dermatology-and-cosmetology/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="DermatologyAndCosmetology" />
+                  )}
+                />
+
 
 
                 <Route

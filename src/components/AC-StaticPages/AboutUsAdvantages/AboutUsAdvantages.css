@@ -45,4 +45,16 @@ h3.courses-title {
   }
 }
 
-
+.texta{
+  margin-bottom: 10px;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    color: #000;
+    line-height: 28px;
+}
+.texta span{
+  color: #974478;
+}

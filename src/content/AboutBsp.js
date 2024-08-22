@@ -13,6 +13,33 @@ function HomeContent() {
   return (
 
     <>
+    <div className="requestMain">
+      <div className="requestMainInner">
+        <div className="requestMainLeft">Request a Consultation</div>
+        <div className="requestMainCenter">
+          <div className="requestInputMain">
+            <div className="requestInputMainLeft">
+              <input type="text" className="makeinput" placeholder="Name*" />
+              <input type="text" className="makeinput" placeholder="Phone Number*" />
+            </div>
+            <div className="requestInputMainRight">
+              <input type="text" className="" placeholder="Email*" />
+              <select className="makeinput" name="service-type">
+                <option value="Service Type">Service Type</option>
+                <option value="Unwanted Hair Treatment">Unwanted Hair Treatment</option>
+                <option value="Acne/Scar Treatments">Acne/Scar Treatments</option>
+                <option value="Specific Skin Concerns">Specific Skin Concerns</option>
+                <option value="Hair Regrowth Treatment">Hair Regrowth Treatment</option>
+                <option value="Anti-Ageing Skin Treatments">Anti-Ageing Skin Treatments</option>
+                <option value="Medical Treatments">Medical Treatments</option>
+                <option value="Other Treatments">Other Treatments</option>
+                </select>
+            </div>
+          </div>
+        </div>
+        <div className="requestMainRight"><button class="button-two1" fdprocessedid="gjo5yf"><span>Request a call back</span></button></div>
+      </div>
+    </div>
 
       <section className="elementor-section elementor-top-section elementor-element elementor-element-18a1911 elementor-section-full_width elementor-section-content-middle elementor-section-height-default elementor-section-height-default qodef-elementor-content-no">
         <div className="elementor-container elementor-column-gap-default">

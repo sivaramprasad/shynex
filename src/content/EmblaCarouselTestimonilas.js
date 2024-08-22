@@ -104,7 +104,7 @@ const EmblaCarousel = (props) => {
                     <div class="testimonial-content-block">
                       
                       <div className="tcontent">
-                      <div className="tname"><img src={rajath} className="testimonial-image" alt="rajath"/></div>
+                      {/* <div className="tname"><img src={rajath} className="testimonial-image" alt="rajath"/></div> */}
                       <p class="testimonial-paragraph">"Before I visited Shynex Clinic, I was quite self-conscious about my wrinkles. But from the moment I walked into their clinic, I felt reassured and in safe hands. The staff were incredibly knowledgeable and made me feel at ease about the Botox treatment. It was a game changer for me! Not only was the procedure quick and almost painless, but the results were also nothing short of amazing. My wrinkles have dramatically reduced, giving me a much more youthful appearance. I'm so grateful for the care and expertise at Shynex Clinic. They've truly revitalized my skin while ensuring my safety and comfort throughout the process." </p>
                       <div class="testimonial-author-wrap">
                         
@@ -128,7 +128,7 @@ const EmblaCarousel = (props) => {
                     <div class="testimonial-content-block">
                      
                       <div className="tcontent">
-                      <div className="tname"><img src={rajath} className="testimonial-image" alt="rajath"/></div>
+                      {/* <div className="tname"><img src={rajath} className="testimonial-image" alt="rajath"/></div> */}
                       <p class="testimonial-paragraph">"My experience at Shynex Clinic has been exceptional. From the moment I stepped in, I was greeted with warmth and professionalism. I was looking for a comprehensive solution to my skincare needs and found exactly that. The specialists here are not just experts in their field but also genuinely caring individuals. They recommended a personalized skin care regimen that addressed all my concerns - from dryness to uneven tone. The products and treatments, especially the hydrating facials, have been transformative. My skin now looks and feels healthier, and more radiant, and the compliments I receive are endless. I can confidently say that doctors at Shynex Clinic have given my skin a new lease of life."</p>
                       <div class="testimonial-author-wrap">
                         
@@ -151,7 +151,7 @@ const EmblaCarousel = (props) => {
                     <div class="testimonial-content-block">
                       
                       <div className="tcontent">
-                      <div className="tname"><img src={rajath} className="testimonial-image" alt="rajath"/></div>
+                      {/* <div className="tname"><img src={rajath} className="testimonial-image" alt="rajath"/></div> */}
                       <p class="testimonial-paragraph">"I visited Shynex Clinic for a laser skin treatment after noticing my skin losing its elasticity and firmness. The Dr at Shynex was fantastic - She walked me through the entire process, ensuring I understood and was comfortable with every step. The treatment itself was a revelation. In a couple of sessions, I could see a noticeable tightening and uplifting of my skin, giving me a refreshed and rejuvenated look. It's like they've turned back the clock on my skin! I'm beyond pleased with the results and the level of care I received. Thankyou Shynex"</p>
                       <div class="testimonial-author-wrap">
                         

@@ -35,23 +35,23 @@ section1 h3 {
   display: inline-block;
   text-decoration: none;
 }
- section1 .container {
+ section1 .container1 {
   margin-top: 0em;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   gap: 2rem;
   width: 100%;
 }
- section1 .container .card:nth-child(1) .box .icon .iconBox {
+ section1 .container1 .card1:nth-child(1) .box1 .icon1 .iconBox1 {
   background: #f0a5a7;
 }
- section1 .container .card:nth-child(2) .box .icon .iconBox {
+ section1 .container1 .card1:nth-child(2) .box1 .icon1 .iconBox1 {
   background: #70b3b1;
 }
- section1 .container .card:nth-child(3) .box .icon .iconBox {
+ section1 .container1 .card1:nth-child(3) .box1 .icon1 .iconBox1 {
   background: #d05fa2;
 }
- section1 .container .card ul {
+ section1 .container1 .cardq ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -60,7 +60,7 @@ section1 h3 {
   flex-wrap: wrap;
   gap: 0.625rem;
 }
- section1 .container .card ul li {
+ section1 .container1 .card1 ul li {
   text-transform: uppercase;
   background: #fff;
   color: #282828;
@@ -69,29 +69,29 @@ section1 h3 {
   padding: 0.375rem 0.625rem;
   border-radius: 0.188rem;
 }
- section1 .container .card ul .branding {
+ section1 .container1 .card1 ul .branding {
   color: #704a31;
 }
- section1 .container .card ul .packaging {
+ section1 .container1 .card1 ul .packaging {
   color: #1e3938;
 }
- section1 .container .card ul .marketing {
+ section1 .container1 .card1 ul .marketing {
   color: #4d1637;
 }
- section1 .container .card .content {
+ section1 .container1 .card .content1 {
   padding: 0.938rem 0.625rem;
 }
- section1 .container .card .content h3 {
+ section1 .container1 .card .content h3 {
   text-transform: capitalize;
   font-size: clamp(1.5rem, 1.3909rem + 0.4364vw, 1.8rem);
 }
- section1 .container .card .content p {
+ section1 .container1 .card .content1 p {
   margin: 0.625rem 0 1.25rem;
   color: #222;
   font-size: 15px;
   font-weight: 500;
 }
- section1 .container .card-inner {
+ section1 .container1 .card-inner1 {
   position: relative;
   width: inherit;
   height: 18.75rem;
@@ -100,23 +100,23 @@ section1 h3 {
   border-bottom-right-radius: 0;
   overflow: hidden;
 }
- section1 .container .card-inner .box {
+ section1 .container1 .card-inner1 .box1 {
   width: 100%;
   height: 100%;
   background: #fff;
   border-radius: 1.25rem;
   overflow: hidden;
 }
- section1 .container .card-inner .box .imgBox {
+ section1 .container1 .card-inner1 .box1 .imgBox1 {
   position: absolute;
   inset: 0;
 }
- section1 .container .card-inner .box .imgBox img {
+ section1 .container1 .card-inner1 .box1 .imgBox1 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
- section1 .container .card-inner .box .icon {
+ section1 .container1 .card-inner1 .box1 .icon1 {
   position: absolute;
   bottom: -0.375rem;
   right: -0.375rem;
@@ -125,10 +125,10 @@ section1 h3 {
   background: #fff;
   border-top-left-radius: 50%;
 }
- section1 .container .card-inner .box .icon:hover .iconBox {
+ section1 .container1 .card-inner1 .box1 .icon1:hover .iconBox1 {
   transform: scale(1.1);
 }
- section1 .container .card-inner .box .icon::before {
+ section1 .container1 .card-inner1 .box1 .icon1::before {
   position: absolute;
   content: "";
   bottom: 0.375rem;
@@ -139,7 +139,7 @@ section1 h3 {
   border-bottom-right-radius: 1.25rem;
   box-shadow: 0.313rem 0.313rem 0 0.313rem #fff;
 }
- section1 .container .card-inner .box .icon::after {
+ section1 .container1 .card-inner1 .box1 .icon1::after {
   position: absolute;
   content: "";
   top: -1.25rem;
@@ -150,7 +150,7 @@ section1 h3 {
   border-bottom-right-radius: 1.25rem;
   box-shadow: 0.313rem 0.313rem 0 0.313rem #fff;
 }
- section1 .container .card-inner .box .icon .iconBox {
+ section1 .container1 .card-inner1 .box1 .icon1 .iconBox1 {
   position: absolute;
   inset: 0.625rem;
   background: #282828;
@@ -160,7 +160,7 @@ section1 h3 {
   align-items: center;
   transition: 0.3s;
 }
- section1 .container .card-inner .box .icon .iconBox span {
+ section1 .container1 .card-inner1 .box1 .icon1 .iconBox1 span {
   color: #fff;
   font-size: 1.5rem;
 }

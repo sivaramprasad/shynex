@@ -14,12 +14,12 @@ function HomeContent() {
   return (
     <> 
    
-<div style={{position: "relative", top: "-50px"}}>
+<div style={{position: "relative", top: "30px"}}>
    <h2 className='mainHeading'>Blog</h2>
    <h4 className='subHeading'>Stay updated with the latest in skincare and health.</h4>
 
    </div>   
-<section id="page-tuition_aid-section" class="tuitiona-aid-section bg-bg100 flex items-end md:items-center relative overflow-hidden pt-5 sm:pt-10  -mt-[2px]" data-locomotive-section-id="page-tuition_aid" data-locomotive-section-type="tuition_aid" style={{background:"none", zIndex: "2", 
+<section id="page-tuition_aid-section" class="tuitiona-aid-section bg-bg100 flex items-end md:items-center relative overflow-hidden pt-5 sm:pt-10  -mt-[2px]" data-locomotive-section-id="page-tuition_aid" data-locomotive-section-type="tuition_aid" style={{background:"none", zIndex: "2", marginTop: "60px"
 
   }}>
   

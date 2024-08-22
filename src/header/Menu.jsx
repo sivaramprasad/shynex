@@ -30,6 +30,7 @@ const HairandScalpTreatments = () => < Async load={import("../components/AC-Stat
 const Gallery = () => < Async load={import("../components/AC-StaticPages/Gallery/Gallery")} />;
 
 
+const DermatologyAndCosmetology = () => < Async load={import("../components/AC-StaticPages/DermatologyAndCosmetology/DermatologyAndCosmetology")} />;
 
 const MedicalFacials = () => < Async load={import("../components/AC-StaticPages/MedicalFacials/MedicalFacials")} />;
 const AboutUs = () => < Async load={import("../components/AC-StaticPages/AboutUs/AboutUs")} />;
@@ -72,7 +73,7 @@ const darkTheme = createTheme({
   palette: {
     mode: 'light',
     primary: {
-      main: 'rgba(255, 255, 255, 0.7)',
+      main: 'rgba(255, 255, 255, 1)',
     },
   },
 });
@@ -818,6 +819,39 @@ function Menu(props) {
       </>
     );
   }
+  else if (props.component ===  "DermatologyAndCosmetology") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <DermatologyAndCosmetology />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+  
   else if (props.component ===  "AntiAgeingTreatments") {
     return (
       <>
