@@ -1161,36 +1161,19 @@ background: url(../assets/img/banners/bgstick.webp) 50% 0 no-repeat fixed;
 .mainc{
   font-family: Montserrat;
   font-weight: 600;
+  
 }
-.css-1bp6ly3-MuiPaper-root-MuiAccordion-root.Mui-expanded{
-  margin:0px !important;
+.mainc a{
+  padding: 20px;
+  height: 48px;
+  line-height: 48px;
+  color: #fff !important;
 }
-.css-15v22id-MuiAccordionDetails-root{
-  padding: 0px;
+.mainc a:hover{
+  background: #f0a0a9 !important;
+  color: #222 !important;
 }
-.mainc svg:not(:root) {
-  overflow: hidden;
-  display: none !important;
-}
-.css-1086bdv-MuiPaper-root-MuiAccordion-root.Mui-expanded{
-  margin:0px !important;
-}
-.css-eqpfi5-MuiAccordionSummary-content.Mui-expanded {
-  margin: 0px 0 !important;
-}
-#nav li li a:hover{
-  background-color: #974478 !important;
-  width:95%;
-}
-.css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root:hover:not(.Mui-disabled) {
-  cursor: pointer;
-  background-color: #974478 !important;
 
-}
-.css-1f773le-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded{
-  background-color: #974478 !important;
-
-}
 .durga{
   background-image: url(../assets/img/partners/calls.png);
 }

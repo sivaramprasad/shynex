@@ -1,5 +1,6 @@
 import React from 'react';
 import person from "../assets/img/home/Shynex.webp";
+import { Link } from "react-router-dom";
 
 
 import "./awards.css"
@@ -34,7 +35,7 @@ function HomeContent() {
     <h1 className='Best'>Welcome to Shynex Poly Clinic</h1>
 <p className='para'>Shynex Poly Clinic in Hyderabad is your trusted partner in achieving healthy skin and hair, offering advanced and affordable dermatology and cosmetology treatments tailored to your unique needs. Our dedicated team, including Dr. Vangala Moulika, brings a wealth of expertise and genuine care to every patient, ensuring you feel confident and cared for every step of the way. At Shynex, we’re here to help you look and feel your best with the latest innovations in skin and hair care</p> </div>
 
-<button className="button-two"><span>Read More</span></button>
+<button className="button-two"><span><Link to={"/aboutus/"} style={{color: "#fff"}}>Read More</Link></span></button>
 </div>
 </div>
 </div>

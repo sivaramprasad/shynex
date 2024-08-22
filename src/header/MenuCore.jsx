@@ -74,132 +74,66 @@ export default function MenuCore() {
                     <li><Link to={"/"} onClick={() => selectTab(0)}>Home</Link></li>
                     <li>
                       <Link to={"/aboutus/"}>About Us <FiChevronDown /></Link>
-                      <ul>
+                      <ul style={{ width: "250px"}}>
 
 
 
-                        <div>
-
-                          <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              //  expandIcon={<ExpandMoreIcon style={{ color: "#fff" }} />}
-                              aria-controls="panel1-content"
-                              id="panel1-header"
-                              style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
+                    
                               
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/aboutus/"}>About Shynex</Link></Typography>
-                            </AccordionSummary>
+                              <div className="mainc"><Link to={"/aboutus/"}>About Shynex</Link></div>
+                           
 
-                          </Accordion>
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/why-choose-shynex/"}>Shynex Advantage</Link></Typography>
-                            </AccordionSummary>
+                         
+                         
+                              <div className="mainc"><Link to={"/why-choose-shynex/"}>Shynex Advantage</Link></div>
+                     
 
-                          </Accordion>
 
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/alma-soprano-titanium/"}>Shynex Technology</Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
+                          
+                              <div className="mainc" ><Link to={"/alma-soprano-titanium/"}>Shynex Technology <FiChevronDown /></Link>
                               
-
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/team-shynex-expert-dermatologists/"}>Team Shynex</Link></Typography>
-                            </AccordionSummary>
-
+                              <ul>
+                                <li>
+                                <div className="mainc"><Link style={{fontSize: "13px"}} to={"/alma-soprano-titanium/"}>Alma Soprano Titanium</Link></div>
+                                <div className="mainc"><Link style={{fontSize: "13px"}} to={"/alma-harmony-xl-pro/"}>Alma Harmony XL PRo</Link></div>
+                                <div className="mainc"><Link style={{fontSize: "13px"}} to={"/morpheus8/"}>Morpheus 8</Link></div>
+                                <div className="mainc"><Link style={{fontSize: "13px"}} to={"/cristal-pro/"}>Crustal PRO
+                                </Link></div>
+                                </li>
+                                </ul>
+                              </div>
                             
 
-                          </Accordion>
+                         
 
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
+                              <div className="mainc"><Link to={"/team-shynex-expert-dermatologists/"}>Team Shynex</Link></div>
+                            
+
+                          
                               
 
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/gallery-shynex-clinic/"}>Gallery</Link></Typography>
-                            </AccordionSummary>
+                              <div className="mainc"><Link to={"/gallery-shynex-clinic/"}>Gallery</Link></div>
+                           
 
-                          </Accordion>
-
-
-                        </div>
+                        
 
                       </ul>
 
                     </li>
                     <li>
                       <Link to={"/dermatology-and-cosmetology/"}>our departments <FiChevronDown /></Link>
-                      <ul>
+                      <ul style={{ width: "320px"}}>
 
 
 
-                        <div>
-
-                          <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              //  expandIcon={<ExpandMoreIcon style={{ color: "#fff" }} />}
-                              aria-controls="panel1-content"
-                              id="panel1-header"
-                              style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/dermatology-and-cosmetology/"}>dermatology and
-                                cosmetology</Link></Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>gynaecology</Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>ENT</Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-
-                        </div>
+                      
+                              <div className="mainc"><Link to={"/dermatology-and-cosmetology/"}>dermatology and
+                                cosmetology</Link></div>
+                             
+                              {/* <div className="mainc"><Link to={"/dermatology-and-cosmetology/"}>gynaecology</Link></div>
+                             
+                              <div className="mainc"><Link to={"/dermatology-and-cosmetology/"}>ENT</Link></div> */}
+                            
 
                       </ul>
 
@@ -207,154 +141,37 @@ export default function MenuCore() {
 
                     <li>
                       <Link to={"/courses/"}>Treatments <FiChevronDown /></Link>
-                      <ul>
+                      <ul style={{ width: "350px"}}>
 
 
-
-                        <div>
-
-                          <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')} style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              //  expandIcon={<ExpandMoreIcon style={{ color: "#fff" }} />}
-                              aria-controls="panel1-content"
-                              id="panel1-header"
-                              style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/general-dermatology-services/"}>General Dermatology Services</Link></Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/cosmetic-dermatology-treatments/"}> Cosmetic Dermatology Treatments</Link></Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/acne-treatments/"}>Acne Treatments</Link></Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc" style={{ color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }}>  <Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/skin-rejuvenation-youthful-skin/"}>Skin Rejuvenation</Link></Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/hair-scalp-treatments/"}>Hair and Scalp Treatments</Link></Typography>
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/medical-aesthetics-enhance-appearance/"}>Medical Aesthetics</Link></Typography>
-                              
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/mole-skin-cancer-checks/"}>Mole and Skin Cancer Checks</Link></Typography>
+                              <div className="mainc"><Link to={"/general-dermatology-services/"}>General Dermatology Services</Link></div>
                             
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/laser-treatments/"}>Laser Treatments</Link></Typography>
+                              < div className="mainc"><Link to={"/cosmetic-dermatology-treatments/"}> Cosmetic Dermatology Treatments</Link></ div>
+                            
+                              < div className="mainc"><Link to={"/acne-treatments/"}>Acne Treatments</Link></ div>
+                            
+                              < div className="mainc">  <Link to={"/skin-rejuvenation-youthful-skin/"}>Skin Rejuvenation</Link></ div>
+                            
+                              < div className="mainc"><Link to={"/hair-scalp-treatments/"}>Hair and Scalp Treatments</Link></ div>
+                            
+                              < div className="mainc"><Link to={"/medical-aesthetics-enhance-appearance/"}>Medical Aesthetics</Link></ div>
                               
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/body-contouring/"}>Body Contouring</Link></Typography>
+                            
+                              < div className="mainc"><Link to={"/mole-skin-cancer-checks/"}>Mole and Skin Cancer Checks</Link></ div>
+                            
                            
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/medical-facials-professional-skin-care/"}>Medical Facials</Link></Typography>
+                              < div className="mainc"><Link to={"/laser-treatments/"}>Laser Treatments</Link></ div>
                               
-                            </AccordionSummary>
-
-                          </Accordion>
-
-                          <Accordion style={{ backgroundColor: "#000" }}
-                          >
-                            <AccordionSummary
-                              // expandIcon={<ExpandMoreIcon style={{color: "#fff"}}/>}
-                              aria-controls="panel2-content"
-                              id="panel2-header" style={{ color: "#fff", minHeight: expanded ? "48px" : "48px" }}
-                            >
-                              <Typography className="mainc"><Link style={{ padding: "0px", color: "#fff", textTransform: "uppercase", fontSize: "13px", height: "20px", lineHeight: "20px", fontfamily: "Montserrat", fontweight: "600" }} to={"/anti-aging-treatments/"}>Anti Ageing Treatments</Link></Typography>
+                            
+                              < div className="mainc"><Link to={"/body-contouring/"}>Body Contouring</Link></ div>
+                           
+                            
+                              < div className="mainc"><Link to={"/medical-facials-professional-skin-care/"}>Medical Facials</Link></ div>
                               
-                            </AccordionSummary>
-
-                          </Accordion>
-                        
-
-
-                        </div>
-
+                           
+                              < div className="mainc"><Link to={"/anti-aging-treatments/"}>Anti Ageing Treatments</Link></ div>
+                              
+                            
                       </ul>
 
                     </li>

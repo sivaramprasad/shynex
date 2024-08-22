@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, shallowEqual } from "react-redux";
-import { TiSocialFacebook, TiSocialYoutube, TiSocialInstagram } from "react-icons/ti";
+import { TiSocialFacebook, TiSocialLinkedin , TiSocialInstagram } from "react-icons/ti";
 
 export default function TopBar() {
 
@@ -23,14 +23,14 @@ export default function TopBar() {
           </div>
           </div><div id="touchup_core_social_icons_group-4" className="widget widget_touchup_core_social_icons_group qodef-top-bar-widget"> <div className="qodef-social-icons-group">
             <span className="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal" data-hover-color="rgba(255,255,255,0.8)" style={{ margin: "0 16px 0 -13px" }}>
-              <a itemprop="url" href="https://www.facebook.com/QodeInteractive/" rel="noopener noreferrer" target="_blank">
+              <a itemprop="url" href="https://www.facebook.com/profile.php?id=61556155251267&mibextid=ZbWKwL" rel="noopener noreferrer" target="_blank">
                 <span className="qodef-icon-elegant-icons social_facebook qodef-icon qodef-e" style={{ fontSize: "21px" }}><TiSocialFacebook />
                 </span> </a>
             </span><span className="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal" data-hover-color="rgba(255,255,255,0.8)" style={{ margin: "0 19px 0 0 " }}>
-              <a itemprop="url" href="https://www.youtube.com/QodeInteractiveVideos" rel="noopener noreferrer" target="_blank">
-                <span className="qodef-icon-elegant-icons social_youtube qodef-icon qodef-e" style={{ fontSize: "21px" }}><TiSocialYoutube /></span> </a>
+              <a itemprop="url" href="https://www.linkedin.com/company/shynex-clinic/" rel="noopener noreferrer" target="_blank">
+                <span className="qodef-icon-elegant-icons social_youtube qodef-icon qodef-e" style={{ fontSize: "21px" }}><TiSocialLinkedin /></span> </a>
             </span><span className="qodef-shortcode qodef-m  qodef-icon-holder  qodef-layout--normal">
-              <a itemprop="url" href="https://twitter.com/QodeInteractive" rel="noopener noreferrer" target="_blank">
+              <a itemprop="url" href="https://www.instagram.com/shynex.poly.clinic?igsh=YXJncWRsb2prbm45" rel="noopener noreferrer" target="_blank">
                 <span className="qodef-icon-elegant-icons social_twitter qodef-icon qodef-e" style={{ fontSize: "21px" }}><TiSocialInstagram /></span> </a>
             </span> </div>
           </div> </div>

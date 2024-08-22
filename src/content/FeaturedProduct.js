@@ -27,7 +27,7 @@ function HomeContent() {
             <img src={a1} alt="Trust & Co." />
           </div>
           <div className="icon1">
-            <Link to={"/aboutus/"} className="iconBox1"> <span className="material-symbols-outlined1">
+            <Link to={"/general-dermatology-services/"} className="iconBox1"> <span className="material-symbols-outlined1">
                 <FiArrowUpRight />
               </span></Link>
           </div>
@@ -35,7 +35,6 @@ function HomeContent() {
       </div>
       <div className="content1">
         <h3>General Dermatology Services</h3>
-        <p>Fill out the form and the algorithm will offer the right team of experts</p>
       </div>
     </div>
     <div className="card1">
@@ -45,7 +44,7 @@ function HomeContent() {
             <img src={a2} alt="Tonic" />
           </div>
           <div className="icon1">
-            <Link to={"/aboutus/"} className="iconBox1"> <span className="material-symbols-outlined1">
+            <Link to={"/cosmetic-dermatology-treatments/"} className="iconBox1"> <span className="material-symbols-outlined1">
             <FiArrowUpRight />
               </span></Link>
           </div>
@@ -53,7 +52,6 @@ function HomeContent() {
       </div>
       <div className="content1">
         <h3>Cosmetic Dermatology</h3>
-        <p>Fill out the form and the algorithm will offer the right team of experts</p>
       </div>
     </div>
     <div className="card1">
@@ -63,7 +61,7 @@ function HomeContent() {
             <img src={a3} alt="Shower Gel" />
           </div>
           <div className="icon1">
-            <Link to={"/aboutus/"} className="iconBox1"> <span className="material-symbols-outlined1">
+            <Link to={"/acne-treatments/"} className="iconBox1"> <span className="material-symbols-outlined1">
             <FiArrowUpRight />
               </span></Link>
           </div>
@@ -71,7 +69,6 @@ function HomeContent() {
       </div>
       <div className="content1">
         <h3>Acne Treatments</h3>
-        <p>Fill out the form and the algorithm will offer the right team of experts</p>
       </div>
     </div>
     
@@ -84,7 +81,7 @@ function HomeContent() {
             <img src={a4} alt="Trust & Co." />
           </div>
           <div className="icon1">
-            <Link to={"/aboutus/"} className="iconBox1"> <span className="material-symbols-outlined1">
+            <Link to={"/skin-rejuvenation-youthful-skin/"} className="iconBox1"> <span className="material-symbols-outlined1">
                 <FiArrowUpRight />
               </span></Link>
           </div>
@@ -92,7 +89,6 @@ function HomeContent() {
       </div>
       <div className="content1">
         <h3>Skin Rejuvenation</h3>
-        <p>Fill out the form and the algorithm will offer the right team of experts</p>
       </div>
     </div>
     <div className="card1">
@@ -102,7 +98,7 @@ function HomeContent() {
             <img src={a5} alt="Tonic" />
           </div>
           <div className="icon1">
-            <Link to={"/aboutus/"} className="iconBox1"> <span className="material-symbols-outlined1">
+            <Link to={"/medical-aesthetics-enhance-appearance/"} className="iconBox1"> <span className="material-symbols-outlined1">
             <FiArrowUpRight />
               </span></Link>
           </div>
@@ -110,7 +106,6 @@ function HomeContent() {
       </div>
       <div className="content1">
         <h3>Hair and Scalp Treatments</h3>
-        <p>Fill out the form and the algorithm will offer the right team of experts</p>
       </div>
     </div>
     <div className="card1">
@@ -120,7 +115,7 @@ function HomeContent() {
             <img src={a6} alt="Shower Gel" />
           </div>
           <div className="icon1">
-            <Link to={"/aboutus/"} className="iconBox1"> <span className="material-symbols-outlined1">
+            <Link to={"/medical-aesthetics-enhance-appearance/"} className="iconBox1"> <span className="material-symbols-outlined1">
             <FiArrowUpRight />
               </span></Link>
           </div>
@@ -128,7 +123,6 @@ function HomeContent() {
       </div>
       <div className="content1">
         <h3>Medical Aesthetics</h3>
-        <p>Fill out the form and the algorithm will offer the right team of experts</p>
       </div>
     </div>
     

@@ -24,12 +24,14 @@ section1 {
 }
 section1 h3 {
   text-transform: capitalize;
-  letter-spacing: 0.025em;
-  font-size: 21px !important;
-  text-align: left;
-  margin-top: 10px;
-  font-weight: 500;
-  color: #444;
+    letter-spacing: 0.025em;
+    font-size: 21px !important;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
  section1 a {
   display: inline-block;

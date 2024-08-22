@@ -92,7 +92,7 @@ export default function App() {
                   exact
                   path={"/alma-soprano-titanium/"}
                   render={routeProps => (
-                    <Menu {...routeProps} component="Technology" />
+                    <Menu {...routeProps} component="AlmaSopranoTitanium" />
                   )}
                 />
                 <Route

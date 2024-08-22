@@ -1,6 +1,7 @@
 import React from 'react'
 import "./MedicalAesthetics.css";
 import HomeContent from "../../../content/HomeContent";
+import { Link } from "react-router-dom";
 
 import courseBanner from "../../../assets/img/banners/about-us.webp";
 import Grid from '@mui/material/Unstable_Grid2';
@@ -97,7 +98,7 @@ function SkinRejuvenation(props) {
                             <h2>Birthmark Removal</h2>
                         </div>
                         <div className="text">At Shynex, we focus on safely and effectively removing birthmarks using the latest laser technology. Our experienced dermatologists specialize in treating various birthmarks, including pigmented and vascular types, ensuring minimal risk and excellent results. The laser treatment targets the pigmentation or blood vessels within the birthmark, breaking them down so the body can naturally eliminate them over time. This gentle, non-invasive approach provides a precise solution for achieving clearer skin.</div>
-                        <div className="text">Before starting treatment, our dermatologists thoroughly assess the birthmark and the patient's skin to create a personalized plan. By using advanced laser technologies like the Alma Harmony XL PRO, we ensure effective treatment with little discomfort and quick recovery. Most patients see a significant reduction in their birthmarks after just a few sessions, with continued improvement over time. At Shynex Poly Clinic, we are dedicated to providing a safe, comfortable, and effective solution for your birthmark removal needs.</div>
+                        <div className="text">Before starting treatment, our dermatologists thoroughly assess the birthmark and the patient's skin to create a personalized plan. By using advanced laser technologies like the <Link to={"/alma-harmony-xl-pro/"} style={{color: "#974478"}}>Alma Harmony XL PRO</Link>, we ensure effective treatment with little discomfort and quick recovery. Most patients see a significant reduction in their birthmarks after just a few sessions, with continued improvement over time. At Shynex Poly Clinic, we are dedicated to providing a safe, comfortable, and effective solution for your birthmark removal needs.</div>
 
 
                     </div></Item>

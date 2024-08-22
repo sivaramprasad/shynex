@@ -1,7 +1,7 @@
 import React from 'react'
 import "./LaserTreatments.css";
 import HomeContent from "../../../content/HomeContent";
-
+import { Link } from "react-router-dom";
 import courseBanner from "../../../assets/img/banners/about-us.webp";
 import Grid from '@mui/material/Unstable_Grid2';
 import { styled } from '@mui/material/styles';
@@ -48,7 +48,7 @@ function SkinRejuvenation(props) {
                         <div className="sec-title">
                             <h2>Laser Hair Removal</h2>
                         </div>
-                        <div className="text">Laser hair removal is a cutting-edge cosmetic procedure that effectively reduces unwanted hair by targeting the hair follicles with concentrated light energy. At Shynex Poly Clinic, we use the latest US FDA-approved laser technology, Soprano Titanium and Diolaze XL to ensure precise and safe treatments. The benefits of laser hair removal include long-lasting results, smoother skin, and minimal discomfort compared to traditional hair removal methods such as shaving, waxing, or plucking.</div>
+                        <div className="text">Laser hair removal is a cutting-edge cosmetic procedure that effectively reduces unwanted hair by targeting the hair follicles with concentrated light energy. At Shynex Poly Clinic, we use the latest US FDA-approved laser technology, <Link to={"/alma-soprano-titanium/"} style={{color: "#974478"}}>Soprano Titanium</Link> and Diolaze XL to ensure precise and safe treatments. The benefits of laser hair removal include long-lasting results, smoother skin, and minimal discomfort compared to traditional hair removal methods such as shaving, waxing, or plucking.</div>
                         <div className="text">Our advanced laser hair removal technology is designed to treat all skin types with high precision, ensuring maximum efficacy and minimal side effects. Our trained professionals perform thorough consultations to customize treatments to each individual's skin type and hair growth pattern, ensuring optimal results. The procedure is non-invasive, quick, and involves faster recovery, making it a convenient option for those seeking smooth, hair-free skin.</div>
 
 

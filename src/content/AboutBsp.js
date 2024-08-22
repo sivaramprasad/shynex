@@ -72,7 +72,7 @@ function HomeContent() {
               </div>
               <div className="elementor-element elementor-element-f4a8354 elementor-widget__width-auto elementor-widget elementor-widget-touchup_core_button" style={{ color: "#FFFFFF", textAlign: "center" }}>
                 <div className="elementor-widget-container">
-                  <Link className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" to={"/alma-harmony-xl-pro/"} style={{ color: "#FFFFFF", textAlign: "center" }}>
+                  <Link className="qodef-shortcode qodef-m  qodef-button qodef-layout--textual  qodef-html--link" to={"/alma-soprano-titanium/"} style={{ color: "#FFFFFF", textAlign: "center" }}>
                     <span className="qodef-m-text" style={{ color: "#FFFFFF", textAlign: "center" }}>Read more</span>
                   </Link> </div>
               </div>

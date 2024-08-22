@@ -1,6 +1,7 @@
 import React from 'react'
 import "./CosmeticDermatologyTreatments.css";
 import HomeContent from "../../../content/HomeContent";
+import { Link } from "react-router-dom";
 
 import courseBanner from "../../../assets/img/banners/about-us.webp";
 import Grid from '@mui/material/Unstable_Grid2';
@@ -141,7 +142,7 @@ function CosmeticDermatologyTreatments(props) {
                         <div className="sec-title">
                             <h2>Laser Skin Resurfacing</h2>
                         </div>
-                        <div className="text">Laser skin resurfacing at Shynex Poly Clinic is a state-of-the-art treatment aimed at rejuvenating your skin and addressing various imperfections. Using the FDA-approved Alma Harmony XL PRO with Pixel YAG 2940 nm applicator, our skilled practitioners precisely target damaged skin layers, stimulating collagen production for a smoother and more youthful complexion. Our clinic tailors each treatment to the patient's specific skin type and concerns, including fine lines, scars, or uneven pigmentation. Also, safety is paramount at Shynex—we adhere to rigorous safety protocols and conduct thorough skin analyses during consultations to ensure a safe and effective experience. We are confident in our ability to deliver clear and radiant results for your advanced laser skin resurfacing treatment.</div>
+                        <div className="text">Laser skin resurfacing at Shynex Poly Clinic is a state-of-the-art treatment aimed at rejuvenating your skin and addressing various imperfections. Using the FDA-approved <Link to={"/alma-harmony-xl-pro/"} style={{color: "#974478"}}>Alma Harmony XL PRO</Link> with Pixel YAG 2940 nm applicator, our skilled practitioners precisely target damaged skin layers, stimulating collagen production for a smoother and more youthful complexion. Our clinic tailors each treatment to the patient's specific skin type and concerns, including fine lines, scars, or uneven pigmentation. Also, safety is paramount at Shynex—we adhere to rigorous safety protocols and conduct thorough skin analyses during consultations to ensure a safe and effective experience. We are confident in our ability to deliver clear and radiant results for your advanced laser skin resurfacing treatment.</div>
 
 
                     </div></Item>
