@@ -115,6 +115,7 @@
     "react-scroll-trigger": "^0.6.14",
     "react-scrollspy-navigation": "^2.0.6",
     "react-show-more-text": "^1.4.2",
+    "react-snap": "^1.23.0",
     "react-sticky-box": "^0.8.0",
     "react-swipeable-views": "^0.12.15",
     "react-tooltip-lite": "^1.10.0",
@@ -142,7 +143,8 @@
     "start": "node generate-build-version & node scripts/start.js",
     "build": "node generate-build-version & node scripts/build.js",
     "buildShop": "node generate-build-version & node scripts/buildShop.js",
-    "test": "node scripts/test.js"
+    "test": "node scripts/test.js",
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": "react-app"
