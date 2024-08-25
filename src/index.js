@@ -1,5 +1,5 @@
 import React from "react";
-import { hydrate, render, ReactDOM } from "react-dom";
+import { hydrate, render } from "react-dom";
 import App from "./App.js";
 import { register } from "./serviceWorker.js";
 import { Provider } from "react-redux";

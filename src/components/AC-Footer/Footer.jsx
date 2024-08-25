@@ -3,11 +3,6 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import footerStyle from "../../assets/jss/material-dashboard-react/components/footerStyle.jsx";
 import LazyLoad from "react-lazyload";
 import { Link } from "react-router-dom";
-import { PiDiscordLogoBold } from "react-icons/pi";
-import { PiInstagramLogoBold } from "react-icons/pi";
-import { PiFacebookLogoBold } from "react-icons/pi";
-import { PiYoutubeLogoBold } from "react-icons/pi";
-import { PiTwitterLogoBold } from "react-icons/pi";
 import ReactWhatsappButton from "react-whatsapp-button";
 
 

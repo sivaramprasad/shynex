@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useRef } from 'react'
-import useEmblaCarousel from 'embla-carousel-react'
-import rajath from '../assets/img/home/girl-249c3281.webp';
+import useEmblaCarousel from 'embla-carousel-react';
 import {
   NextButton,
   PrevButton,

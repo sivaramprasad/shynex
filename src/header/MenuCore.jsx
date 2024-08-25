@@ -11,9 +11,6 @@ import quote_icon from "../assets/img/quote.svg"
 import shield_icon from "../assets/img/security.svg"
 import content_icon from "../assets/img/news.svg";
 import { FiChevronDown } from "react-icons/fi";
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import Typography from '@mui/material/Typography';
 
 
 import menu from "../assets/img/menu-black-24dp.svg";
@@ -34,11 +31,7 @@ export default function MenuCore() {
   }
 
 
-  const [expanded, setExpanded] = React.useState(false);
-
-  const handleChange = (panel) => (event, isExpanded) => {
-    setExpanded(isExpanded ? panel : false);
-  };
+ 
   const selectTab = index => {
     dispatch(selectedTab(index))
   }

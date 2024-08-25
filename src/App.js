@@ -39,8 +39,6 @@ export default function App() {
                     );
                   }}
                 />
-
-               
                 <Route
                   exact
                   path={"/skin-rejuvenation-youthful-skin/"}
@@ -111,31 +109,6 @@ export default function App() {
                     <Menu {...routeProps} component="ContactUs" />
                   )}
                 />
-
-                <Route
-                  exact
-                  path={"/affilication/"}
-                  render={routeProps => (
-                    <Menu {...routeProps} component="Affilication" />
-                  )}
-                />
-
-                <Route
-                  exact
-                  path={"/admissions/"}
-                  render={routeProps => (
-                    <Menu {...routeProps} component="Admissions" />
-                  )}
-                />
-
-                <Route
-                  exact
-                  path={"/financial-assistance/"}
-                  render={routeProps => (
-                    <Menu {...routeProps} component="FinancialAssistance" />
-                  )}
-                />
-
                 <Route
                   exact
                   path={"/anti-aging-treatments/"}
@@ -143,7 +116,6 @@ export default function App() {
                     <Menu {...routeProps} component="AntiAgeingTreatments" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/team-shynex-expert-dermatologists/"}
@@ -151,7 +123,6 @@ export default function App() {
                     <Menu {...routeProps} component="TeamShynex" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/gallery-shynex-clinic/"}
@@ -159,7 +130,6 @@ export default function App() {
                     <Menu {...routeProps} component="Gallery" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/dermatology-and-cosmetology/"}
@@ -167,7 +137,6 @@ export default function App() {
                     <Menu {...routeProps} component="DermatologyAndCosmetology" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/alma-harmony-xl-pro/"}
@@ -175,9 +144,6 @@ export default function App() {
                     <Menu {...routeProps} component="AlmaSopranoTitanium" />
                   )}
                 />
-
-
-
                 <Route
                   exact
                   path={"/medical-facials-professional-skin-care/"}
@@ -185,7 +151,6 @@ export default function App() {
                     <Menu {...routeProps} component="MedicalFacials" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/body-contouring/"}
@@ -193,7 +158,6 @@ export default function App() {
                     <Menu {...routeProps} component="BodyContouring" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/laser-treatments/"}
@@ -201,7 +165,6 @@ export default function App() {
                     <Menu {...routeProps} component="LaserTreatments" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/mole-skin-cancer-checks/"}
@@ -209,7 +172,6 @@ export default function App() {
                     <Menu {...routeProps} component="MoleandSkinCancerChecks" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/medical-aesthetics-enhance-appearance/"}
@@ -217,7 +179,6 @@ export default function App() {
                     <Menu {...routeProps} component="MedicalAesthetics" />
                   )}
                 />
-
                 <Route
                   exact
                   path={"/hair-scalp-treatments/"}
@@ -225,13 +186,6 @@ export default function App() {
                     <Menu {...routeProps} component="HairandScalpTreatments" />
                   )}
                 />
-
-
-
-
-
-
-
                 <Route
                   exact
                   path={"/cosmetic-dermatology-treatments/"}

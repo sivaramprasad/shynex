@@ -36,15 +36,13 @@ const MedicalFacials = () => < Async load={import("../components/AC-StaticPages/
 const AboutUs = () => < Async load={import("../components/AC-StaticPages/AboutUs/AboutUs")} />;
 const GeneralDermatologyServices = () => < Async load={import("../components/AC-StaticPages/GeneralDermatologyServices/GeneralDermatologyServices")} />;
 const CosmeticDermatologyTreatments = () => < Async load={import("../components/AC-StaticPages/CosmeticDermatologyTreatments/CosmeticDermatologyTreatments")} />;
-const AboutUsAdvantages  = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
-const AlmaSopranoTitanium  = () => < Async load={import("../components/AC-StaticPages/AlmaSopranoTitanium/AlmaSopranoTitanium")} />;
+const AboutUsAdvantages = () => < Async load={import("../components/AC-StaticPages/AboutUsAdvantages/AboutUsAdvantages")} />;
+const AlmaSopranoTitanium = () => < Async load={import("../components/AC-StaticPages/AlmaSopranoTitanium/AlmaSopranoTitanium")} />;
 
 
 
 
 
-// const Placements = () => < Async load={import("../components/AC-StaticPages/Placements/Placements")} />;
-const Technology = () => < Async load={import("../components/AC-StaticPages/Technology/Technology")} />;
 const AlmaHarmonyXLPRo = () => < Async load={import("../components/AC-StaticPages/AlmaHarmonyXLPRo/AlmaHarmonyXLPRo")} />;
 const Morpheus8 = () => < Async load={import("../components/AC-StaticPages/Morpheus8/Morpheus8")} />;
 const CrustalPRO = () => < Async load={import("../components/AC-StaticPages/CrustalPRO/CrustalPRO")} />;
@@ -208,63 +206,9 @@ function Menu(props) {
     };
   }, []);
 
- 
 
-  if (props.component === "tiposDeSeguros") {
-    return (
-      <>
 
-        <div className="row mb0">
-          <div className="" style={{ boxShadow: '0 0 4px #cdcdcd' }}>
-            <div>
-              <div >
-                <MenuCore />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <InsuranceTypes /> */}
-        <Footer />
-      </>
-    );
-  }
-  else if (props.component ===  "SabíasQue") {
-    return (
-      <>
-
-        <div className="row mb0">
-          <div className="" style={{ boxShadow: '0 0 4px #cdcdcd' }}>
-            <div>
-              <div >
-                <MenuCore />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* <News /> */}
-        <Footer />
-      </>
-    );
-  }
-  else if (props.component ===  "cotice") {
-    return (
-      <>
-
-        <div className="row mb0">
-          <div className="" style={{ boxShadow: '0 0 4px #cdcdcd' }}>
-            <div>
-              <div >
-                <MenuCore />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <Footer />
-      </>
-    );
-  }  
-  else if (props.component ===  "MedicalAesthetics") {
+ if (props.component === "MedicalAesthetics") {
     return (
       <>
 
@@ -294,37 +238,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component == "Technology") {
-    return (
-      <>
-
-        <React.Fragment>
-          <CssBaseline />
-          <ThemeProvider theme={darkTheme}>
-            <ElevationScroll {...props}>
-
-              <AppBar>
-                <TopBar />
-                <Toolbar style={toolbarStyle}>
-                  <MenuCore />
-                </Toolbar>
-              </AppBar>
-
-            </ElevationScroll>
-          </ThemeProvider>
-          <Toolbar />
-
-        </React.Fragment>
-        <Technology />
-        <Footer />
-        <ScrollToTop
-          smooth
-          top={100}
-        />
-      </>
-    );
-  }
-  else if (props.component == "CrustalPRO") {
+  else if (props.component === "CrustalPRO") {
     return (
       <>
 
@@ -354,41 +268,7 @@ function Menu(props) {
       </>
     );
   }
-   
-  // else if (props.component == "Technology3") {
-  //   return (
-  //     <>
-
-  //       <React.Fragment>
-  //         <CssBaseline />
-  //         <ThemeProvider theme={darkTheme}>
-  //           <ElevationScroll {...props}>
-
-  //             <AppBar>
-  //               <TopBar />
-  //               <Toolbar style={toolbarStyle}>
-  //                 <MenuCore />
-  //               </Toolbar>
-  //             </AppBar>
-
-  //           </ElevationScroll>
-  //         </ThemeProvider>
-  //         <Toolbar />
-
-  //       </React.Fragment>
-  //       <Technology3 />
-  //       <Footer />
-  //       <ScrollToTop
-  //         smooth
-  //         top={100}
-  //       />
-  //     </>
-  //   );
-  // }
-
-
- 
-  else if (props.component == "Morpheus8") {
+  else if (props.component === "Morpheus8") {
     return (
       <>
 
@@ -418,9 +298,7 @@ function Menu(props) {
       </>
     );
   }
-
-
-  else if (props.component == "BodyContouring") {
+  else if (props.component === "BodyContouring") {
     return (
       <>
 
@@ -450,7 +328,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "MoleandSkinCancerChecks") {
+  else if (props.component === "MoleandSkinCancerChecks") {
     return (
       <>
 
@@ -480,7 +358,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "LaserTreatments") {
+  else if (props.component === "LaserTreatments") {
     return (
       <>
 
@@ -510,7 +388,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "HairandScalpTreatments") {
+  else if (props.component === "HairandScalpTreatments") {
     return (
       <>
 
@@ -541,8 +419,8 @@ function Menu(props) {
     );
   }
 
-  
-  else if (props.component ===  "MedicalFacials") {
+
+  else if (props.component === "MedicalFacials") {
     return (
       <>
 
@@ -572,7 +450,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "TeamShynex") {
+  else if (props.component === "TeamShynex") {
     return (
       <>
 
@@ -602,7 +480,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "Gallery") {
+  else if (props.component === "Gallery") {
     return (
       <>
 
@@ -632,7 +510,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "AboutUs") {
+  else if (props.component === "AboutUs") {
     return (
       <>
 
@@ -642,7 +520,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
-              <TopBar />
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -662,7 +540,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "CosmeticDermatologyTreatments") {
+  else if (props.component === "CosmeticDermatologyTreatments") {
     return (
       <>
 
@@ -672,7 +550,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
-              <TopBar />
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -695,72 +573,7 @@ function Menu(props) {
   }
 
 
-    else if (props.component ===  "AcneTreatments") {
-      return (
-        <>
-  
-          <React.Fragment>
-            <CssBaseline />
-            <ThemeProvider theme={darkTheme}>
-              <ElevationScroll {...props}>
-  
-                <AppBar>
-                  <TopBar />
-                  <Toolbar style={toolbarStyle}>
-                    <MenuCore />
-                  </Toolbar>
-                </AppBar>
-  
-              </ElevationScroll>
-            </ThemeProvider>
-            <Toolbar />
-  
-          </React.Fragment>
-  
-          <AcneTreatments />
-          <Footer />
-          <ScrollToTop
-            smooth
-            top={100}
-          />
-        </>
-      );
-    }
-  
-
-    else if (props.component ===  "AboutUsAdvantages") {
-      return (
-        <>
-  
-          <React.Fragment>
-            <CssBaseline />
-            <ThemeProvider theme={darkTheme}>
-              <ElevationScroll {...props}>
-  
-                <AppBar>
-                  <TopBar />
-                  <Toolbar style={toolbarStyle}>
-                    <MenuCore />
-                  </Toolbar>
-                </AppBar>
-  
-              </ElevationScroll>
-            </ThemeProvider>
-            <Toolbar />
-  
-          </React.Fragment>
-  
-          <AboutUsAdvantages />
-          <Footer />
-          <ScrollToTop
-            smooth
-            top={100}
-          />
-        </>
-      );
-    }
-
-  else if (props.component ===  "Admissions") {
+  else if (props.component === "AcneTreatments") {
     return (
       <>
 
@@ -770,7 +583,7 @@ function Menu(props) {
             <ElevationScroll {...props}>
 
               <AppBar>
-              <TopBar />
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -791,7 +604,72 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "SkinRejuvenation") {
+
+
+  else if (props.component === "AboutUsAdvantages") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <AboutUsAdvantages />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+  else if (props.component === "Admissions") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <AcneTreatments />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component === "SkinRejuvenation") {
     return (
       <>
 
@@ -822,7 +700,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "AlmaHarmonyXLPRo") {
+  else if (props.component === "AlmaHarmonyXLPRo") {
     return (
       <>
 
@@ -854,8 +732,8 @@ function Menu(props) {
     );
   }
 
-  
-  else if (props.component ===  "DermatologyAndCosmetology") {
+
+  else if (props.component === "DermatologyAndCosmetology") {
     return (
       <>
 
@@ -887,7 +765,7 @@ function Menu(props) {
     );
   }
 
-  else if (props.component ===  "AlmaSopranoTitanium") {
+  else if (props.component === "AlmaSopranoTitanium") {
     return (
       <>
 
@@ -919,8 +797,8 @@ function Menu(props) {
     );
   }
 
-  
-  else if (props.component ===  "AntiAgeingTreatments") {
+
+  else if (props.component === "AntiAgeingTreatments") {
     return (
       <>
 
@@ -951,7 +829,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "GeneralDermatologyServices") {
+  else if (props.component === "GeneralDermatologyServices") {
     return (
       <>
 
@@ -982,7 +860,7 @@ function Menu(props) {
       </>
     );
   }
-  else if (props.component ===  "ContactUs") {
+  else if (props.component === "ContactUs") {
     return (
       <>
 
@@ -1023,7 +901,7 @@ function Menu(props) {
           <ThemeProvider theme={darkTheme}>
             <ElevationScroll {...props}>
               <AppBar>
-                <TopBar />                
+                <TopBar />
                 <Toolbar style={toolbarStyle}>
                   <MenuCore />
                 </Toolbar>
@@ -1038,7 +916,7 @@ function Menu(props) {
           smooth
           top={100}
         />
-        
+
 
 
       </>
