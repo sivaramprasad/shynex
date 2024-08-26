@@ -7,7 +7,7 @@ export default function MenuLogo() {
     <Link to="/">
       <img
         src={logo}
-        alt="Backstage Pass"
+        alt="Logo"
         className="logo"
         width={"136px"}
         height={"38px"}
