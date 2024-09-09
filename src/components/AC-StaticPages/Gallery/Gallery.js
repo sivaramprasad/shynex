@@ -9,7 +9,7 @@ import { Helmet } from "react-helmet";
 
 
 
-function Courses(props) {
+function Gallery(props) {
 
   const images = [
     "https://www.backstagepass.co.in/test/Shynex-48.jpg",
@@ -26,36 +26,36 @@ function Courses(props) {
 
   return (
     <>
-    <Helmet>
-          <title>Shynex Gallery | See Our Clinic & Success Stories</title>
-          <meta name="description" content="Browse the Shynex Gallery to view our state-of-the-art facilities and witness the amazing transformations of our patients. Discover the environment where your skin and hair health thrive." />
-          <meta name="keywords" content="" />
-        </Helmet>
-      <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+      <Helmet>
+        <title>Shynex Gallery | See Our Clinic & Success Stories</title>
+        <meta name="description" content="Browse the Shynex Gallery to view our state-of-the-art facilities and witness the amazing transformations of our patients. Discover the environment where your skin and hair health thrive." />
+        <link rel="canonical" href="https://www.backstagepass.co.in/gallery-shynex-clinic/" />
+      </Helmet>
+      <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
       <div className="sec-title">
-                <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Gallery</h1>
-            </div>
+        <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Gallery</h1>
+      </div>
       <div>
-        
+
 
         <div>
-          
-
-          <br/><br/>
 
 
-
-        <ImageGallery images={images} width={1200} height={600} grid="v2" />
-                    
-                    
-                  
-                
-                  <br/><br/>
+          <br /><br />
 
 
-                  
-                 
-              
+
+          <ImageGallery images={images} width={1200} height={600} grid="v2" />
+
+
+
+
+          <br /><br />
+
+
+
+
+
 
 
 
@@ -67,16 +67,16 @@ function Courses(props) {
 
 
       </div>
-      
-        <HomeContent />
-      
+
+      <HomeContent />
+
     </>
   )
 }
 
-Courses.propTypes = {
+Gallery.propTypes = {
 
 }
 
-export default Courses;
+export default Gallery;
 

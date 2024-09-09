@@ -27,8 +27,9 @@ function SkinRejuvenation(props) {
                 <title>Skin Rejuvenation Treatment at Shynex | PRP, Microneedling & More</title>
                 <meta name="description" content="Revitalize your skin with IPL therapy, microneedling, and PRP at Shynex Poly Clinic. Experience brighter, youthful skin from top dermatologist in hyderabad." />
                 <meta name="keywords" content="skin rejuvenation, microneedling, PRP therapy, photofacial, collagen stimulation, skin firming, anti-aging, skin texture improvement, youthful complexion, fine lines, wrinkle reduction, skin vitality, skin elasticity, skin tone, facial rejuvenation, skin radiance, skin renewal, Shynex Poly Clinic" />
+                <link rel="canonical" href="https://www.backstagepass.co.in/skin-rejuvenation-youthful-skin/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Skin Rejuvenation</h1>

@@ -26,131 +26,135 @@ function DermatologyAndCosmetology(props) {
                 <title>Best Dermatology & Cosmetology Services at Shynex Clinic</title>
                 <meta name="description" content="Get expert dermatology and cosmetology care at Shynex Clinic, Hyderabad. We offer personalized treatments for acne, hair loss, anti-aging, and skin rejuvenation" />
                 <meta name="keywords" content="Dermatology services, Cosmetology services, acne treatment, skin rejuvenation, hair loss treatment, laser hair removal, anti-aging solutions, Shynex Poly Clinic" />
+                <link rel="canonical" href="https://www.backstagepass.co.in/dermatology-and-cosmetology/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Dermatology And Cosmetology</h1>
             </div>
-            
-            
-            <div className='containerMain'>
-                <div className='Dermatology'> 
-                <p>At Shynex Poly Clinic, we provide a comprehensive range of dermatology and cosmetology services to meet all your skin and hair care needs. Our skilled dermatologists and cosmetologists use the latest technology and evidence-based practices to deliver personalized treatments that address your unique concerns. Whether you’re dealing with acne, sagging skin, hair loss, psoriasis, eczema, or seeking to enhance your appearance with advanced cosmetic procedures, we focus on improving your skin health and boosting your confidence.</p>
-                <p>Our clinic is equipped with state-of-the-art technology and we offer treatments such as laser hair removal, anti-aging solutions, skin rejuvenation, and more. We prioritize your safety and satisfaction through a patient-centric approach. From your initial consultation to post-treatment care, our experts work closely with you to ensure a seamless and comfortable experience. At Shynex you can experience world-class dermatology and cosmetology care in a warm and welcoming environment.</p>
 
-                <h2>Skin and Hair Treatments we offer:</h2>
+
+            <div className='containerMain'>
+                <div className='Dermatology'>
+                    <p>At Shynex Poly Clinic, we provide a comprehensive range of dermatology and cosmetology services to meet all your skin and hair care needs. Our skilled dermatologists and cosmetologists use the latest technology and evidence-based practices to deliver personalized treatments that address your unique concerns. Whether you’re dealing with acne, sagging skin, hair loss, psoriasis, eczema, or seeking to enhance your appearance with advanced cosmetic procedures, we focus on improving your skin health and boosting your confidence.</p>
+                    <p>Our clinic is equipped with state-of-the-art technology and we offer treatments such as laser hair removal, anti-aging solutions, skin rejuvenation, and more. We prioritize your safety and satisfaction through a patient-centric approach. From your initial consultation to post-treatment care, our experts work closely with you to ensure a seamless and comfortable experience. At Shynex you can experience world-class dermatology and cosmetology care in a warm and welcoming environment.</p>
+
+                    <h2>Skin and Hair Treatments we offer:</h2>
                 </div>
 
                 <div className='infinite-scroll-component'>
-                        <div id="curve" className="card" style={{background: `url(${photo2})`, backgroundPosition: "center"}}>
+                    <Link to={"/general-dermatology-services/"}>
+                        <div id="curve" className="card" style={{ background: `url(${photo2})`, backgroundPosition: "center" }}>
                             <div className="footercard">
                                 <div className="connections">
-                                    <div className="connection facebook"><Link to={"/general-dermatology-services/"}>General Dermatology Services</Link></div>
-                                    
+                                    <div className="connection facebook">General Dermatology Services</div>
+
                                 </div>
                             </div>
                             <div className="card-blur"></div>
-                        </div>
-                        <div id="curve" className="card" style={{background: `url(${photo1})`, backgroundPosition: "right"}}>
-                            <div className="footercard">
+                        </div></Link>
+
+                    <Link to={"/cosmetic-dermatology-treatments/"}><div id="curve" className="card" style={{ background: `url(${photo1})`, backgroundPosition: "right" }}>
+                        <div className="footercard">
                             <div className="connections">
-                                    <div className="connection facebook"><Link to={"/cosmetic-dermatology-treatments/"}>Cosmetic Dermatology treatments</Link></div>
-                                    
-                                </div>
+                                <div className="connection facebook">Cosmetic Dermatology treatments</div>
+
                             </div>
-                            <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(${photo3})`, backgroundPosition: "center"}}>
-                            <div className="footercard">
+                        <div className="card-blur"></div>
+                    </div></Link>
+                    <Link to={"/acne-treatments/"}><div id="curve" className="card" style={{ background: `url(${photo3})`, backgroundPosition: "center" }}>
+                        <div className="footercard">
                             <div className="connections">
-                                    <div className="connection facebook"><Link to={"/acne-treatments/"}>Acne Treatments</Link></div>
-                                    
-                                </div>
+                                <div className="connection facebook">Acne Treatments</div>
+
                             </div>
-                            <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(${photo4})`, backgroundPosition: "center"}}>
-                            <div className="footercard">
-                            <div className="connections">
-                                    <div className="connection facebook"><Link to={"/skin-rejuvenation-youthful-skin/"}>Skin Rejuvenation</Link></div>
-                                    
-                                </div>
-                            </div>
-                            <div className="card-blur"></div>
-                        </div>
-                    </div>
-                    <div className='infinite-scroll-component'>
-                        <div id="curve" className="card" style={{background: `url(${photo5})`, backgroundPosition: "right"}}>
+                        <div className="card-blur"></div>
+                    </div></Link>
+                    <Link to={"/skin-rejuvenation-youthful-skin/"}>
+                        <div id="curve" className="card" style={{ background: `url(${photo4})`, backgroundPosition: "center" }}>
                             <div className="footercard">
                                 <div className="connections">
-                                    <div className="connection facebook"><Link to={"/hair-scalp-treatments/"}>Hair and Scalp Treatments</Link></div>
-                                    
+                                    <div className="connection facebook">Skin Rejuvenation</div>
+
                                 </div>
                             </div>
                             <div className="card-blur"></div>
-                        </div>
-                        <div id="curve" className="card" style={{background: `url(${photo6})`, backgroundPosition: "right"}}>
-                            <div className="footercard">
+                        </div></Link>
+                </div>
+                <div className='infinite-scroll-component'>
+                    <Link to={"/hair-scalp-treatments/"}><div id="curve" className="card" style={{ background: `url(${photo5})`, backgroundPosition: "right" }}>
+                        <div className="footercard">
                             <div className="connections">
-                                    <div className="connection facebook"><Link to={"/medical-aesthetics-enhance-appearance/"}>Medical Aesthetics </Link></div>
-                                    
-                                </div>
+                                <div className="connection facebook">Hair and Scalp Treatments</div>
+
                             </div>
-                            <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(${photo7})`, backgroundPosition: "center"}}>
-                            <div className="footercard">
+                        <div className="card-blur"></div>
+                    </div></Link>
+                    <Link to={"/medical-aesthetics-enhance-appearance/"}> <div id="curve" className="card" style={{ background: `url(${photo6})`, backgroundPosition: "right" }}>
+                        <div className="footercard">
                             <div className="connections">
-                                    <div className="connection facebook"><Link to={"/mole-skin-cancer-checks/"}>Mole and Skin Cancer Checks </Link></div>
-                                    
-                                </div>
+                                <div className="connection facebook">Medical Aesthetics </div>
+
                             </div>
-                            <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(${photo8})`, backgroundPosition: "center"}}>
-                            <div className="footercard">
+                        <div className="card-blur"></div>
+                    </div></Link>
+                    <Link to={"/mole-skin-cancer-checks/"}> <div id="curve" className="card" style={{ background: `url(${photo7})`, backgroundPosition: "center" }}>
+                        <div className="footercard">
                             <div className="connections">
-                                    <div className="connection facebook"><Link to={"/laser-treatments/"}>Laser Treatments </Link></div>
-                                    
-                                </div>
+                                <div className="connection facebook">Mole and Skin <br />Cancer Checks </div>
+
                             </div>
-                            <div className="card-blur"></div>
                         </div>
-                    </div>
-                    <div className='infinite-scroll-component'>
-                        <div id="curve" className="card" style={{background: `url(${photo9})`, backgroundPosition: "right"}}>
-                            <div className="footercard">
-                                <div className="connections">
-                                    <div className="connection facebook"><Link to={"/body-contouring/"}>Body Contouring </Link></div>
-                                    
-                                </div>
-                            </div>
-                            <div className="card-blur"></div>
-                        </div>
-                        <div id="curve" className="card" style={{background: `url(${photo10})`, backgroundPosition: "right"}}>
-                            <div className="footercard">
+                        <div className="card-blur"></div>
+                    </div></Link>
+                    <Link to={"/laser-treatments/"}> <div id="curve" className="card" style={{ background: `url(${photo8})`, backgroundPosition: "center" }}>
+                        <div className="footercard">
                             <div className="connections">
-                                    <div className="connection facebook"><Link to={"/medical-facials-professional-skin-care/"}>Medical facials </Link></div>
-                                    
-                                </div>
+                                <div className="connection facebook">Laser Treatments </div>
+
                             </div>
-                            <div className="card-blur"></div>
                         </div>
-                        <div id="curve" className="card" style={{background: `url(${photo11})`, backgroundPosition: "center"}}>
-                            <div className="footercard">
+                        <div className="card-blur"></div>
+                    </div></Link>
+                </div>
+                <div className='infinite-scroll-component'>
+                    <Link to={"/body-contouring/"}> <div id="curve" className="card" style={{ background: `url(${photo9})`, backgroundPosition: "right" }}>
+                        <div className="footercard">
                             <div className="connections">
-                                    <div className="connection facebook"><Link to={"/anti-aging-treatments/"}>Anti Ageing Treatments </Link></div>
-                                    
-                                </div>
+                                <div className="connection facebook">Body Contouring</div>
+
                             </div>
-                            <div className="card-blur"></div>
                         </div>
-                        
-                    </div>
+                        <div className="card-blur"></div>
+                    </div> </Link>
+                    <Link to={"/medical-facials-professional-skin-care/"}> <div id="curve" className="card" style={{ background: `url(${photo10})`, backgroundPosition: "right" }}>
+                        <div className="footercard">
+                            <div className="connections">
+                                <div className="connection facebook">Medical facials</div>
+
+                            </div>
+                        </div>
+                        <div className="card-blur"></div>
+                    </div> </Link>
+                    <Link to={"/anti-aging-treatments/"}> <div id="curve" className="card" style={{ background: `url(${photo11})`, backgroundPosition: "center" }}>
+                        <div className="footercard">
+                            <div className="connections">
+                                <div className="connection facebook">Anti Ageing Treatments</div>
+
+                            </div>
+                        </div>
+                        <div className="card-blur"></div>
+                    </div> </Link>
+
+                </div>
             </div>
-            
-            
+
+
 
 
             <HomeContent />

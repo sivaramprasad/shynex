@@ -27,8 +27,9 @@ function SkinRejuvenation(props) {
                 <title>Cryolipolysis Treatments at Shynex | Ultrasound Fat Reduction</title>
                 <meta name="description" content="Advanced body shaping at Shynex in Hyderabad. Non-invasive cryolipolysis, injection lipolysis, RF fat reduction, and ultrasound for a slimmer, toned physique." />
                 <meta name="keywords" content="Body contouring, cryolipolysis, injection lipolysis, radiofrequency fat reduction, ultrasound fat reduction, fat reduction treatments, non-invasive body sculpting, Shynex Poly Clinic, fat freezing, body contouring clinic" />
+                <link rel="canonical" href="https://www.backstagepass.co.in/body-contouring/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Body Contouring</h1>
@@ -107,26 +108,26 @@ function SkinRejuvenation(props) {
 
             <Grid container spacing={2} className="main-img" style={{ boxShadow: "none" }}>
 
-<Grid xs={6} style={{ boxShadow: "none" }}>
-    <Item style={{ boxShadow: "none" }}>      <div className="inner-column">
-        <div className="sec-title">
-            <h2 style={{ paddingLeft: "5%" }}>Ultrasound Fat Reduction</h2>
-        </div>
-        <div className="text" style={{ marginLeft: '35px' }}>Ultrasound fat reduction, also known as ultrasonic cavitation or lipolysis, is a cutting-edge body contouring treatment designed to eliminate fat deposits beneath the skin without the need for invasive surgery such as liposuction. At Shynex, our expert dermatologists utilize advanced US FDA approved ultrasonic technology, to safely and effectively break down fat cells. This non-invasive procedure uses ultrasonic radio waves to disrupt the fat cells, which are then naturally absorbed and processed by the body's lymphatic system. Our team prioritizes patient safety and comfort, ensuring that each session is conducted under meticulous care and supervision.</div>
-        <div className="text" style={{ marginLeft: '35px' }}>The specialists at Shynex are dedicated to providing personalized and comprehensive care throughout the ultrasound fat reduction process. Recognizing that each patient is unique, we conduct thorough consultations to assess overall health, set realistic expectations, and develop tailored treatment plans. Our dermatologists emphasize post-procedure care, advising patients to stay well-hydrated and maintain a healthy lifestyle to optimize results. While the treatment is designed to target small areas of fat and improve body contours, multiple sessions may be recommended for the best outcome. With Shynex Poly Clinic's commitment to safety and efficacy, patients can achieve lasting results and enhanced confidence.</div>
+                <Grid xs={6} style={{ boxShadow: "none" }}>
+                    <Item style={{ boxShadow: "none" }}>      <div className="inner-column">
+                        <div className="sec-title">
+                            <h2 style={{ paddingLeft: "5%" }}>Ultrasound Fat Reduction</h2>
+                        </div>
+                        <div className="text" style={{ marginLeft: '35px' }}>Ultrasound fat reduction, also known as ultrasonic cavitation or lipolysis, is a cutting-edge body contouring treatment designed to eliminate fat deposits beneath the skin without the need for invasive surgery such as liposuction. At Shynex, our expert dermatologists utilize advanced US FDA approved ultrasonic technology, to safely and effectively break down fat cells. This non-invasive procedure uses ultrasonic radio waves to disrupt the fat cells, which are then naturally absorbed and processed by the body's lymphatic system. Our team prioritizes patient safety and comfort, ensuring that each session is conducted under meticulous care and supervision.</div>
+                        <div className="text" style={{ marginLeft: '35px' }}>The specialists at Shynex are dedicated to providing personalized and comprehensive care throughout the ultrasound fat reduction process. Recognizing that each patient is unique, we conduct thorough consultations to assess overall health, set realistic expectations, and develop tailored treatment plans. Our dermatologists emphasize post-procedure care, advising patients to stay well-hydrated and maintain a healthy lifestyle to optimize results. While the treatment is designed to target small areas of fat and improve body contours, multiple sessions may be recommended for the best outcome. With Shynex Poly Clinic's commitment to safety and efficacy, patients can achieve lasting results and enhanced confidence.</div>
 
 
-    </div></Item>
-</Grid>
-<Grid style={{ boxShadow: "none" }} xs={6}>
-    <Item style={{ boxShadow: "none" }}>    <div className="inner-column inner-column2 wow fadeInLeft">
+                    </div></Item>
+                </Grid>
+                <Grid style={{ boxShadow: "none" }} xs={6}>
+                    <Item style={{ boxShadow: "none" }}>    <div className="inner-column inner-column2 wow fadeInLeft">
 
-        <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
+                        <figure className="image-1"><a href="/aboutus/" className="lightbox-image" data-fancybox="images"><img className='img-box' src={cncpt} alt="" /></a></figure>
 
-    </div></Item>
-</Grid>
+                    </div></Item>
+                </Grid>
 
-</Grid>
+            </Grid>
 
             <HomeContent />
         </>

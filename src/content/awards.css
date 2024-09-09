@@ -78,11 +78,6 @@
     position: relative;
     margin: 0;
     padding-bottom: 20px;
-    font-size: 21px;
-    font-weight: 600;
-}
-.qodef-m-text:hover{
-    text-decoration: underline;
 }
 .qodef-section-title .qodef-m-title:after {
     content: '';
@@ -104,12 +99,12 @@
     color: #974478;
     width: 100%;
 }
-.Best {
-    font-size: 29px;
+.Best{
+    font-size: 31px;
     text-transform: capitalize;
     letter-spacing: 1px;
-    font-weight: 700;
-    color: #974478;
+    font-weight: 500;
+    color: #111;
     width: 100%;
     margin-top: 20px;
 }

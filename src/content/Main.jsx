@@ -9,7 +9,7 @@ import Buzzing from "./Buzzing";
 import PropTypes from 'prop-types';
 import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Slide from '@mui/material/Slide';
-
+import { Helmet } from "react-helmet";
 
 
 import EmblaCarousel from './EmblaCarousel.js'
@@ -45,12 +45,12 @@ function Main({ active, props }) {
 
  
 
-  useEffect(() => {
-    setTimeout(() => {
-      //setLoading(false);
-    }, 3000);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     //setLoading(false);
+  //   }, 3000);
 
-  }, []);
+  // }, []);
 
   const OPTIONS = { loop: true }
   const SLIDE_COUNT = 5
@@ -59,6 +59,12 @@ function Main({ active, props }) {
 
   return (
     <>
+    <Helmet>
+                <title>Best Skin and Hair Care Clinic in Hyderabad | Shynex Clinic</title>
+                <meta name="description" content="Book your consultation with Shynex, Hyderabad's top skin and hair clinic. Enjoy advanced laser treatments with USFDA technology. Achieve your beauty and health goals with us." />
+                <meta name="keywords" content="Best prp treatment, laser hair removal, skin and hair clinic, Shynex clinic, skin specialist near me, best skin doctor in hyderabad, hair loss treatment, laser skin treatment, best dermatologist in Hyderabad" />
+                <link rel="canonical" href="https://shynex.in/" />
+            </Helmet>
       <div className="row mb0">
         <div className="mainPanel">
           <div className="item pr9">
@@ -78,7 +84,7 @@ function Main({ active, props }) {
             <AboutBsp />
             <FeaturedProduct />
             <Awards />
-            <Buzzing />
+            {/* <Buzzing /> */}
               <FeaturedProducts />
 
            

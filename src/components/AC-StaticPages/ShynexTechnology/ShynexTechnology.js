@@ -27,7 +27,7 @@ function DermatologyAndCosmetology(props) {
                 <meta name="description" content="Get expert dermatology and cosmetology care at Shynex Clinic, Hyderabad. We offer personalized treatments for acne, hair loss, anti-aging, and skin rejuvenation" />
                 <meta name="keywords" content="Dermatology services, Cosmetology services, acne treatment, skin rejuvenation, hair loss treatment, laser hair removal, anti-aging solutions, Shynex Poly Clinic" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Dermatology And Cosmetology</h1>

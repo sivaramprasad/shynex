@@ -22,9 +22,7 @@ export default function App() {
           <>
             <Helmet
               titleTemplate="%s"
-              defaultTitle="Best Skin and Hair Care Clinic in Hyderabad | Shynex Clinic"
             >
-
             </Helmet>
             <Router history={history}>
               <Switch>
@@ -104,7 +102,7 @@ export default function App() {
                 />
                 <Route
                   exact
-                  path={"/contactus/"}
+                  path={"/contact-us-skin-hair-care/"}
                   render={routeProps => (
                     <Menu {...routeProps} component="ContactUs" />
                   )}
@@ -135,6 +133,21 @@ export default function App() {
                   path={"/dermatology-and-cosmetology/"}
                   render={routeProps => (
                     <Menu {...routeProps} component="DermatologyAndCosmetology" />
+                  )}
+                />
+                <Route
+                  exact
+                  path={"/ent/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="ENT" />
+                  )}
+                />
+
+                <Route
+                  exact
+                  path={"/gynaecology/"}
+                  render={routeProps => (
+                    <Menu {...routeProps} component="Gynaecology" />
                   )}
                 />
                 <Route

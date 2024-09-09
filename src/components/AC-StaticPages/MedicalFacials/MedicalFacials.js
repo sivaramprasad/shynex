@@ -27,8 +27,9 @@ function SkinRejuvenation(props) {
                 <title>Best Medifacial and Hydrafacial Treatment at Shynex, Hyderabad</title>
                 <meta name="description" content="Rejuvenate your skin at Shynex with Photo Facial, MediFacial, Hydra Facial, and LED Light Therapy. Address various skin concerns and enhance your complexion now" />
                 <meta name="keywords" content="Medical facials, photo facial, MediFacial, Hydra Facial, LED light therapy facial, skin rejuvenation, Shynex Poly Clinic, advanced facial treatments, non-invasive facials, skincare clinic" />
+                <link rel="canonical" href="https://www.backstagepass.co.in/medical-facials-professional-skin-care/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Medical Facials</h1>

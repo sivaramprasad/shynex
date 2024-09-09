@@ -15,9 +15,9 @@ function contactus(props) {
 <Helmet>
                 <title>Contact Shynex for Consultation with Top Dermatologist</title>
                 <meta name="description" content="Reach out to Shynex Poly Clinic in Hyderabad for expert dermatology and cosmetology services. We're here to help with your skin and hair care needs." />
-                <meta name="keywords" content=" " />
+                <link rel="canonical" href="https://www.backstagepass.co.in/contact-us-skin-hair-care/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
       
             {/* <div className="sec-title">
                 <h2 style={{ marginTop: "45px" }}>Don’t Wish To Talk Or Type?</h2>

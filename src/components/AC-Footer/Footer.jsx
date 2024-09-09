@@ -72,19 +72,19 @@ function Footer() {
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Shynex Advantage</Link></p>
+                              <p><Link to={"/why-choose-shynex/"}>Shynex Advantage</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Blog</Link></p>
+                              <p><Link to={"/"}>Blog</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Sitemap</Link></p>
+                              <p><Link to={"/sitemap.xml"}>Sitemap</Link></p>
                             </div>
                           </div>
                         </div>
@@ -102,25 +102,25 @@ function Footer() {
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Alma Soprano Titanium</Link></p>
+                              <p><Link to={"/alma-soprano-titanium/"}>Alma Soprano Titanium</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Alma Harmony XL PRo</Link></p>
+                              <p><Link to={"/alma-harmony-xl-pro/"}>Alma Harmony XL PRo</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Morpheus 8</Link></p>
+                              <p><Link to={"/morpheus8/"}>Morpheus 8</Link></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Crustal PRO</Link></p>
+                              <p><Link to={"/cristal-pro/"}>Cristal Pro</Link></p>
                             </div>
                           </div>
                         </div>
@@ -138,19 +138,19 @@ function Footer() {
                           <div className="contact-wrapper-inner">
 
                             <div>
-                              <p><Link to={"/aboutus/"}>Unit G6A-2, Plot No1-98/4/1-13, 28&29, Jain Sadguru Images Capital Park, Image Garden Road, Madhapur, Hyderabad, Telangana - 500081</Link></p>
+                              <p>Unit G6A-2, Plot No1-98/4/1-13, 28&29, Jain Sadguru Images Capital Park, Image Garden Road, Madhapur, Hyderabad, Telangana - 500081</p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
                             <CiPhone />
                             <div>
-                              <p><Link to={"/aboutus/"}>+91 82915 73456</Link></p>
+                              <p><a href="tel:+91 82915 73456">+91 82915 73456</a></p>
                             </div>
                           </div>
                           <div className="contact-wrapper-inner">
                             <CiMail />
                             <div>
-                              <p><Link to={"/aboutus/"}>info@shynex.in</Link></p>
+                              <p><a href="mailto:info@shynex.in">info@shynex.in</a></p>
                             </div>
                           </div>
 

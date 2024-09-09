@@ -28,8 +28,9 @@ function CosmeticDermatologyTreatments(props) {
                 <title>Advanced Cosmetic Dermatology | Botox, Fillers & More</title>
                 <meta name="description" content="Get youthful skin with Botox, dermal fillers, chemical peels & more at Shynex Clinic. Safe, effective, & FDA-approved treatments from top dermatologists. Learn more" />
                 <meta name="keywords" content="cosmetic dermatology, Botox injections, dermal fillers, chemical peels, microdermabrasion, laser skin resurfacing, wrinkle reduction, volume restoration, skin rejuvenation, anti-aging treatments, non-surgical treatments, facial aesthetics, skin tightening, lip fillers, cheek fillers, jawline contouring, fine lines, facial wrinkles, youthful skin, Shynex Poly Clinic" />
+                <link rel="canonical" href="https://www.backstagepass.co.in/cosmetic-dermatology-treatments/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Cosmetic Dermatology Treatments</h1>

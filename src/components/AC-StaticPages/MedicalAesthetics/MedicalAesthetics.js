@@ -28,8 +28,9 @@ function SkinRejuvenation(props) {
                 <title>Best Laser Tattoo Removal | Laser Scar Removal | Shynex Clinic</title>
                 <meta name="description" content="Enhance your appearance with Shynex's medical aesthetics services, including tattoo removal, scar revision, and more using advanced US FDA-approved laser technologies." />
                 <meta name="keywords" content="tattoo removal, scar revision, birthmark removal, US FDA-approved laser, skin rejuvenation, Shynex Poly Clinic, advanced aesthetics treatments, non-invasive procedures, skin improvement" />
+                <link rel="canonical" href="https://www.backstagepass.co.in/medical-aesthetics-enhance-appearance/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Medical Aesthetics</h1>

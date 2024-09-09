@@ -32,6 +32,9 @@ const Gallery = () => < Async load={import("../components/AC-StaticPages/Gallery
 
 const DermatologyAndCosmetology = () => < Async load={import("../components/AC-StaticPages/DermatologyAndCosmetology/DermatologyAndCosmetology")} />;
 
+const ENT = () => < Async load={import("../components/AC-StaticPages/ENT/ENT")} />;
+const Gynaecology = () => < Async load={import("../components/AC-StaticPages/Gynaecology/Gynaecology")} />;
+
 const MedicalFacials = () => < Async load={import("../components/AC-StaticPages/MedicalFacials/MedicalFacials")} />;
 const AboutUs = () => < Async load={import("../components/AC-StaticPages/AboutUs/AboutUs")} />;
 const GeneralDermatologyServices = () => < Async load={import("../components/AC-StaticPages/GeneralDermatologyServices/GeneralDermatologyServices")} />;
@@ -764,6 +767,70 @@ function Menu(props) {
       </>
     );
   }
+  else if (props.component === "ENT") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <ENT />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+  else if (props.component === "Gynaecology") {
+    return (
+      <>
+
+        <React.Fragment>
+          <CssBaseline />
+          <ThemeProvider theme={darkTheme}>
+            <ElevationScroll {...props}>
+
+              <AppBar>
+                <TopBar />
+                <Toolbar style={toolbarStyle}>
+                  <MenuCore />
+                </Toolbar>
+              </AppBar>
+
+            </ElevationScroll>
+          </ThemeProvider>
+          <Toolbar />
+
+        </React.Fragment>
+
+        <Gynaecology />
+        <Footer />
+        <ScrollToTop
+          smooth
+          top={100}
+        />
+      </>
+    );
+  }
+
+  
 
   else if (props.component === "AlmaSopranoTitanium") {
     return (

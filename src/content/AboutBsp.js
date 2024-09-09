@@ -151,8 +151,7 @@ function HomeContent() {
               <div className="elementor-element elementor-element-e699db7 elementor-widget elementor-widget-touchup_core_section_title">
                 <div className="elementor-widget-container">
                   <div className="qodef-shortcode qodef-m  qodef-section-title qodef-alignment--center">
-                    <h3 className="qodef-m-title" style={{ color: "#FFFFFF", textAlign: "center" }}>
-                    Crustal PRO </h3>
+                    <h3 className="qodef-m-title" style={{ color: "#FFFFFF", textAlign: "center" }}>Cristal Pro</h3>
                   </div> </div>
               </div>
               <div className="elementor-element elementor-element-3d82a80 elementor-widget elementor-widget-text-editor">

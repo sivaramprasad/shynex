@@ -1,7 +1,8 @@
 import React from 'react';
-import person from "../assets/img/home/Shynex.webp";
+import awardone from "../assets/img/a7.webp";
+import awardtwo from "../assets/img/a2.webp"
+import shynex from "../assets/img/home/Shynex.webp"
 import { Link } from "react-router-dom";
-
 
 import "./awards.css"
 
@@ -18,7 +19,7 @@ function HomeContent() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-2e42105d elementor-widget elementor-widget-image">
 <div className="elementor-widget-container">
-<img style={{height: "450px", objectFit: "cover", width: "100%", objectPosition: "top"}} src={person} className="attachment-full size-full wp-image-234" alt="s" /> </div>
+<img style={{height: "450px", objectFit: "cover", width: "100%", objectPosition: "center top"}} src={shynex} className="attachment-full size-full wp-image-234" alt="s" /> </div>
 </div>
 </div>
 </div>
@@ -31,11 +32,10 @@ function HomeContent() {
 <div className="elementor-widget-wrap elementor-element-populated">
 <div className="elementor-element elementor-element-146410bf elementor-widget elementor-widget-text-editor">
 <div className="elementor-widget-container" style={{margin: "0px 0px 0px 50px"}}>
-    {/* <h5 className='welcome'>Welcome to Shynex Poly Clinic</h5> */}
     <h1 className='Best'>Welcome to Shynex Poly Clinic</h1>
 <p className='para'>Shynex Poly Clinic in Hyderabad is your trusted partner in achieving healthy skin and hair, offering advanced and affordable dermatology and cosmetology treatments tailored to your unique needs. Our dedicated team, including Dr. Vangala Moulika, brings a wealth of expertise and genuine care to every patient, ensuring you feel confident and cared for every step of the way. At Shynex, we’re here to help you look and feel your best with the latest innovations in skin and hair care</p> </div>
 
-<button className="button-two"><span><Link to={"/aboutus/"} style={{color: "#fff"}}>Read More</Link></span></button>
+<button className="button-two"><Link to={"/aboutus/"}><span>Read More</span></Link></button>
 </div>
 </div>
 </div>

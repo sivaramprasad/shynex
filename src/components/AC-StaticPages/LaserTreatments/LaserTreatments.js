@@ -27,8 +27,9 @@ function SkinRejuvenation(props) {
                 <title>Best Laser Clinic for Skin, Hair, Full Body Treatment | Shynex </title>
                 <meta name="description" content="Our dermatologists provide laser hair removal, tattoo removal, pigmentation correction, & vascular lesion treatment using the latest FDA-approved technology." />
                 <meta name="keywords" content="laser hair removal, laser tattoo removal, pigmentation treatment, Q-Switch laser, vascular lesion treatment, laser toning, carbon peel, US FDA-approved laser, skin rejuvenation, Shynex Poly Clinic" />
+                <link rel="canonical" href="https://www.backstagepass.co.in/laser-treatments/" />
             </Helmet>
-            <div className='courseBanner'><img alt="Courses Banner" title='Courses Banner' src={courseBanner} /></div>
+            <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
             <div className="sec-title">
                 <h1 style={{ margin: "0px", fontSize: "50px", fontWeight: "900", textAlign: "center" }}>Laser Treatments</h1>
@@ -48,7 +49,7 @@ function SkinRejuvenation(props) {
                         <div className="sec-title">
                             <h2>Laser Hair Removal</h2>
                         </div>
-                        <div className="text">Laser hair removal is a cutting-edge cosmetic procedure that effectively reduces unwanted hair by targeting the hair follicles with concentrated light energy. At Shynex Poly Clinic, we use the latest US FDA-approved laser technology, <Link to={"/alma-soprano-titanium/"} style={{color: "#974478"}}>Soprano Titanium</Link> and Diolaze XL to ensure precise and safe treatments. The benefits of laser hair removal include long-lasting results, smoother skin, and minimal discomfort compared to traditional hair removal methods such as shaving, waxing, or plucking.</div>
+                        <div className="text">Laser hair removal is a cutting-edge cosmetic procedure that effectively reduces unwanted hair by targeting the hair follicles with concentrated light energy. At Shynex Poly Clinic, we use the latest US FDA-approved laser technology, <Link to={"/alma-soprano-titanium/"} style={{ color: "#974478" }}>Soprano Titanium</Link> and Diolaze XL to ensure precise and safe treatments. The benefits of laser hair removal include long-lasting results, smoother skin, and minimal discomfort compared to traditional hair removal methods such as shaving, waxing, or plucking.</div>
                         <div className="text">Our advanced laser hair removal technology is designed to treat all skin types with high precision, ensuring maximum efficacy and minimal side effects. Our trained professionals perform thorough consultations to customize treatments to each individual's skin type and hair growth pattern, ensuring optimal results. The procedure is non-invasive, quick, and involves faster recovery, making it a convenient option for those seeking smooth, hair-free skin.</div>
 
 
