@@ -27,7 +27,7 @@ function SkinRejuvenation(props) {
                 <title>Best Laser Clinic for Skin, Hair, Full Body Treatment | Shynex </title>
                 <meta name="description" content="Our dermatologists provide laser hair removal, tattoo removal, pigmentation correction, & vascular lesion treatment using the latest FDA-approved technology." />
                 <meta name="keywords" content="laser hair removal, laser tattoo removal, pigmentation treatment, Q-Switch laser, vascular lesion treatment, laser toning, carbon peel, US FDA-approved laser, skin rejuvenation, Shynex Poly Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/laser-treatments/" />
+                <link rel="canonical" href="https://www.shynex.in/laser-treatments/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

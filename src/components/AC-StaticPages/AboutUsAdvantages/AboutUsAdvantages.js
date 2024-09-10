@@ -14,7 +14,7 @@ function AboutUsadvantages(props) {
             <Helmet>
                 <title>Looking for best skin specialist doctor in Hyderabad? Visit Shynex</title>
                 <meta name="description" content="Your search for best dermatologist near me ends at Shynex, Hyderabad's top skincare clinic. Experience advanced laser treatments for skin, hair, & full body." />
-                <link rel="canonical" href="https://www.backstagepass.co.in/why-choose-shynex/" />
+                <link rel="canonical" href="https://www.shynex.in/why-choose-shynex/" />
             </Helmet>
 
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>

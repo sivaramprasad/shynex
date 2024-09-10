@@ -27,7 +27,7 @@ function AcneTreatments(props) {
                 <title>Effective Acne Treatment in Hyderabad | Clear and Glowing Skin</title>
                 <meta name="description" content="Get rid of acne with advanced treatments like Fractional CO2, MNRF, and Clear Skin Laser at Shynex Poly Clinic. Achieve smooth, clear skin with minimal downtime." />
                 <meta name="keywords" content="acne treatments, acne scars, Fractional CO2, MNRF, Clear Skin Laser, acne reduction, clear skin, acne scar removal, advanced acne treatment, Shynex Poly Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/acne-treatments/" />
+                <link rel="canonical" href="https://www.shynex.in/acne-treatments/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

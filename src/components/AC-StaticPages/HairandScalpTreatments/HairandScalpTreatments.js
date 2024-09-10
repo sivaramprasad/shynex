@@ -25,7 +25,7 @@ function SkinRejuvenation(props) {
                 <title>Best PRP Hair Treatment in Hyderabad | Visit Our Trichologist</title>
                 <meta name="description" content="Get hair fall treatment at Shynex Clinic. We offer cutting-edge treatments like QR-678, Meso Therapy, PRP, and GFC to promote hair growth and improve scalp health." />
                 <meta name="keywords" content="hair loss treatment, QR-678, Meso Therapy, PRP therapy, GFC therapy, hair regrowth, scalp health, hair density improvement, advanced hair treatments, Shynex Poly Clinic, best skin and hair clinic in Hyderabad" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/hair-scalp-treatments/" />
+                <link rel="canonical" href="https://www.shynex.in/hair-scalp-treatments/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

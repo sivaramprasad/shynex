@@ -26,7 +26,7 @@ function DermatologyAndCosmetology(props) {
                 <title>Best Dermatology & Cosmetology Services at Shynex Clinic</title>
                 <meta name="description" content="Get expert dermatology and cosmetology care at Shynex Clinic, Hyderabad. We offer personalized treatments for acne, hair loss, anti-aging, and skin rejuvenation" />
                 <meta name="keywords" content="Dermatology services, Cosmetology services, acne treatment, skin rejuvenation, hair loss treatment, laser hair removal, anti-aging solutions, Shynex Poly Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/dermatology-and-cosmetology/" />
+                <link rel="canonical" href="https://www.shynex.in/dermatology-and-cosmetology/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

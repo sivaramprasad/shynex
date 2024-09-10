@@ -29,7 +29,7 @@ function Gallery(props) {
       <Helmet>
         <title>Shynex Gallery | See Our Clinic & Success Stories</title>
         <meta name="description" content="Browse the Shynex Gallery to view our state-of-the-art facilities and witness the amazing transformations of our patients. Discover the environment where your skin and hair health thrive." />
-        <link rel="canonical" href="https://www.backstagepass.co.in/gallery-shynex-clinic/" />
+        <link rel="canonical" href="https://www.shynex.in/gallery-shynex-clinic/" />
       </Helmet>
       <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
       <div className="sec-title">

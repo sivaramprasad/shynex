@@ -27,7 +27,7 @@ function SkinRejuvenation(props) {
                 <title>Cryolipolysis Treatments at Shynex | Ultrasound Fat Reduction</title>
                 <meta name="description" content="Advanced body shaping at Shynex in Hyderabad. Non-invasive cryolipolysis, injection lipolysis, RF fat reduction, and ultrasound for a slimmer, toned physique." />
                 <meta name="keywords" content="Body contouring, cryolipolysis, injection lipolysis, radiofrequency fat reduction, ultrasound fat reduction, fat reduction treatments, non-invasive body sculpting, Shynex Poly Clinic, fat freezing, body contouring clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/body-contouring/" />
+                <link rel="canonical" href="https://www.shynex.in/body-contouring/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

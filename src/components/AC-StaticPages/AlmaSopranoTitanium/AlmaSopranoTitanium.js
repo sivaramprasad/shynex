@@ -16,7 +16,7 @@ function AlmaSopranoTitanium(props) {
                 <title>Advanced Laser Hair Removal & Aesthetic Treatments at Shynex</title>
                 <meta name="description" content="Discover the Alma Soprano Titanium at Shynex for best laser hair reduction and aesthetic treatments. Experience smooth, hair-free skin with minimal discomfort." />
                 <meta name="keywords" content="Alma Soprano Titanium, laser hair removal, skin rejuvenation, aesthetic treatments, hair-free skin, advanced laser technology, painless hair removal, Shynex Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/alma-soprano-titanium/" />
+                <link rel="canonical" href="https://www.shynex.in/alma-soprano-titanium/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
             <div className="sec-title">

@@ -15,7 +15,7 @@ function Gynaecology(props) {
                 <title>Get Best Fertility & Maternity Care at Shynex Gynaecology Hyderabad</title>
                 <meta name="description" content=" Embrace a seamless journey from conception to birth with Shynex Gynaecology. Expertise in fertility, maternity, and reproductive health. Book an appointment now" />
                 {/* <meta name="keywords" content="Dermatology services, Cosmetology services, acne treatment, skin rejuvenation, hair loss treatment, laser hair removal, anti-aging solutions, Shynex Poly Clinic" /> */}
-                <link rel="canonical" href="https://www.backstagepass.co.in/gynaecology/" />
+                <link rel="canonical" href="https://www.shynex.in/gynaecology/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

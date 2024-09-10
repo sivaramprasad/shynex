@@ -26,7 +26,7 @@ function SkinRejuvenation(props) {
                 <title>Comprehensive Mole and Skin Cancer Checks | Shynex Poly Clinic</title>
                 <meta name="description" content="Early detection of skin cancer with specialized screenings at Shynex. Our dermatologists offer thorough evaluations, biopsies, and mole removal to protect your skin health." />
                 <meta name="keywords" content="skin cancer screening, mole check, biopsy, mole removal, early detection, skin health, dermatoscopic technology, skin cancer prevention, Shynex Poly Clinic, cancerous mole treatment" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/mole-skin-cancer-checks/" />
+                <link rel="canonical" href="https://www.shynex.in/mole-skin-cancer-checks/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

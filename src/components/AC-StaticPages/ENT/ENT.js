@@ -26,7 +26,7 @@ function DermatologyAndCosmetology(props) {
                 <title>Shynex Clinic ENT Hyderabad | Advanced Treatment for ENT Disorders</title>
                 <meta name="description" content="Shynex Clinic's ENT department provides expert diagnosis and treatment for all ENT conditions. Combining modern medicine with patient-centered care. Book Appointment" />
                 {/* <meta name="keywords" content="Dermatology services, Cosmetology services, acne treatment, skin rejuvenation, hair loss treatment, laser hair removal, anti-aging solutions, Shynex Poly Clinic" /> */}
-                <link rel="canonical" href="https://www.backstagepass.co.in/ent/" />
+                <link rel="canonical" href="https://www.shynex.in/ent/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

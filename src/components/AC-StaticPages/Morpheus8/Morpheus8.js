@@ -16,7 +16,7 @@ function Morpheus8(props) {
                 <title>Morpheus8 - Revolutionary RF Microneedling Treatment at Shynex</title>
                 <meta name="description" content="Transform your skin with FDA approved Morpheus8 at Shynex. Reduce wrinkles, improve skin texture, & tighten skin with our advanced RF microneedling technology." />
                 <meta name="keywords" content="Morpheus8, RF microneedling, skin tightening, wrinkle reduction, acne scars, skin rejuvenation, non-invasive treatment, Shynex Poly Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/morpheus8/" />
+                <link rel="canonical" href="https://www.shynex.in/morpheus8/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
             <div className="sec-title">

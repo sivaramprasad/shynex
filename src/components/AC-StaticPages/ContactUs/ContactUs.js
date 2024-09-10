@@ -15,7 +15,7 @@ function contactus(props) {
 <Helmet>
                 <title>Contact Shynex for Consultation with Top Dermatologist</title>
                 <meta name="description" content="Reach out to Shynex Poly Clinic in Hyderabad for expert dermatology and cosmetology services. We're here to help with your skin and hair care needs." />
-                <link rel="canonical" href="https://www.backstagepass.co.in/contact-us-skin-hair-care/" />
+                <link rel="canonical" href="https://www.shynex.in/contact-us-skin-hair-care/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
       

@@ -27,7 +27,7 @@ function GeneralDermatologyServices(props) {
                 <title>Comprehensive Skin & Hair Diagnosis | Shynex Poly Clinic</title>
                 <meta name="description" content="Discover expert skin and hair diagnosis, & treatment at Shynex Poly Clinic, Hyderabad. Personalized treatments for healthier skin. Book your consultation today!" />
                 <meta name="keywords" content="skin diagnosis, hair diagnosis, dermatology services, mole removal, cyst excision, scar revision, skin health, skin examinations, dermatosurgery, dermatologist, comprehensive skin care, skin assessments, skin conditions, hair conditions, dermatology clinic, skin doctors, dermatology Hyderabad, Shynex Poly Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/general-dermatology-services/" />
+                <link rel="canonical" href="https://www.shynex.in/general-dermatology-services/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

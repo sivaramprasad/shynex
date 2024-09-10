@@ -21,7 +21,7 @@ function Team(props) {
       <Helmet>
         <title>Best Dermatologists & Cosmetologists in Hyderabad| Shynex Team</title>
         <meta name="description" content="Get to know our skilled team of dermatologists and cosmetologists. Our experienced skin doctors are dedicated to providing exceptional care and personalized treatment plans." />
-        <link rel="canonical" href="https://www.backstagepass.co.in/team-shynex-expert-dermatologists/" />
+        <link rel="canonical" href="https://www.shynex.in/team-shynex-expert-dermatologists/" />
       </Helmet>
       <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
       <div className="sec-title">

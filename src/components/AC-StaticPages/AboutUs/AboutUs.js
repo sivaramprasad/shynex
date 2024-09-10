@@ -25,7 +25,7 @@ function Aboutus(props) {
                 <title>Top Dermatologist & Skin Specialist in Hyderabad | Shynex Clinic</title>
                 <meta name="description" content="Your search for best skin specialist near me ends at Shynex, Hyderabad's top skincare clinic. Experience advanced laser treatments for skin, hair, & full body." />
                 <meta name="keywords" content="skin specialist hyderabad, best skin specialist in hyderabad, skin care clinic near me, best dermatologist near me, best dermatologist in hyderabad, best skin and hair clinic in Hyderabad, dermatologist doctor, hair fall treatment, hair loss treatment, full body laser treatment" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/aboutus/" />
+                <link rel="canonical" href="https://www.shynex.in/aboutus/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 

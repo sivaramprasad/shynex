@@ -16,7 +16,7 @@ function CristalPro(props) {
                 <title>CRISTAL PRO - Effective Non-Invasive Fat Reduction at Shynex</title>
                 <meta name="description" content="Say goodbye to stubborn fat with CRISTAL PRO at Shynex. Enjoy non-invasive body contouring and achieve a sculpted physique with minimal discomfort. Book Appointment" />
                 <meta name="keywords" content="CRISTAL PRO, non-invasive fat reduction, body contouring, cryolipolysis, fat freezing, sculpted physique, Shynex Poly Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/cristal-pro/" />
+                <link rel="canonical" href="https://www.shynex.in/cristal-pro/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
             <div className="sec-title">

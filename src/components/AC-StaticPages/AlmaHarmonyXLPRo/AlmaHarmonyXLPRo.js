@@ -16,7 +16,7 @@ function AlmaSopranoTitanium(props) {
                 <title>Versatile and effective Multi-Application Skin Treatment at Shynex</title>
                 <meta name="description" content="Explore Alma Harmony XL PRO at Shynex for comprehensive aesthetic solutions. Achieve flawless skin with advanced, customizable treatments and minimal downtime." />
                 <meta name="keywords" content="Alma Harmony XL PRO, aesthetic treatments, skin rejuvenation, acne treatment, laser hair removal, pigment removal, tattoo removal, Shynex Poly Clinic" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/alma-harmony-xl-pro/" />
+                <link rel="canonical" href="https://www.shynex.in/alma-harmony-xl-pro/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
             <div className="sec-title">

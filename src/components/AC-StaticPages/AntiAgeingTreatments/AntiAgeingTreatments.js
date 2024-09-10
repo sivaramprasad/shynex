@@ -27,7 +27,7 @@ function SkinRejuvenation(props) {
                 <title>Best Anti Ageing Treatment For Wrinkles and Sagging Skin </title>
                 <meta name="description" content="Transform aging, sagging skin and remove wrinkles with safe, US FDA-approved treatments at Shynex from our top dermatologists and cosmetologists. Consult Now" />
                 <meta name="keywords" content="Anti-aging treatments, anti-wrinkle injections, RF skin tightening, dermal fillers, HIFU, thread lifting, skin rejuvenation, Shynex Poly Clinic, non-surgical anti-aging, youthful skin" />
-                <link rel="canonical" href="https://www.backstagepass.co.in/anti-aging-treatments/" />
+                <link rel="canonical" href="https://www.shynex.in/anti-aging-treatments/" />
             </Helmet>
             <div className='courseBanner'><img alt="Banner" title='Banner' src={courseBanner} /></div>
 
