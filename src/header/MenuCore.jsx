@@ -184,7 +184,7 @@ export default function MenuCore() {
                     </li> */}
 
                     <li>
-                      <Link to={"/contactus/"}>Contact us</Link>
+                      <Link to={"/contact-us-skin-hair-care/"}>Contact us</Link>
 
                     </li>
 

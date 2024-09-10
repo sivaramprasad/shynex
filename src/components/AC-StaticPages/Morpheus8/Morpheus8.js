@@ -73,7 +73,7 @@ function Morpheus8(props) {
 
                     <p>Are you ready to experience the transformative power of Morpheus 8? </p>
 
-                    <p style={{ textAlign: "center", fontSize: "27px", fontWeight: "700" }}><b><Link to={"/contactus/"}>Contact us today</Link></b> to schedule a consultation and take the first step towards a more confident and vibrant you.</p>
+                    <p style={{ textAlign: "center", fontSize: "27px", fontWeight: "700" }}><b><Link to={"/contact-us-skin-hair-care/"}>Contact us today</Link></b> to schedule a consultation and take the first step towards a more confident and vibrant you.</p>
 
 
 

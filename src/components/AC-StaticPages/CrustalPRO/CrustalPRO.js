@@ -71,7 +71,7 @@ function CristalPro(props) {
 
                     <p>Join the countless individuals who have achieved their body goals at Shynex with Cristal PRO. Our clients rave about the transformative results and the confidence boost that comes with a more sculpted physique. Let your stubborn fat melt away and watch yourself become slimmer every day!</p>
 
-                    <p style={{ textAlign: "center", fontSize: "27px", fontWeight: "700" }}><b><Link to={"/contactus/"}>Contact us today</Link></b> to schedule your consultation and take the first step towards a happier, healthier you.</p>
+                    <p style={{ textAlign: "center", fontSize: "27px", fontWeight: "700" }}><b><Link to={"/contact-us-skin-hair-care/"}>Contact us today</Link></b> to schedule your consultation and take the first step towards a happier, healthier you.</p>
 
 
 
